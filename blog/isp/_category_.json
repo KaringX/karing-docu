@@ -1,7 +1,9 @@
 {
   "label": "ISP",
   "position": 3,
+  "className": "green",
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "title": "机场推荐"
   }
 }

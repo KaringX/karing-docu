@@ -50,6 +50,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 10,
         },
         theme: {
           customCss: './src/css/custom.css',
