@@ -10,12 +10,12 @@ hide_table_of_contents: true
 	- 输入昵称,电子邮箱,登录密码, 点击 '邮箱验证码' 获取邮箱验证码, 点击后到你的邮箱里查收验证码, 将验证码填入到 '邮箱验证码' 一栏，点击注册
 	- 邀请码不要改动,除非你有其他可用的邀请码，见下图
 
-    - ![新人礼 注册](../../static/img/pages/newuser-2.jpeg#center)
+    - ![新人礼 注册](./newuser-2.jpeg#center)
 
 
 ### 2. 注册成功后登录到后台,进入后台首页的用户中心,如下图
 
-    - ![新人礼 订阅链接](../../static/img/pages/newuser-3.jpg#center)
+    - ![新人礼 订阅链接](./newuser-3.jpg#center)
 
 
 ### 3. 点击 '复制karing订阅链接' 复制链接
