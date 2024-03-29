@@ -46,7 +46,7 @@ Non-Apple platform users are recommended to download from [Github](https://githu
 If you don't have your own configuration, you can get it from our recommended providers.
 Select your region and follow the instructions to get the configuration.
 
-[Click here to get it](/category/recommended-providers)
+[Click here to get it](/blog/isp/node-share)
 
 ## What subscription configuration types are supported?
 Clash, V2ray (support batch), Stash, Karing, Sing-box, Shadowsocks, Sub, Github

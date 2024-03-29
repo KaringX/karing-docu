@@ -113,7 +113,7 @@ const config = {
             items: [
               {
                 label: 'Contact us',
-                to: '/clashforios-official',
+                to: '/clashforios-offical',
               },
               {
                 label: 'GitHub Issues',

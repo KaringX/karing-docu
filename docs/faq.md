@@ -1,0 +1,98 @@
+---
+sidebar_position: 9
+slug: /faq
+title: FAQ
+---
+
+# 常见问题
+
+## Karing App
+
+### Karing 免费吗？多少钱
+- 完全免费
+-  苹果用户:只要是非中国大陆地区的苹果账号都能下载
+- 苹果用户:如果您不方便直接注册，推荐 [苹果ID专卖小店](https://wandow01.pp.ua/)
+- Windows版本请到[Github](https://github.com/KaringX/karing/releases/latest)下载(可能需要开代理才能下载)
+
+### 支持哪些平台
+- 已支持:IOS, MacOS, Windows, Android
+- 待开发:TvOS, Linux
+
+### 支持哪些订阅配置类型
+- Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github
+
+### 支持哪些协议
+- Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard等协议
+
+
+### 苹果用户下载哪个版本
+ - 如果只想稳定使用,建议下载AppStore版本
+ - 如果想尝鲜新功能,可以下载TestFlight Beta版本
+
+```mdx-code-block
+import DocCard from '@theme/DocCard';
+
+<DocCard
+  item={{ type: 'link', label: '⬇️ Download Karing', href: '/download' }}
+/>
+```
+
+### 如何使用
+- 刚接触的用户，想快速上车，推荐参考本站 快速入门教程
+
+```mdx-code-block
+<DocCard
+  item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
+/>
+```
+
+### App如何更新
+ - 苹果用户:使用系统自带更新
+ - Windows用户:Karing自动更新后会有提示,您只需要按照提示下载或者重启App安装即可
+
+### 安全吗
+- App上架AppStore前会经过苹果审核，且苹果版本只能在 AppStore 或 TestFlight 才能下载(请勿从非官方渠道下载App)
+- 非Apple平台我们也同样遵循和苹果平台一样的安全和隐私规则,确保您的信息不会泄露
+- 非Apple平台用户建议从[Github](https://github.com/KaringX/karing/releases/latest)下载
+
+### 没有配置怎么办
+ - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
+
+
+
+## 运行时问题list
+
+### 如果查看我当前的网络是否支持IPv6
+- Karing断开连接
+- 点击主屏上的测速
+- 找到页面里显示的Connected via XXX, 如果XXX为IPv6,则说明你当前网络支持IPv6
+
+
+### 点击连接时候报 start service failed: dependency[] not found for outbound[urltest_out] 错误
+- 请升级到最新版本
+
+### 点击连接时候报 create service: parse outbound[x][xxxxx] 错误
+- 说明:xxxxx为服务器节点名称
+- 请升级到最新版本后,可以到[选择服务器]找到对应的节点服务器,长按后禁用,重新连接即可
+
+### windows下 IDM 或其他一些软件无法使用代理下载
+- 请升级到最新版本
+
+### Android 下点击连接就闪退,日志显示 missing default interface
+- 重启设备
+
+### 打开Google.com,会跳转到Google.cn等
+- 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
+
+### Windows系统,Karing开启TUN模式后, Karing内存及CPU占用超高
+- TUN模式冲突所致,比如clash系列等,请卸载其他vpn软件后重新启动Karing
+- 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器),请禁用此功能,命令参考 Powershell:
+```
+  Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
+```
+
+
+## 更多问题/issue提交
+- 您可以通过 设置-反馈 并留下您的邮箱,向我们反馈问题
+- 或者加入 [电报群/Telegram](https://t.me/KaringApp) 向管理员反馈问题
+- 或者提交问题到[Github](https://github.com/KaringX/karing/issues)

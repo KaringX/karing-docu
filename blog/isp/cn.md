@@ -1,28 +1,21 @@
 ---
-sidebar_position: 1
-title: 大陆区 机场推荐
+sidebar_position: 2
+title: 推荐机场 - 中国大陆
 ---
 
-## Follow Douyun - Karing's small circle for personal use
+## 跟斗云NovaCloud
+- 机场入口: [https://xn--9kq147c4p2a.com/](https://跟斗云.com/auth/register?code=71be1e9a1a)
+- 支持订阅格式：Clash, Sing-Box，Karing
+- 节点数量 60+
+- 带宽限制: 不限
+- 设备限制: 不限
+- 注册方式: 邀请码+邮箱+验证码
+- 申请试用: [邀请码 71be1e9a1a](https://跟斗云.com/auth/register?code=71be1e9a1a)
+- 支持的协议: Trojan, Tuic(v5), Hysteria2, VMess
 
-### Official site
-[click here to enter](https://跟斗云.com/auth/register?code=71be1e9a1a)
 
-### Subscription formats
-Supported subscription formats: clash, sing-box.
-### Servers/locations
-Number of nodes: 60+
+### 推荐理由
+- 限时免费流量：**使用邀请码（71be1e9a1a）即可体验**
+- *karing team 自用良好*
 
-### Network
-CN2 GIA, CN2 GT, BGP
 
-### Bandwidth limit
-no limit
-
-### Registration method
-[invitation code `71be1e9a1a` required](https://跟斗云.com/auth/register?code=71be1e9a1a)
-
-Code: `71be1e9a1a`
-
-### Protocol
-Trojan, TUIC V5 , Hysteria2
