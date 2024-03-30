@@ -11,7 +11,7 @@ title: FAQ
 ### Karing 免费吗？多少钱
 - 完全免费
 -  苹果用户:只要是非中国大陆地区的苹果账号都能下载
-- 苹果用户:如果您不方便直接注册，推荐 [苹果ID专卖小店](https://wandow01.pp.ua/)
+- 苹果用户:如果您不方便直接注册，推荐 [苹果ID专卖小店](https://outpost.karing.app/isp?r_c=xda)
 - Windows版本请到[Github](https://github.com/KaringX/karing/releases/latest)下载(可能需要开代理才能下载)
 
 ### 支持哪些平台

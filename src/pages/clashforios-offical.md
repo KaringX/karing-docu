@@ -12,7 +12,7 @@ hide_table_of_contents: true
   - 支持订阅链接: Clash、V2Ray、sing-box、Shadowsocks、SSR、Trojan等
 
 ## 官网导航
-- [入门教程](/tutorial/quickstart)
+- [入门教程](/quickstart)
 - [最新版下载](/download)
 - [节点分享](/blog/isp/node-share)
 - [常见问题](/faq)

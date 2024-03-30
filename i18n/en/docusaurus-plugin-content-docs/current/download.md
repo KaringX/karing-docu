@@ -14,7 +14,7 @@ slug: /download
 [Download in TestFlight](https://testflight.apple.com/join/RLU59OsJ)
 
 :::tip Non-Mainland China AppStore account required
-Don’t know how to register? Please refer [to the Apple ID Store](https://wandow01.pp.ua/)
+Don’t know how to register? Please refer [to the Apple ID Store](https://outpost.karing.app/isp?r_c=xda)
 :::
 
 ## Windows

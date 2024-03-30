@@ -10,7 +10,7 @@ title: FAQ
 Yes! Karing is absolutely free.
 
 **Apple users**: As long as you have an Apple account outside of mainland China, you can download it.
-If you are inconvenient to register directly, we recommend the [Apple ID store](https://wandow01.pp.ua/)
+If you are inconvenient to register directly, we recommend the [Apple ID store](https://outpost.karing.app/isp?r_c=xda)
 
 ```mdx-code-block
 import DocCard from '@theme/DocCard';
@@ -58,7 +58,7 @@ Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hy
 You can refer to our quickstart guide to get started quickly.
 ```mdx-code-block
 <DocCard
-  item={{ type: 'link', label: '📚 Quickstart', href: '/tutorials/quickstart' }}
+  item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 />
 ```
 

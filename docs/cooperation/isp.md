@@ -2,87 +2,16 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# 集成机场菜单
 
-Let's translate `docs/intro.md` to French.
+### ISP开放
+- isp-name: isp(机场等)名称,展示在设置-第一行[必填]
+- isp-url: 用户点击isp-name时候会跳转到isp-url[必填]
+- isp-faq: isp自定义FAQ URL,展示在设置-第二行,用户点击会跳转到对应的URL
+- isp-name,isp-faq,isp-url设置有两种方式:
+  - 订阅请求返回的http头分开添加上述三个属性
+  - karing://install-config?url=xxxx&name=xxx&isp-name=xxx&isp-faq=xxx&isp-url=xxx(xxx为urlencode后的参数)
+- 展示优先级:
+  - 通过 karing://install-config 设置的isp信息,如果没有,则继续
+  - 按照用户订阅配置排序,找到第一条有有效isp信息的配置并展示
 
-## Configure i18n
-
-Modify `docusaurus.config.js` to add support for the `fr` locale:
-
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
-
-## Translate a doc
-
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
-
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
-
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
-
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
-
-## Start your localized site
-
-Start your site on the French locale:
-
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a time.
-
-:::
-
-## Add a Locale Dropdown
-
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
