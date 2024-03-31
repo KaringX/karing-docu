@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en', 'ru'],
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -54,6 +54,10 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        gtag: { // google analytics
+          trackingID: 'G-44BN2EHX2M',
+          anonymizeIP: true,
         },
       }),
     ],
