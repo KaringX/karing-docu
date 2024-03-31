@@ -1,0 +1,56 @@
+name: Deploy static content to Cloudflare Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["gh-pages"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+
+      - run: npm ci
+      - name: Replace URL
+        # if you put those in secrets, you can replace vars by secrets
+        run: |
+          sed -i "s#https://urlplaceholder.com#${{ vars.CF_PAGES_URL }}#g" ./docusaurus.config.js
+          sed -i "s#/baseurlplaceholder#${{ vars.CF_PAGES_BASEURL }}#g" ./docusaurus.config.js
+      - name: Build website
+        run: npm run build
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # change projectName to your project name
+          projectName: ${{ vars.CF_PROJRCT_NAME }}
+          directory: ./
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: Switch what branch you are publishing to.
+          # By default this will be the branch which triggered this workflow
+          branch: gh-pages
+          # Optional: Change the working directory
+          # All my website content is in the site folder
+          workingDirectory: ./build/
+          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+          wranglerVersion: '3'
+
