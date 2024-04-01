@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 集成机场菜单
+# ISP与机场菜单
 
 ### ISP开放
 - isp-name: isp(机场等)名称,展示在设置-第一行[必填]
