@@ -3,7 +3,9 @@ name: Deploy static content to Cloudflare Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["gh-pages"]
+    branches:
+      - gh-pages
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -47,7 +49,7 @@ jobs:
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           # Optional: Switch what branch you are publishing to.
           # By default this will be the branch which triggered this workflow
-          branch: gh-pages
+          branch:  ${{ github.ref_name }}
           # Optional: Change the working directory
           # All my website content is in the site folder
           workingDirectory: ./build/
