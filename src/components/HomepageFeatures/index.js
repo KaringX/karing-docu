@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_karing_mountain.svg').default,
     description: (
       <>
         Compatible with Clash, V2ray/V2fly, Sing-box, Shadowsocks, Sub, Github Subscriptions.
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on Proxy Utility',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_karing_sb.svg').default,
     description: (
       <>
         Karing supports applying a single set of rules across multiple subscription sources simultaneously.
