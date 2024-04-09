@@ -67,8 +67,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // Replace with your project's social cardsocial card
+      image: 'img/karing-main.webp',
       navbar: {
         title: 'Karing - Simple & Powerful proxy utility',
         logo: {
