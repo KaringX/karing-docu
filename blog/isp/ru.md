@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Рекомендуемые аэропорты-России
-authors: [bdluking]
+authors: [gooringx]
 tags: [free node,clash]
 ---
 

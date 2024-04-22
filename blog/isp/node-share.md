@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 节点分享
-authors: [elon, bdluking]
+authors: [elon, gooringx]
 tags: [免费节点,clash]
 ---
 
