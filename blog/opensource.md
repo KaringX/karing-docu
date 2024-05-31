@@ -16,8 +16,9 @@ tags: [fullter,sing-box,github,karing]
 
 
 ## sing-box 核心
-- [ ] 内置 sing-box
+- [x] 内置 sing-box
   - 魔改与优化性能
+  - https://github.com/KaringX/sing-box
 - [ ] 机场后端(仅作范例) sing-poet
   - 支持panel对接
   - 支持协议 tuic、hy2
