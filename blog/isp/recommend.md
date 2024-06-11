@@ -1,5 +1,4 @@
 ---
-sidebar_position: 3
 title: Recommend your vpn service
 authors: [elon]
 tags: [vpn, recommend]
@@ -14,3 +13,7 @@ tags: [vpn, recommend]
 ## Question/Feedback/Issues
 - Welcome to join [our discussion group](https://t.me/KaringApp) on Telegram, where you can ask questions and discuss tool-related issues.
 - Or another way is report issues on [Github](https://github.com/KaringX/karing/issues)
+
+
+## For VPN Provider
+- 👉[way of cooperation](/blog/isp/cooperation#for-vpn-providers-from-other-regions)

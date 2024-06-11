@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: 开源计划
 authors: [gooringx,elon]
 tags: [fullter,sing-box,github,karing]
