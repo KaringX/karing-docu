@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 title: 华为鸿蒙系统安装代理软件karing
 authors: [elon]
 tags: [HarmonyOS,karing,安装]

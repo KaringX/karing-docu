@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 title: windows下wls2使用karing代理端口
 authors: [elon]
 tags: [wsl2,proxychain,windows防火墙]
