@@ -63,4 +63,4 @@ sidebar_position: 2
    - The isp information set through karing://install-config will be displayed first, if not, then the response header will be checked
 
 ## 3. Cooperate with karing
-- Click here to enter 👉 [Contact and Cooperation Forms](/blog/isp/cooperation)
+- Click here to enter 👉 [Contact and Cooperation Forms](/en/blog/isp/cooperation#for-vpn-providers-from-other-regions)
