@@ -15,12 +15,15 @@ sidebar_position: 2
 - As shown below:
   - ![menu](./img/cpr-1.png)
 
-### Homepage Reminder
+### Expiration Reminder
 
 - When the user's service expiration time is less than 7 days, a <font color='red'>Expiration Reminder</font> will be displayed in red
 
 - Users can click the red <font color='red'>expiration time</font> to renew the service
-- As shown below: TODO
+- As shown below:
+  - ![expiration reminder](./img/cpr-4.png)
+  - ![click to isp](./img/cpr-5.png)
+
 
 ### Service Management Panel
 

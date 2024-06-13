@@ -10,11 +10,14 @@ sidebar_position: 2
 - 用户可点击 `机场名称` 进入机场续费or订购新套餐
 - 如下图: ![menu](./img/cpr-1.png)
 
-### 首页提醒
+### 服务到期提醒
 - 当用户服务到期时间小于7天, 则显示红字的<font color='red'>到期提示</font>
 
 - 用户可点击 红字的<font color='red'>到期时间</font> 进入机场续费
-- 如下图: TODO
+- 如下图:
+  - ![expiration reminder](./img/cpr-4.png)
+  - ![click to isp](./img/cpr-5.png)
+
 
 ### 机场管理面板
 - 如果您的系统在以下列表中, 请直接看配置步骤
