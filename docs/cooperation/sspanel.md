@@ -13,7 +13,7 @@ title: SSPanel-Uim
 ## 修改代码
 - 文件: src/Controllers/SubController.php
 - 在返回return response中添加三行`isp-`开头的信息
-```php
+```jsx title="src/Controllers/SubController.php"
  public function index($request, $response, $args): ResponseInterface
     {
         //...省略

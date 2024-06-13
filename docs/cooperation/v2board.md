@@ -19,7 +19,8 @@ title: V2Board
   - app/Http/Controllers/Client/ClientController.php
 
 - 在调用handle并die之前添加三行`isp-`开头的信息
-```php
+
+```jsx title="app/Http/Controllers/Client/ClientController.php"
 class ClientController extends Controller
 {
     public function subscribe(Request $request)
@@ -45,8 +46,8 @@ class ClientController extends Controller
         }
     }
 
-
 ```
+
 - **提示**:
   - 代码修改保存之后, 请reload php-fpm进程, 防止opcode缓存影响调试
   - 一定要通过调试工具检查一下 isp-url 和 isp-faq 是您设置的地址
