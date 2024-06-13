@@ -18,7 +18,7 @@ tags: [机场,VPN provider]
 ```
 - **注意:**
   - 只要节点线路条件良好，cps支持与否并不作为主要条件
-  - 如果你还有一点动手能力，可以把你的服务菜单集成进 karing设置页面的头部位置 👉[集成菜单](/cooperation/xxpanel)
+  - 如果你还有一点动手能力，可以把你的服务菜单集成进 karing设置页面的头部位置 👉[集成菜单](/cooperation/menu)
 
 ## for VPN providers from other regions
 - If you want your service to be featured on [the karing recommendation page](https://1.x31415926.top/en.html), or if you prefer other collaboration methods, please send an email to us at ElonWang2@outlook.com
