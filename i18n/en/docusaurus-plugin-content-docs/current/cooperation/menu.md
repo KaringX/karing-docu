@@ -58,3 +58,6 @@ sidebar_position: 2
    - When a user has multiple subscription configurations, the first valid ISP information will be displayed according to the order
 2. The priority of the scheme is higher than the header
    - The isp information set through karing://install-config will be displayed first, if not, then the response header will be checked
+
+## 3. Cooperate with karing
+- Click here to enter 👉 [Contact and Cooperation Forms](/blog/isp/cooperation)
