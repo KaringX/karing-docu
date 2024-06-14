@@ -40,6 +40,7 @@ sidebar_position: 2
 - Add three *response headers* in the HTTP response of the subscription link
   - (Required) **isp-name**: Your service name (vpn name)
     - Displayed in Settings - ISP - First line
+    - If the isp name contains non ASCII characters, URL-encoded must be used
   - (Required) **isp-url**: The URL to which users are redirected when they click on isp-name
   - (Optional) **isp-faq**: The FAQ URL of your service
     - Displayed in Settings - ISP - Second line
@@ -54,7 +55,6 @@ sidebar_position: 2
 ```
 - Note:
   - URL must be URL-encoded
-  - If the isp name contains non ASCII characters, URL-encoded must be used
 
 ### Display Priority
 

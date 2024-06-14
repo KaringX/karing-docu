@@ -32,6 +32,7 @@ sidebar_position: 2
 - 在订阅链接的 HTTP响应（response）中加入三个*响应标头*
   - (必填) **isp-name**: 您的服务名称(机场名字)
     - 展示在 设置 - ISP - 第一行
+    - 如果isp-name包含非ASCII字符(比如:中文), 必须使用urlencode
   - (必填) **isp-url**: 用户点击isp-name时跳转的URL
   - (可选) *isp-faq*: 您服务的FAQ URL
     - 展示在 设置 - ISP - 第二行
@@ -45,7 +46,6 @@ sidebar_position: 2
 ```
 - 注意:
   - url 必须通过urlencode转义
-  - 如果isp-name包含非ASCII字符(比如:中文), 必须使用urlencode
 
 
 ### 展示优先级
