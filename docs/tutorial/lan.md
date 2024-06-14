@@ -1,6 +1,6 @@
 ---
 title: 端口共享
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 # 使用karing为局域网其他设备提供代理服务

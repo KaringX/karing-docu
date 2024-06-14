@@ -1,6 +1,6 @@
 ---
 title: Proxies for LAN
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 # Using karing to Provide Proxy Services for Other Devices on the LAN
