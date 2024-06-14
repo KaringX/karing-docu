@@ -45,6 +45,7 @@ sidebar_position: 2
 ```
 - 注意:
   - url 必须通过urlencode转义
+  - 如果isp-name包含非ASCII字符(比如:中文), 必须使用urlencode
 
 
 ### 展示优先级

@@ -54,6 +54,7 @@ sidebar_position: 2
 ```
 - Note:
   - URL must be URL-encoded
+  - If the isp name contains non ASCII characters, URL-encoded must be used
 
 ### Display Priority
 

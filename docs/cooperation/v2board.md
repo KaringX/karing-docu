@@ -34,7 +34,7 @@ class ClientController extends Controller
             $this->setSubscribeInfoToServers($servers, $user);
 
             // for karing
-            $appName = config('v2board.app_name', 'V2Board');
+            $appName = urlencode(config('v2board.app_name', 'V2Board'));
             $appURL = config('v2board.app_url');
             header("isp-name: {$appName}");
             header("isp-url: {$appURL}/#/plan");
@@ -51,6 +51,7 @@ class ClientController extends Controller
 - **提示**:
   - 代码修改保存之后, 请reload php-fpm进程, 防止opcode缓存影响调试
   - 一定要通过调试工具检查一下 isp-url 和 isp-faq 是您设置的地址
+  - 如果app_name包含中文, 必须使用urlencode
 
 ### 最终效果
 - 调试信息:

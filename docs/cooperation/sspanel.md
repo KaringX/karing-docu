@@ -21,7 +21,7 @@ title: SSPanel-Uim
         return $response->withHeader('Subscription-Userinfo', $sub_details)
             ->withHeader('Content-Type', $content_type)
             // for karing
-            ->withHeader('isp-name', $_ENV['appName'])
+            ->withHeader('isp-name', urlencode($_ENV['appName']))
             ->withHeader('isp-url', $_ENV['baseUrl'] . '/user/product')
             ->withHeader('isp-faq', $_ENV['baseUrl'] . '/user/user');
             ->write($sub_info);
@@ -30,6 +30,7 @@ title: SSPanel-Uim
 - **提示**:
   - 代码修改保存之后, 请reload php-fpm进程, 防止opcode缓存影响调试
   - 一定要通过调试工具检查一下 isp-url 和 isp-faq 是您设置的地址
+  - 如果appName包含中文, 必须使用urlencode
 
 
 ### 最终效果
