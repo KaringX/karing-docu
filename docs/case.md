@@ -3,6 +3,11 @@ sidebar_position: 7
 ---
 
 # 案例列表
+- 把你的案例链接提交给我们, 帮助其他小伙伴更好的使用karing
+  - 👉 [点击提交](https://github.com/KaringX/karing/issues/138)
+- Submit your case links to us to help other users better utilize karing
+  - 👉 [submit](https://github.com/KaringX/karing/issues/139)
+
 
 
 ### 使用
