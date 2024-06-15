@@ -22,8 +22,11 @@ sidebar_position: 2
 ## 内置规则集
 
 
+## 案例
+- [docker加速器](/blog/case/docker)
+
 
 ## 其他分流功能
 - [下一课 自定义分流](./custom-diversion.md)
-- [下一节 分应用分流](./appinbound.md)
+- [Android 分应用分流](./appinbound.md)
 

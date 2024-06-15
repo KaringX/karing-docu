@@ -16,6 +16,6 @@ sidebar_position: 7
 - [鸿蒙OS安装Khan Academy Kids](/blog/case/khan-academy-kids)
 
 ### 规则
-
+- [docker加速器](/blog/case/docker)
 
 
