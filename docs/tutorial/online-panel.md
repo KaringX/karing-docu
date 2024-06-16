@@ -1,0 +1,22 @@
+---
+
+---
+
+# 在线面板
+- 便于不习惯karing UI界面，但喜欢传统clash式界面的小伙伴食用.
+
+## 使用
+- 设置 -> `在线面板` -> 自动唤起默认浏览器打开yacd界面
+- URL: `https://yacd.metacubex.one/?host=127.0.0.1&port=3057&secret=xxxx`
+
+### 默认IP及端口
+- host: 127.0.0.1
+- port: 3057
+- secret: 可在配置文件 `karing_service_core.json` 中获取
+
+
+### 截图
+  - ![yacd 界面](./img//online-panel-1.png)
+  - ![yacd 规则](./img/online-panel-2.png)
+
+
