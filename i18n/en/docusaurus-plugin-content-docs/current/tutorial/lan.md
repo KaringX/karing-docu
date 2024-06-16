@@ -22,7 +22,7 @@ sidebar_position: 1
 - How to check the current network type:
   - `Control Panel` -> `Network and Internet` -> `View network status and tasks`
 
-- Reference Case: [Windows Firewall Settings](../../blog/case/wsl2#windows防火墙设置)
+- Reference Case: [Windows Firewall Settings](/blog/case/wsl2#windows%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE)
 
 ## karing Settings
 - `Settings` -> Disable `Novice Mode`
