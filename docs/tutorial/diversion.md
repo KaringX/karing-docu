@@ -28,5 +28,5 @@ sidebar_position: 2
 
 ## 其他分流功能
 - [下一课 自定义分流](./custom-diversion.md)
-- [Android 分应用分流](./appinbound.md)
+- [Android 分应用分流](./perapp-proxy.md)
 
