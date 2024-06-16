@@ -1,5 +1,6 @@
 ---
 title: SSPanel-Uim
+sidebar_position: 3
 ---
 
 # 修改SSPanel-Uim代码 在karing菜单中显示机场信息

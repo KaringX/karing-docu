@@ -81,28 +81,17 @@ sidebar_position: 1
 
 
 ## 五、进阶功能
-
-### 策略/分流
 - 👉[内置分流规则集](../tutorial/diversion.md)
-- 👉[自定义规则、节点组](../tutorial/custom-diversion.md)
+- 👉[自定义分流规则、节点组](../tutorial/custom-diversion.md)
 - 👉[应用入站代理(Android)](../tutorial/perapp-proxy.md)
-
-
-### Scheme(Windows下需要到设置-系统Scheme里开启才能生效)
-```js
-- clash://install-config?url=xxxx&name=xxx      添加配置(xxx为urlencode后的参数)
-- karing://install-config?url=xxxx&name=xxx&isp-name=xxx&isp-faq=xxx&isp-url=xxx     添加配置(xxx为urlencode后的参数)
-- karing://connect      打开连接
-- karing://disconnect   断开连接
-- karing://reconnect    重新连接
-```
-
-### 便携配置(Windows)
-- karing.exe添加启动参数--enable_portable_path, karing.exe将会使用exe所在目录创建配置文件目录,而不是使用系统的相关目录,方便把karing放到USB随身携带
-
+- 👉[备份和多端同步配置](../tutorial/backup-sync.md)
 
 ## 最后、常见问题/FAQ
-- 我是ISP(机场主), 怎么在karing上集成我的套餐链接? 👉[ISP](../cooperation/menu.md)
+- 我把karing装入U盘随身携带？ 👉[便携配置(Windows)](../tutorial/portable.md)
+- 我是ISP(机场主)
+  - 怎么在karing上集成我的套餐链接? 👉[ISP集成](../cooperation/menu.md)
+  - 一键导入karing配置的快速链接怎么写? 👉[scheme格式](../cooperation/scheme.md)
+
 - 其他问题请移步 [FAQ](/faq/)
 
 

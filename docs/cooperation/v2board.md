@@ -1,5 +1,6 @@
 ---
 title: V2Board
+sidebar_position: 4
 ---
 
 # 修改V2Board代码 在karing菜单中显示机场信息
