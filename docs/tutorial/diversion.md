@@ -24,7 +24,7 @@ sidebar_position: 2
 
 ## 案例
 - [docker加速器](/blog/case/docker)
-
+- [屏蔽广告](/blog/case/banad)
 
 ## 其他分流功能
 - [下一课 自定义分流](/tutorial/custom-diversion)
