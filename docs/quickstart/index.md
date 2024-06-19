@@ -46,13 +46,16 @@ sidebar_position: 1
 -  MacOS >= 12
 
 ### 购买价格
-- 免费
+- karing 全平台**免费**
 
-## 三、科学节点
+:::tip 推广
 - 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://outpost.karing.app/isp?r_c=cn)
-- 新人礼及免费流量, 请移步 [新用户福利](/newuser)
+- 怎么获取免费流量, 请看 [新用户福利](/newuser)
+:::
 
-## 四、快速使用/quickstart
+
+
+## 三、快速使用/quickstart
 1. 点击APP左上角设置按钮
     - 打开 添加配置链接(也可以通过导入或者扫描添加)
       - ![设置](./img/qs-02.jpg)
@@ -80,7 +83,7 @@ sidebar_position: 1
 
 
 
-## 五、进阶功能
+## 四、进阶功能
 - 👉[内置分流规则集](../tutorial/diversion.md)
 - 👉[自定义分流规则、节点组](../tutorial/custom-diversion.md)
 - 👉[应用入站代理(Android)](../tutorial/perapp-proxy.md)
