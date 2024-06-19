@@ -4,29 +4,93 @@ sidebar_position: 2
 # 策略和分流
 
 ## 概述
-- 支持并可修改的策略有两类:
-  - 机场自带策略
-    - 机场自带策略需要在添加配置的时候开启 `启用路由组策略` 开关
-  - app内置的 geosite、geoip、ACL
-    - 默认情况下, 会先开启
-    - 需要在App内先启用对应的规则组,启用方法参考 [GeoSite] 开启
-    - 默认
-  - *补充*: 第一次安装karing, **新手模式** 会推荐一系列策略组
-
+- 分流策略有三类:
+  - 1 机场自带策略
+    - 添加配置的时候有 `启用路由组策略` 开关
+  - 2 内置的 geosite、geoip、ACL
+    - 默认情况下, 会根据 设置 -> 分流 -> `国家与地区` 开启规则
+    - 比如: 中国地区, 默认开启 `geosite:cn` 和 `geoip:cn`, 相应动作都是 **当前选择**
+  - 3 [自定义规则](/tutorial/custom-diversion)
+- *补充*: 第一次安装karing, **新手模式** 会推荐一系列策略组
+  - 详细规则请移步 [karing-ruleset](https://github.com/KaringX/karing-ruleset/tree/sing/recommend)
 
 ## 内置规则集
 
-- 更改策略: 设置-路由组策略: 可以根据您的需求设置不同组对应的节点服务器
-  - ![设置](../quickstart/img/qs-05.jpg)
-- GeoSite 数据库目前主要服务CN地区,其他地区用户可以不启用此功能
-- [GeoSite] 开启
-  - ![设置](../quickstart/img/qs-06.jpg)
-- 如何开启GeoSite规则?
-  - 设置 - GeoSite里搜索规则名称, 点击开关打开
-- GeoSite 规则说明:(仅针对cn地区用户)
+### 开启内置策略
+- 设置 -> 分流 -> `GeoSite`/`GeoIP`/`ACL` -> 打开 启用 按钮 -> 搜索并选择相应规则, 右滑按钮启用
+- 设置 -> 分流 -> `分流规则` -> 选择分流策略 -> 修改对应动作or节点
+- 返回karing首页, 关闭连接, 重连生效
+
+### GeoSite/GeoIP规则说明
+- 中国大陆(`cn`)地区举例:
   - 名称中带有!cn, 说明该规则里的站点在cn地区无法正常访问,需要通过代理服务器
   - 名称中带有cn(无!), 说明该规则里的站点在cn地区可以正常访问,不需要代理, 设置为直连
-  - 对于cn地区的用户,建议手动开启geolocation-!cn,并且在路由组策略中设置为'自动选择服务器' 或 手动指定服务器
+  - 对于cn地区的用户, 建议手动开启geolocation-!cn, 并且在路由组策略中设置为 *自动选择服务器* 或 手动指定服务器
+
+- 伊朗(`ir`)地区
+  - 内置规则已合并[Iran-sing-box-rules](https://github.com/Chocolate4U/Iran-sing-box-rules/tree/rule-set?tab=readme-ov-file)
+  - 下面是一份增加规则的列表
+    ```
+    geoip/
+        amazon.srs
+        arvancloud.srs
+        bing.srs
+        derakcloud.srs
+        digitalocean.srs
+        github.srs
+        iranserver.srs
+        ir.srs
+        linode.srs
+        malware.srs
+        microsoft.srs
+        openai.srs
+        oracle.srs
+        parspack.srs
+        phishing.srs
+
+    geosite
+        ads.srs
+        category-ads-ir.srs
+        category-bank-ir.srs
+        category-bourse-ir.srs
+        category-education-ir.srs
+        category-forums-ir.srs
+        category-gov-ir.srs
+        category-insurance-ir.srs
+        category-ir.srs
+        category-media-ir.srs
+        category-news-ir.srs
+        category-payment-ir.srs
+        category-scholar-ir.srs
+        category-shopping-ir.srs
+        category-social-media-ir.srs
+        category-tech-ir.srs
+        category-travel-ir.srs
+        cn@ads.srs
+        cryptominers.srs
+        geolocation-!cn@ads.srs
+        geolocation-cn@ads.srs
+        ir.srs
+        malware.srs
+        nsfw.srs
+        phishing.srs
+        social.srs
+
+    ```
+
+### ACL
+- ACL由一些列规则碎片组成: [一份不全的名单](https://github.com/KaringX/karing-ruleset?tab=readme-ov-file#%E8%A7%84%E5%88%99%E7%A2%8E%E7%89%87)
+
+
+## 更改策略匹配
+- 分流策略可以对应两项配置：
+  - 匹配动作: 当前选择/自动选择/直连/拦截/无
+    - 如果一个规则暂时不想启用, 可以置为 *无*
+  - 匹配代理组 or 单个节点服务器
+    - 您可把固定的节点自定义成代理组, 方便维护
+
+### 设置步骤
+- 设置 -> 分流 -> `分流规则` -> 选择分流策略 -> 修改对应动作or节点
 
 
 
