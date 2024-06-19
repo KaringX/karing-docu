@@ -17,7 +17,7 @@ sidebar_position: 1
 - 增加新手模式 配置更简单.
 
 ### 界面预览
-![软件界面](./img/qs-1.png)
+![软件界面](./img/qs-1.png#center)
 
 ## 一、 下载
 ### iOS(iphone/ipad)/Mac用户

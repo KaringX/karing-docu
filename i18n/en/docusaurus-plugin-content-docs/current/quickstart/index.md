@@ -32,7 +32,7 @@ Paste your Subscription Link and click button at the right corner to add subscri
 :::tip Where to find Subscription Link?
 If you don't have your own configuration, you can get it from our recommended providers.
 
-Click [here](/blog/isp/node-share) to get it.
+Click [here](https://outpost.karing.app/isp?r_c=en) to get it.
 :::
 
 ### Finishing setup
