@@ -28,8 +28,7 @@ tags: [机场,VPN provider]
 - Content:
     - 1、 A concise recommendation of your service.
     - For instance: [French fries cloud] A 6-year-old stable service offering IPLC, CN2/GIA, and comprehensive transit technologies. Unlimited device access to streaming services like Netflix, Hulu, HBO, Anime Crazy, and TVB. Customizable private dedicated lines available.
-    - 2、 [Optional] Information on whether CPS and USDT withdrawals are supported.
-    - 3、 [Optional] Mention of karing on your client download page.
+    - 2、 [Optional] Mention of karing on your client download page.
 ```
 
 
