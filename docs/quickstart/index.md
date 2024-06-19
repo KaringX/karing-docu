@@ -16,14 +16,11 @@ sidebar_position: 1
 - 支持备份和同步, 一次配置多设备同步.
 - 增加新手模式 配置更简单.
 
+### 界面预览
+![软件界面](./img/qs-1.png)
 
-## 一、 界面预览
-![软件界面](./img/qs-01.jpg)
-
-
-## 二、 下载
-### 下载安装
-#### iOS(iphone/ipad)/Mac用户
+## 一、 下载
+### iOS(iphone/ipad)/Mac用户
 - AppStore(搜索关键词 karing vpn)
     - https://apps.apple.com/us/app/karing/id6472431552
 - TestFlight
@@ -31,7 +28,7 @@ sidebar_position: 1
 - 注意: 需要非中国大陆AppStore账号
     - 不会注册?请参考 [苹果ID专卖小店](https://outpost.karing.app/isp?r_c=xda)
 
-#### Windows/Android用户
+### Windows/Android用户
 - 下载最新版安装包
     - https://github.com/KaringX/karing/releases/latest
     - Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe(xxx为版本号)
@@ -39,7 +36,7 @@ sidebar_position: 1
 	- Android 下载karing_xxx_android_arm64.apk
 - 如果github.com无法访问,也可以[点我下载（需注册）](https://跟斗云.com/user/clients/karing_windows_x64.exe)
 
-#### 系统要求
+### 系统要求
 -  Windows >= 10
 -  Android >= 10
 -  IOS >= 15
@@ -55,35 +52,36 @@ sidebar_position: 1
 
 
 
-## 三、快速使用/quickstart
-1. 点击APP左上角设置按钮
-    - 打开 添加配置链接(也可以通过导入或者扫描添加)
-      - ![设置](./img/qs-02.jpg)
+## 二、快速使用/quickstart
+1. 点击APP左上角设置按钮 -> 进入 `添加配置`
+    - 打开 `添加配置链接`(也可以通过导入或者扫描添加)
+      - ![设置](./img/qs-2.png)
     - 将 Clash/V2ray/SS 等配置链接或者配置内容粘贴到输入框
         - 如果没有配置,可以通过 [新用户福利](/newuser) 申请
     - 点击右上角添加按钮
+      - ![添加配置](./img/qs-3.png)
 
 
 2. 返回到主屏
     - 默认已为您选择了一个服务器
         - 点击下方的服务器名称可以重新选择服务器
     - 点击 连接(开关按钮) 即可开始您的网络之旅了
-        - ![设置](./img/qs-03.jpg)
+        - ![连接](./img/qs-4.png)
 
-#### 如何选择更快的服务器
+### 如何选择更快的服务器
 - 点击主屏下方的服务器名称后，打开 '选择服务器'
 - 点击 '延时检测' 按钮
-  - ![设置](./img/qs-04.jpg)
+  - ![节点列表](./img/qs-5.png)
 - 稍等一会后, 每个服务器后面会展示对应服务器延时
     - 延时数值越低越好
     - 三角提示的表示有错误,服务器可能无法使用,点击后可以查看具体错误信息
 - 选择一个延时数值低的服务器即可
-- 建议使用 [自动选择] 服务器功能
+- 建议使用 `自动选择` 服务器功能
 
 
 
 
-## 四、进阶功能
+## 三、进阶功能
 - 👉[内置分流规则集](../tutorial/diversion.md)
 - 👉[自定义分流规则、节点组](../tutorial/custom-diversion.md)
 - 👉[应用入站代理(Android)](../tutorial/perapp-proxy.md)
