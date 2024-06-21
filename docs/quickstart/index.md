@@ -38,7 +38,7 @@ sidebar_position: 1
 
 ### 系统要求
 -  Windows >= 10
--  Android >= 10
+-  Android >= 8
 -  IOS >= 15
 -  MacOS >= 12
 
