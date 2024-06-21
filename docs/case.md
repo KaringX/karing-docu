@@ -18,6 +18,6 @@ sidebar_position: 7
 ### 规则
 - [docker加速器](/blog/case/docker)
 - [让brave使用翻译功能](/tutorial/custom-diversion#自定义分流组)
-- [使用Android版tiktok](/blog/case/tiktok-android.md)
+- [使用Android版tiktok](/blog/case/tiktok-android)
 
 
