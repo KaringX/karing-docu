@@ -13,7 +13,7 @@ title: 备份和同步
 - 具体服务器配置请参考各自使用的云盘文档
 
 ### AList
-- 由于国内貌似仅原生坚果云支持Webdav, 可以使用AList实现Webdav
+- 中国大陆地区貌似仅原生坚果云支持Webdav, 可以使用AList实现Webdav
 - 参考文档:
   - https://alist.nn.ci/zh/guide/webdav.html
   - https://alist.nn.ci/guide/webdav.html

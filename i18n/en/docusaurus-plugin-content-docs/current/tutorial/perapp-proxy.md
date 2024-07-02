@@ -7,6 +7,7 @@ Here is the translated markdown content in English:
 ---
 
 # Per-App Proxy
+- With this function, you can set certain App traffic to go through VPN or not.
 - This feature includes:
   - a. Whitelist Mode - Only certain apps use proxy traffic
   - b. Blacklist Mode - Exclude certain apps, all other apps use proxy traffic
@@ -18,8 +19,7 @@ Here is the translated markdown content in English:
 - Effectively reduces app power consumption
 - Avoids issues where certain apps cannot connect to the internet or slow down due to complex split-tunneling settings
 - Recommended to use this feature
-- **Note**:
-  - After enabling this feature, the original diversion rules will be invalidated!
+- For apps that use VPN traffic, you can still use the diversion function to divert traffic outbound
 
 ## Prerequisites
 - Currently only supports **Android**
@@ -28,13 +28,13 @@ Here is the translated markdown content in English:
 
 ## Setup Steps
 ### Whitelist Mode
-- This feature makes the selected apps <font color="red">use proxy</font>, while other apps will connect directly.
+- This feature makes the selected APP traffic to <font color="red">go through VPN</font>, and other applications to bypass VPN and connect directly.
 - Settings -> TUN -> `Per-App Proxy` -> Enable `Enable`, Enable `Whitelist Mode`
   - **Select** the apps you want to use the proxy.
   - For example, YouTube, Telegram, etc.
 
 ### Blacklist Mode
-- This feature makes the selected apps <font color="red">connect directly</font>, while all other apps will use the proxy.
+- This feature makes the selected APP to  <font color="red">bypass VPN and connect directly</font>, while other application traffic goes through VPN.
 - Settings -> TUN -> `Per-App Proxy` -> Enable `Enable`, Disable `Whitelist Mode`
   - **Select** the apps you want to connect directly.
   - For example, Notion, Outlook, etc.

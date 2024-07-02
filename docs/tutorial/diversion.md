@@ -10,6 +10,7 @@ sidebar_position: 2
   - 2 内置的 geosite、geoip、ACL
     - 默认情况下, 会根据 设置 -> 分流 -> `国家与地区` 开启规则
     - 比如: 中国地区, 默认开启 `geosite:cn` 和 `geoip:cn`, 相应动作都是 **当前选择**
+    - 注意:geosite 目前仅cn和ir会自动启用
   - 3 [自定义规则](/tutorial/custom-diversion)
 - *补充*: 第一次安装karing, **新手模式** 会推荐一系列策略组
   - 详细规则请移步 [karing-ruleset](https://github.com/KaringX/karing-ruleset/tree/sing/recommend)
