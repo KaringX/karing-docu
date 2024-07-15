@@ -11,9 +11,21 @@ slug: /download
 - 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://outpost.karing.app/isp?r_c=xda)
 - 注意: 应用市场版 和 TestFlight版 无法同时安装:安装应用市场版本会覆盖TestFlight版,同理安装TestFlight版会覆盖应用市场版,请您视具体情况选择要安装的版本
 
-### Windows/Android
+### Android/Harmony
+- [GitHub Release page](https://github.com/KaringX/karing/releases/latest)
+- Android 建议下载安装包: 文件名规则 karing_xxx_android_arm64.apk (xxx为版本号)
+  - 如github无法访问,也可以[点我下载apk（需注册）](https://xn--9kq147c4p2a.com/user/clients/karing_android_arm64.apk)
+
+### Windows
 - [GitHub Releases](https://github.com/KaringX/karing/releases/latest)
+- Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe (xxx为版本号)
+  - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
+  - 如果github.com无法访问,也可以[点我下载exe（需注册）](https://xn--9kq147c4p2a.com/user/clients/karing_windows_x64.exe)
 
 ## 新版本发布通知
 - 新发布版本, 同时会在 [电报群](https://t.me/KaringApp) 通知
+
+## 捐赠
+- ![donate](/static/img/donate-usdt.jpg)
+
 
