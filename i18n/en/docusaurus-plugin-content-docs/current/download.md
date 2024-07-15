@@ -29,5 +29,5 @@ Don’t know how to register? Please refer [to the Apple ID Store](https://outpo
 If github.com is inaccessible, you can also [click here to download](https://xn--9kq147c4p2a.com/user/clients/karing_windows_x64.exe)
 
 ## donate
-- ![donate](/static/img/donate-usdt.jpg)
+- ![donate](/img/donate-usdt.jpg)
 

@@ -26,6 +26,6 @@ slug: /download
 - 新发布版本, 同时会在 [电报群](https://t.me/KaringApp) 通知
 
 ## 捐赠
-- ![donate](/static/img/donate-usdt.jpg)
+- ![donate](/img/donate-usdt.jpg)
 
 
