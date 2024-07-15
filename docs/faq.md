@@ -78,6 +78,9 @@ import DocCard from '@theme/DocCard';
 ### Android 下点击连接就闪退,日志显示 missing default interface
 - 重启设备
 
+### Android 开启连接频繁闪退
+- 将 设置-TUN-网络栈 改成其他值再重试连接
+
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
 
