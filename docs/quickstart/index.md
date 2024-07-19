@@ -36,6 +36,7 @@ sidebar_position: 1
   - 如果github.com无法访问,也可以[点我下载exe（需注册）](https://xn--9kq147c4p2a.com/user/clients/karing_windows_x64.exe)
 - Android/Harmony 下载: karing_xxx_android_arm64.apk
   - 如无法访问,也可以[点我下载apk（需注册）](https://xn--9kq147c4p2a.com/user/clients/karing_android_arm64.apk)
+  - [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
 
 ### 系统要求
 -  Windows >= 10
