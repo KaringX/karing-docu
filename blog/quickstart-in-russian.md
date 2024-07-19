@@ -6,8 +6,10 @@ tags: [karing,russian]
 # QuickStart in Russian
 
 ## Thanks to Author
-- Original author: @Murr_666
+- Original author: @Murr_666 (Пупкин Вася), @renixa_tg
 - From https://telegra.ph/Karing-06-06
+- AND new version in English https://telegra.ph/Karing-07-15
+
 
 ## Karing
 Karing - бесплатная мультиплатформенная программа, с открытыми исходниками, представляющая собой мощный и простой набор инструментов proxy. [Официальная страница](/download) (китайский/английский).
