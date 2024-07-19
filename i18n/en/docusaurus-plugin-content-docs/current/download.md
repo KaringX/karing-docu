@@ -19,8 +19,9 @@ Don’t know how to register? Please refer [to the Apple ID Store](https://outpo
 
 
 ### Android/Harmony
-- Download the latest version of the installation package from the [release page](https://github.com/KaringX/karing/releases/latest)
-- file name: karing_xxx_android_arm64.apk  (xxx is the version number)
+- [Download in GitHub release page](https://github.com/KaringX/karing/releases/latest)
+  - file name: karing_xxx_android_arm64.apk  (xxx is the version number)
+- [Download in APKPure](https://apkpure.com/p/com.nebula.karing)
 
 ### Windows
 - Download the latest version of the installation package from the [release page](https://github.com/KaringX/karing/releases/latest)
