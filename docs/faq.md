@@ -91,6 +91,9 @@ import DocCard from '@theme/DocCard';
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
 
+## Karing兼容Clash, 在Karing功能上有何异同?
+- karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
+  - [karing与clash功能对照表](/clash)
 
 ## 更多问题/issue提交
 - 您可以通过 设置-反馈 并留下您的邮箱,向我们反馈问题
