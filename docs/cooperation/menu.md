@@ -34,7 +34,10 @@ sidebar_position: 2
 - 以下由两种方案, 推荐修改header的方式, 代码侵入比较小。
 
 ### 方案1 修改HTTP 标头（header）
-- 在订阅链接的 HTTP响应（response）中加入三个*响应标头*
+- 在订阅链接的 HTTP响应（response）中加入四个*响应标头*
+  - (必填) **Subscription-Userinfo**
+    - 用于显示用户 已上传、下载、总共多少流量，套餐什么时候到期
+    - `upload= ; download= ; total= ; expire= ;`
   - (必填) **isp-name**: 您的服务名称(机场名字)
     - 展示在 设置 - ISP - 第一行
     - 如果isp-name包含非ASCII字符(比如:中文), 必须使用urlencode

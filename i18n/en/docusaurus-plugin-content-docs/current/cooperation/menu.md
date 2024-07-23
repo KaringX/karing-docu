@@ -38,6 +38,9 @@ sidebar_position: 2
 ### Solution 1: Modify HTTP Headers
 
 - Add three *response headers* in the HTTP response of the subscription link
+  - (Required) **Subscription-Userinfo**
+    - Display the user's uploaded and downloaded data amounts, the total data usage, and the expiration date of the plan
+    - `upload= ; download= ; total= ; expire= ;`
   - (Required) **isp-name**: Your service name (vpn name)
     - Displayed in Settings - ISP - First line
     - If the isp name contains non ASCII characters, URL-encoded must be used
