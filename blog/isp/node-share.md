@@ -12,15 +12,15 @@ tags: [免费节点,clash]
 
 ## 收费推荐
 
-### 跟斗云NovaCloud
-- 机场入口: [https://xn--9kq147c4p2a.com/](https://跟斗云.com/auth/register?code=71be1e9a1a)
-- 支持订阅格式：Clash, Sing-Box，Karing
+### 狗狗加速
+- 机场入口: [狗狗加速.com](https://panel.dg6.top/#/register?code=lFH4ii9D)
+- 支持订阅格式：Clash，Karing
 - 节点数量 60+
 - 带宽限制: 不限
 - 设备限制: 不限
 - 注册方式: 邀请码+邮箱+验证码
-- 申请试用: [邀请码 71be1e9a1a](https://跟斗云.com/auth/register?code=71be1e9a1a)
-- 支持的协议: Trojan, Tuic(v5), Hysteria2, VMess
+- 申请试用: [邀请码 lFH4ii9D](https://panel.dg6.top/#/register?code=lFH4ii9D)
+- 支持的协议: Hysteria2
 
 
 ### NETZ.RUN VPN
@@ -32,12 +32,6 @@ tags: [免费节点,clash]
 - 注册方式: 无需注册账号
 - 申请试用: [Telegram bot](https://t.me/netzrun_bot?start=ref_karing)
 - 支持的协议: Trojan
-
-
-### 老牌
-- [CNIX](https://av1.wtf/auth/register?code=pxpE)
-- [91云](https://xn--91-c72c.com/#/register?code=qyPIWsV0)
-
 
 ## 自建节点
 - 自建节点相对安全且可控, 但需要一些动手能力, 下面是本站收集的一些常用工具。
