@@ -23,8 +23,8 @@ sidebar_position: 3
             ->withHeader('Content-Type', $content_type)
             // for karing
             ->withHeader('isp-name', urlencode($_ENV['appName']))
-            ->withHeader('isp-url', $_ENV['baseUrl'] . '/user/product')
-            ->withHeader('isp-faq', $_ENV['baseUrl'] . '/user/user');
+            ->withHeader('isp-url', urlencode($_ENV['baseUrl'] . '/user/product'))
+            ->withHeader('isp-faq', urlencode($_ENV['baseUrl'] . '/user/user'));
             ->write($sub_info);
     }
 ```
