@@ -17,10 +17,7 @@ sidebar_position: 7
 ### 规则
 - [docker加速器](/blog/case/docker)
 - [让brave使用翻译功能](/tutorial/custom-diversion#自定义分流组)
-<<<<<<< HEAD
 - [解决google play无法下载的问题](/blog/case/google-play)
-=======
 - [使用Android版tiktok](/blog/case/tiktok-android)
->>>>>>> afe6533a74a576fc7e26056994f1ae0af22c46af
 
 

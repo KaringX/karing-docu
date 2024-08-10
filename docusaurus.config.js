@@ -53,6 +53,7 @@ const config = {
                 blog: {
                     showReadingTime: true,
                     blogSidebarCount: 10,
+                    onUntruncatedBlogPosts: 'ignore',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
