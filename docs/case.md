@@ -9,7 +9,6 @@ sidebar_position: 7
   - 👉 [submit](https://github.com/KaringX/karing/issues/139)
 
 
-
 ### 使用
 - [wls2中使用karing代理端口](/blog/case/wsl2)
 - [鸿蒙OS安装karing](/blog/case/harmonyos)
@@ -18,5 +17,6 @@ sidebar_position: 7
 ### 规则
 - [docker加速器](/blog/case/docker)
 - [让brave使用翻译功能](/tutorial/custom-diversion#自定义分流组)
+- [解决google play无法下载的问题](/blog/case/google-play)
 
 
