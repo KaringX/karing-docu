@@ -11,7 +11,7 @@ sidebar_position: 3
   - 仅限以下案例使用
 
 ## 自定义分流组
-- 这里用该功能 *解决brave翻译功能在大陆无法使用的问题* 来举例。
+- 这里用该功能 *解决brave翻译功能在中国大陆无法使用的问题* 来举例。
 
 ### 配置步骤
 1. 添加分流组
@@ -19,7 +19,7 @@ sidebar_position: 3
 2. 添加规则
   - 返回 `自定义分流组` 列表, 选择刚才的 备注名
   - 填入需要的规则, 以brave举例:
-    - `Domain Suffix` 处填入 "translate.brave.com"
+    - `Domain Suffix` 处填入 "translate.brave.com", <font color="red">注意:不要有`DEMO:`字符</font>
     - 左上角✔保存
     - ![brave](./img/custom-diversion-1.png)
 
@@ -54,7 +54,13 @@ Domain Keyword :域名关键词
 
 IP Cidr: IP段
   - 如果是匹配某个ip,那么/后应该为完整掩码;
+  
+Rule Set: 远程规则集
+  - 支持srs及json格式
+  - 注意:对于github上的规则,请使用页面上的Raw按钮获取文件下载地址
 
+Rule Set(build-in): 内置规则集(geosite, geoip, acl) 
+  
 Process Name: windows 进程名称
 
 Process Path: windows进程完整路径
@@ -65,6 +71,6 @@ App Package: android应用包id
 
 
 ## 自定义代理组
-- 步骤与分流组类似, 暂不赘述
+- 步骤与分流组类似, 不再赘述
 
 

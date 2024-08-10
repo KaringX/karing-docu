@@ -28,17 +28,19 @@ sidebar_position: 1
 - 注意: 需要非中国大陆AppStore账号
     - 不会注册?请参考 [苹果ID专卖小店](https://outpost.karing.app/isp?r_c=xda)
 
-### Windows/Android用户
+### Windows/Android/Harmony用户
 - 下载最新版安装包
     - https://github.com/KaringX/karing/releases/latest
-    - Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe(xxx为版本号)
-    - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
-	- Android 下载karing_xxx_android_arm64.apk
-- 如果github.com无法访问,也可以[点我下载（需注册）](https://跟斗云.com/user/clients/karing_windows_x64.exe)
+- Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe (xxx为版本号)
+  - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
+  - 如果github.com无法访问,也可使用 [win_x64 备用下载链接](https://outpost.karing.app/client/win_x64)
+- Android/Harmony 下载: karing_xxx_android_arm64.apk
+  - 如无法访问,也可使用 [android 备用下载链接](https://outpost.karing.app/client/android)
+  - [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
 
 ### 系统要求
 -  Windows >= 10
--  Android >= 10
+-  Android >= 8
 -  IOS >= 15
 -  MacOS >= 12
 

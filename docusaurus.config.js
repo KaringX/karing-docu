@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Karing - Simple & Powerful proxy utility',
-    tagline: '通用网络代理工具, 支持clash/v2ray/ss订阅',
+    title: 'Karing - Clash compatible & Powerful proxy utility',
+    tagline: '兼容Clash的通用网络代理工具, 支持clash/v2ray/ss订阅',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -71,7 +71,7 @@ const config = {
             // Replace with your project's social cardsocial card
             image: 'img/karing-main.webp',
             navbar: {
-                title: 'Karing - Simple & Powerful proxy utility',
+                title: 'Karing - Powerful proxy utility',
                 logo: {
                     alt: 'Karing App',
                     src: 'img/logo.png',

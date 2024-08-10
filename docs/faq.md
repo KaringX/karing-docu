@@ -48,12 +48,14 @@ import DocCard from '@theme/DocCard';
 
 ### App如何更新
  - 苹果用户:使用系统自带更新
- - Windows用户:Karing自动更新后会有提示,您只需要按照提示下载或者重启App安装即可
+ - Windows/Android用户:Karing自动更新后会有提示,您只需要按照提示下载或者重启App安装即可
 
 ### 安全吗
 - App上架AppStore前会经过苹果审核，且苹果版本只能在 AppStore 或 TestFlight 才能下载(请勿从非官方渠道下载App)
 - 非Apple平台我们也同样遵循和苹果平台一样的安全和隐私规则,确保您的信息不会泄露
 - 非Apple平台用户建议从[Github](https://github.com/KaringX/karing/releases/latest)下载
+- Karing 官方下载源只有AppStore及https://github.com/KaringX/karing/releases,请勿从其他渠道下载安装
+- Karing 没有上架Google Play, 请勿从Google Play下载安装
 
 ### 没有配置怎么办
  - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
@@ -61,25 +63,23 @@ import DocCard from '@theme/DocCard';
 
 
 ## 运行时问题list
-
+### <font color="red">注意:出现问题,请先升级到最新版</font>
 ### 如果查看我当前的网络是否支持IPv6
 - Karing断开连接
 - 点击主屏上的测速
 - 找到页面里显示的Connected via XXX, 如果XXX为IPv6,则说明你当前网络支持IPv6
 
 
-### 点击连接时候报 start service failed: dependency[] not found for outbound[urltest_out] 错误
-- 请升级到最新版本
-
 ### 点击连接时候报 create service: parse outbound[x][xxxxx] 错误
 - 说明:xxxxx为服务器节点名称
-- 请升级到最新版本后,可以到[选择服务器]找到对应的节点服务器,长按后禁用,重新连接即可
+- 该问题一般都是节点配置错误,长按后禁用,重新连接即可
 
-### windows下 IDM 或其他一些软件无法使用代理下载
-- 请升级到最新版本
 
 ### Android 下点击连接就闪退,日志显示 missing default interface
 - 重启设备
+
+### Android 开启连接频繁闪退
+- 将 设置-TUN-网络栈 改成其他值再重试连接
 
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
@@ -91,6 +91,9 @@ import DocCard from '@theme/DocCard';
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
 
+## Karing兼容Clash, 在Karing功能上有何异同?
+- karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
+  - [karing与clash功能对照表](/clash)
 
 ## 更多问题/issue提交
 - 您可以通过 设置-反馈 并留下您的邮箱,向我们反馈问题

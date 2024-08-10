@@ -44,4 +44,7 @@ To `Connect`(switch button) to the server, click `Connect` button.
 
 ![quickstart-4.webp](./img/quickstart-4.webp#center)
 
+## Other Versions
+- Thinks to @Пупкин Вася , Here is a more detailed doc https://telegra.ph/Karing-07-15
+
 

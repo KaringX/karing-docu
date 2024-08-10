@@ -13,8 +13,11 @@ tags: [机场,VPN provider]
 - 正文:
     - 1、对你服务的简短推荐说明.
     - 比如: 【薯条云】 6年老机场，超级稳定，IPLC，CN2/GIA，中转技术应有尽有。不限设备数，流媒体解锁：Netflix、Hulu、HBO、动画疯、TVB。可定制独享专线。
-    - 2、(可选) 是否支持CPS和USDT提现
-    - 3、(可选) 在你的客户端下载页面推荐karing
+    - 2、排序加分:
+	    - 如在机场的软件下载列表，推荐使用 karing ，排序分 +50
+	    - 如在订阅链接中加入karing自定义header头，排序分 +100
+		    - 案例: https://karing.app/cooperation/sspanel
+    - 3、(可选) 是否支持CPS和USDT提现
 ```
 - **注意:**
   - 只要节点线路条件良好，cps支持与否并不作为主要条件

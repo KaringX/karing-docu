@@ -35,11 +35,11 @@ class ClientController extends Controller
             $this->setSubscribeInfoToServers($servers, $user);
 
             // for karing
-            $appName = urlencode(config('v2board.app_name', 'V2Board'));
+            $appName = config('v2board.app_name', 'V2Board');
             $appURL = config('v2board.app_url');
-            header("isp-name: {$appName}");
-            header("isp-url: {$appURL}/#/plan");
-            header("isp-faq: {$appURL}/#/knowledge");
+            header("isp-name: " . urlencode($appName));
+            header("isp-url: " . urlencode($appURL . '/#/plan'));
+            header("isp-faq: " . urlencode($appURL . '/#/knowledge'));
 
             // ...
 

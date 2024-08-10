@@ -43,7 +43,7 @@ doamin:xn--ngstr-lra8j.com
 
 
 
-## 其他版本
+## 另一个版本
 - 这个版本是 [karing群](https://t.me/KaringApp)中 明星用户[@William Wu] 的分享，感谢！
 - 该思路是
   - 分流设置
