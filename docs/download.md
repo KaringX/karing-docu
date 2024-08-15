@@ -8,7 +8,7 @@ slug: /download
 ### iOS(iPhone/iPad)/MacOS
 - 应用市场[稳定版] [AppStore](https://apps.apple.com/us/app/karing/id6472431552)
 - TestFlight[Beta测试版]  新功能尝鲜 [TestFlight](https://testflight.apple.com/join/RLU59OsJ)
-- 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://outpost.karing.app/isp?r_c=xda)
+- 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](/pi.html?r_c=xda)
 - 注意: 应用市场版 和 TestFlight版 无法同时安装:安装应用市场版本会覆盖TestFlight版,同理安装TestFlight版会覆盖应用市场版,请您视具体情况选择要安装的版本
 
 ### Android/Harmony

@@ -26,7 +26,7 @@ sidebar_position: 1
 - TestFlight
     - https://testflight.apple.com/join/RLU59OsJ
 - 注意: 需要非中国大陆AppStore账号
-    - 不会注册?请参考 [苹果ID专卖小店](https://outpost.karing.app/isp?r_c=xda)
+    - 不会注册?请参考 [苹果ID专卖小店](/pi.html?r_c=xda)
 
 ### Windows/Android/Harmony用户
 - 下载最新版安装包
@@ -48,7 +48,7 @@ sidebar_position: 1
 - karing 全平台**免费**
 
 :::tip 推广
-- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://outpost.karing.app/isp?r_c=cn)
+- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](/pi.html?r_c=cn)
 - 怎么获取免费流量, 请看 [新用户福利](/newuser)
 :::
 
