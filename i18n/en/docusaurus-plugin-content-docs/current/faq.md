@@ -10,7 +10,7 @@ title: FAQ
 Yes! Karing is absolutely free.
 
 **Apple users**: As long as you have an Apple account outside of mainland China, you can download it.
-If you are inconvenient to register directly, we recommend the [Apple ID store](/pi.html?r_c=xda)
+If you are inconvenient to register directly, we recommend the [Apple ID store](https://dot.karing.app/pi.html?r_c=xda)
 
 ```mdx-code-block
 import DocCard from '@theme/DocCard';

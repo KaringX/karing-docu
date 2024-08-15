@@ -32,7 +32,7 @@ Paste your Subscription Link and click button at the right corner to add subscri
 :::tip Where to find Subscription Link?
 If you don't have your own configuration, you can get it from our recommended providers.
 
-Click [here](/pi.html?r_c=en) to get it.
+Click [here](https://dot.karing.app/pi.html?r_c=en) to get it.
 :::
 
 ### Finishing setup
