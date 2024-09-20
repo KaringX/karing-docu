@@ -43,6 +43,7 @@ sidebar_position: 1
 -  Android >= 8
 -  IOS >= 15
 -  MacOS >= 12
+-  TvOS >= 17
 
 ### 购买价格
 - karing 全平台**免费**

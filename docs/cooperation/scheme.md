@@ -17,6 +17,8 @@ sidebar_position: 10
 # 添加配置
 clash://install-config?url=xxxx&name=xxx
 karing://install-config?url=xxxx&name=xxx&isp-name=xxx&isp-faq=xxx&isp-url=xxx
+# 备份恢复
+karing://restore-backup?url=xxxx
 
 
 # 连接操作

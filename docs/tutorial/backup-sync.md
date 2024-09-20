@@ -4,6 +4,7 @@ title: 备份和同步
 
 # 备份和同步
 - karing支持通过以下方式实现多端同步配置
+  - iCloud (ios/macos)
   - Webdav
   - 局域网同步
   - zip文件导入/导出

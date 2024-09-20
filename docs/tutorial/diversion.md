@@ -6,21 +6,21 @@ sidebar_position: 2
 ## 概述
 - 分流策略有三类:
   - 1 机场自带策略
-    - 添加配置的时候有 `启用路由组策略` 开关
+    - 添加配置的时候有 `启用ISP分流规则` 开关
   - 2 内置的 geosite、geoip、ACL
-    - 默认情况下, 会根据 设置 -> 分流 -> `国家与地区` 开启规则
-    - 比如: 中国地区, 默认开启 `geosite:cn` 和 `geoip:cn`, 相应动作都是 **当前选择**
+    - 默认情况下, 会根据 设置 -> 分流 -> `国家与地区` 开启规则(geosite、geoip)
+    - 比如: 中国地区, 默认开启 `geosite:cn` 和 `geoip:cn`, 相应动作都是 **直连**
     - 注意:geosite 目前仅cn和ir会自动启用
   - 3 [自定义规则](/tutorial/custom-diversion)
-- *补充*: 第一次安装karing, **新手模式** 会推荐一系列策略组
-  - 详细规则请移步 [karing-ruleset](https://github.com/KaringX/karing-ruleset/tree/sing/recommend)
+- *补充*: 首次安装karing, 会推荐一系列分流组,可以根据自己具体情况开启/关闭
+ 
 
 ## 内置规则集
 
 ### 开启内置策略
-- 设置 -> 分流 -> `GeoSite`/`GeoIP`/`ACL` -> 打开 启用 按钮 -> 搜索并选择相应规则, 右滑按钮启用
-- 设置 -> 分流 -> `分流规则` -> 选择分流策略 -> 修改对应动作or节点
-- 返回karing首页, 关闭连接, 重连生效
+- 设置 -> 分流 -> 分流规则 -> 编辑 -> 选择要编辑的自定义分流组 -> Rule Set(build-in)->勾选相关规则 -> 保存
+- 返回分流规则 -> 设置分流
+- 返回karing首页, Karing会自动重连生效
 
 ### GeoSite/GeoIP规则说明
 - 中国大陆(`cn`)地区举例:

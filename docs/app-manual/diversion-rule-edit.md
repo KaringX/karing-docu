@@ -20,4 +20,4 @@ sidebar_position: 8
 - Rule Set(build-in):内置规则集,点击右侧箭头即可选择
 - 进程名称:(仅windows), 名称以及大小写要完全匹配
 - 进程路径:(仅windows), 完整路径及路径大小写需要完全匹配
-- 应用包名:(仅android), 名称以及大小写要完全匹配
+- 应用包id:(仅android), id以及大小写要完全匹配

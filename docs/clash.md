@@ -33,7 +33,7 @@ title: Clash 兼容列表
 - [x] Trojan
 - [x] Hysteria
 - [x] Hysteria2
-	- 端口跳跃 coming soon...
+	- 端口跳跃 已支持(1.0.29.395)
 - [x] TUIC
 - [x] WireGuard
 - [x] SSH
@@ -62,7 +62,7 @@ title: Clash 兼容列表
 	- 配置选项 设置 -> DNS
 	- PS: DNS 列表右上角有服务器测速, 建议选择最快的那几个。
 - [x] DNS类型 全部支持 🙆‍♂️
-- [ ] hosts  不支持 🙅
+- [x] hosts  DNS-静态IP
 - [x] 域名嗅探
 	- 设置 -> 协议探测
 

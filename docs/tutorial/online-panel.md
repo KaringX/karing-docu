@@ -7,12 +7,12 @@
 
 ## 使用
 - 设置 -> `在线面板` -> 自动唤起默认浏览器打开yacd界面
-- URL: `https://yacd.metacubex.one/?host=127.0.0.1&port=3057&secret=xxxx`
+- URL: `https://yacd.haishan.me/?hostname=127.0.0.1&port=3057&secret=xxxx`
 
 ### 默认IP及端口
-- host: 127.0.0.1
+- hostname: 127.0.0.1
 - port: 3057
-- secret: 可在配置文件 `karing_service_core.json` 中获取
+- secret: 可在配置文件 `service_core.json` 中获取
 
 
 ### 截图
