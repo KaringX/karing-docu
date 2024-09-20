@@ -1,4 +1,5 @@
 ---
+title: DNS
 sidebar_position: 5
 ---
 

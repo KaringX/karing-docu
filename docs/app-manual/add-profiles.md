@@ -1,4 +1,5 @@
 ---
+title: 添加配置
 sidebar_position: 4
 ---
 
