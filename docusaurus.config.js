@@ -48,7 +48,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/KaringX/karing/tree/main/docs/',
+                        'https://github.com/KaringX/karing-docu/tree/main/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -90,7 +90,7 @@ const config = {
                         position: 'right',
                     },
                     {
-                        href: 'https://github.com/KaringX/karing',
+                        href: 'https://github.com/KaringX/karing-docu',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -125,7 +125,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub Issues',
-                                href: 'https://github.com/KaringX/karing/issues',
+                                href: 'https://github.com/KaringX/karing-docu/issues',
                             },
                             {
                                 label: 'Telegram',
@@ -142,7 +142,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/KaringX/karing',
+                                href: 'https://github.com/KaringX/karing-docu',
                             },
                         ],
                     },
