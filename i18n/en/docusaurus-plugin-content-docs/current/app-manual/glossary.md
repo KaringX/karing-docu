@@ -1,1 +1,1 @@
-### [Refer](../../../../../docs/app-manual/glossary.md)
+### [Refer](../../../../../app-manual/glossary)

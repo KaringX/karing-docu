@@ -2,4 +2,4 @@
 sidebar_position: 3
 ---
 
-### [Refer](../../../../../docs/app-manual/my-profiles.md)
+### [Refer](../../../../../app-manual/my-profiles)
