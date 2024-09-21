@@ -5,7 +5,7 @@ slug: /download
 
 # 下载Karing
 
-### iOS(iPhone/iPad)/MacOS
+### iOS(iPhone/iPad)/MacOS/TvOS(Apple TV)
 - 应用市场[稳定版] [AppStore](https://apps.apple.com/us/app/karing/id6472431552)
 - TestFlight[Beta测试版]  新功能尝鲜 [TestFlight](https://testflight.apple.com/join/RLU59OsJ)
 - 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
