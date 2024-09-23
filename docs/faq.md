@@ -15,8 +15,8 @@ title: FAQ
 - Windows版本请到[Github](https://github.com/KaringX/karing/releases/latest)下载(可能需要开代理才能下载)
 
 ### 支持哪些平台
-- 已支持:IOS, MacOS, Windows, Android
-- 待开发:TvOS, Linux
+- 已支持:IOS, MacOS,TvOS, Windows, Android
+- 待开发:Linux
 
 ### 支持哪些订阅配置类型
 - Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github
@@ -69,6 +69,14 @@ import DocCard from '@theme/DocCard';
 - 点击主屏上的测速
 - 找到页面里显示的Connected via XXX, 如果XXX为IPv6,则说明你当前网络支持IPv6
 
+
+### 一些App无法连接或连接报错
+- 1. 先升级到最新版本
+- 2. 首先需要确认使用的代理节点是可以联通的,并且[分流]里的国家和地区设置正确
+- 3. 打开[主屏]-[网络检测],检查对应域名是否可以正常访问,根据错误提示信息修改相关设置
+- 4. 如果上一步不知道如何设置域名,可以到[主屏]-[连接状态] 里查看是否有相关域名请求(需要先切换有问题的app并刷新一下app)
+- 5. 如果第4步没有相关域名请求,基本就是DNS解析出问题,到[主屏]-[DNS]-[服务器]-任选一个服务器设置-检测服务器延迟-根据延迟设置相关DNS服务器
+- 6. 如果第4步有相关域名请求,再检查分流是否正确,如果是分流错误,修改相关分流规则
 
 ### 点击连接时候报 create service: parse outbound[x][xxxxx] 错误
 - 说明:xxxxx为服务器节点名称
