@@ -21,9 +21,9 @@ import DocCard from '@theme/DocCard';
 ```
 
 ## Which platforms does Karing support?
-**Supported**: iOS, macOS, Windows
+**Supported**: iOS, macOS, tvOS, Windows
 **Under development**: Android
-**To be developed**: tvOS, Linux
+**To be developed**: Linux
 
 ## Which version should Apple users download?
 If you just want stable use, it is recommended to download the AppStore version.
