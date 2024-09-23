@@ -81,6 +81,15 @@ sidebar_position: 1
 - 选择一个延时数值低的服务器即可
 - 建议使用 `自动选择` 服务器功能
 
+### Apple TV(tvos)版本如何使用
+- 下载安装Apple TV(tvos)及移动端Karing
+- 移动端安装上述流程[1]添加配置
+- 打开Apple TV端Karing
+- 使用安装有Karing的移动设备扫描Apple TV端Karing的二维码
+- 扫描连接成功后,移动端Karing会进入Apple TV控制中心
+- 点击右上角的 [上传] 按钮,同步核心配置(同步后,Apple TV端Karing会多一个 [连接] 按钮)
+- 回到Apple TV端Karing, 开启连接即可
+- Apple TV端Karing连接成功后,可以在移动端Karing Apple TV控制中心查看相关状态信息
 
 
 
