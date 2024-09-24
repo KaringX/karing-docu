@@ -33,7 +33,7 @@ title: Clash 兼容列表
 - [x] Trojan
 - [x] Hysteria
 - [x] Hysteria2
-	- 端口跳跃 已支持(1.0.29.395)
+	- 端口跳跃 已支持 >=[1.0.29.390](https://github.com/KaringX/karing/releases/tag/v1.0.29.390)
 - [x] TUIC
 - [x] WireGuard
 - [x] SSH

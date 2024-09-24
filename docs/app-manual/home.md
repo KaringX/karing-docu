@@ -9,15 +9,15 @@ sidebar_position: 1
 
 
 ### 注意:示例图片为PC端(演示版本为1.0.29.395)
-### 1. 工具栏,从左到右依次为: 
+### 1. 工具栏,从左到右依次为:
 - [设置](../app-manual/settings.md)
 - [我的配置](../app-manual/my-profiles.md)
 - [添加配置](../app-manual/add-profiles.md)
 - [DNS](../app-manual/dns.md)
 - [分流](../app-manual/diversion.md)
-- [网络检测](../app-manual/net-check.md)
-- 测速-测试[当前选择](../app-manual/glossary.md)节点延迟,上传/下载速度等,具体测试信息依赖测速网址提供的能力
-- 快捷链接-快速打开设置的网址链接, 比如 https://google.com
+- 网络检测
+  - 测速-测试[当前选择](../app-manual/glossary.md)节点延迟,上传/下载速度等,具体测试信息依赖测速网址提供的能力
+  - 快捷链接-快速打开设置的网址链接, 比如 https://google.com
 - [Apple TV](../app-manual/appletv-home.md)(仅移动端)
 - 主题
 ### 2. 开关:用于开启/断开 连接
