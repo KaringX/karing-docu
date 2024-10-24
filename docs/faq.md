@@ -61,7 +61,6 @@ import DocCard from '@theme/DocCard';
  - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
 
 
-
 ## 运行时问题list
 ### <font color="red">注意:出现问题,请先升级到最新版</font>
 ### 如果查看我当前的网络是否支持IPv6
@@ -82,6 +81,9 @@ import DocCard from '@theme/DocCard';
 - 说明:xxxxx为服务器节点名称
 - 该问题一般都是节点配置错误,长按后禁用,重新连接即可
 
+### 网页打不开/应用网络加载失败
+- 打开网络检测,点击检测,如果有错误,修改错误对应的配置后重试
+- 如果依然不行,将发生错误的域名输入到网络检测重新检测,按照提示修改
 
 ### Android 下点击连接就闪退,日志显示 missing default interface
 - 重启设备
