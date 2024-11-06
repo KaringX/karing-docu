@@ -60,6 +60,12 @@ import DocCard from '@theme/DocCard';
 ### 没有配置怎么办
  - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
 
+### 添加配置/更新配置 报错 
+ - Connection reset by peer 或者 Connection refused:大部分原因是因为订阅请求被拦截,请开启vpn/代理后重试
+ - http statusCode:404 : 订阅不存在,换一个订阅链接或者更改 UserAgent 后重试(机场ISP可能会根据UserAgent下发不同类型的订阅配置) 
+ - http statusCode:403 : 请求被ISP拒绝,请换其他订阅链接
+ - Failed host lookup  : 订阅链接域名解析失败, 请开启vpn/代理后重试
+ - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent 
 
 ## 运行时问题list
 ### <font color="red">注意:出现问题,请先升级到最新版</font>
