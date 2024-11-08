@@ -85,7 +85,7 @@ import DocCard from '@theme/DocCard';
 
 ### Android 小米手机无法安装,提示高风险应用
 - 此问题和Karing版本无关,目前所有版本的Karing在小米手机上均会出现此问题,原因是Karing被小米后台加入了黑名单
-- 解决方案:退出安装程序,断开所有网络后,重试安装
+- 解决方案:退出安装程序,断开所有网络后(切换到飞行模式),重试安装
 
 ### Android 下点击连接就闪退,日志显示 missing default interface
 - 重启设备
