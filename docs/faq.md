@@ -93,6 +93,9 @@ import DocCard from '@theme/DocCard';
 ### Android 开启连接频繁闪退
 - 将 设置-TUN-网络栈 改成其他值再重试连接
 
+### Android 连接报错: process is bad
+- 改为从控制中心启动连接
+
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
 
@@ -102,6 +105,21 @@ import DocCard from '@theme/DocCard';
 ```
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
+
+### Windows系统,开启连接(TUN)报错:A required privilege is not held by the client
+- 系统权限设置错误,解决方案参考 https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
+
+### Windows系统, 开启连接报错: "launch process C:\\Program Files\\Karing\\karingService.exe failed: exception ProcessException: Access is denied.\r\n\n  Command: \"C:\\Program Files\\Karing\\karingService.exe\""
+- karingService.exe 的启动被系统或其他软件限制,尝试将Karing重新安装到其他目录
+
+### Windows系统, 每次开启都报错: service start timeout
+- 备份导出后,通过telegram发送将备份的zip文件给开发者,以便排查问题原因
+
+
+### 启动连接报错:"check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067"
+- Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接
+- 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
+
 
 ## Karing兼容Clash, 在Karing功能上有何异同?
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
