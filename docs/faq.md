@@ -93,7 +93,7 @@ import DocCard from '@theme/DocCard';
 ### Android 开启连接频繁闪退
 - 将 设置-TUN-网络栈 改成其他值再重试连接
 
-### Android 连接报错: <a href="#1023853913">process is bad</a>
+### Android 连接报错: <a id="1023853913">process is bad</a>
 - 改为从控制中心启动连接
 
 ### 打开Google.com,会跳转到Google.cn等
