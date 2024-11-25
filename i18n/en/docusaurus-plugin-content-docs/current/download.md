@@ -3,33 +3,28 @@ sidebar_position: 8
 slug: /download
 ---
 
-# Download
+# Download Karing
 
-## iOS/macOS
-
-### App Store
-[Download in App Store](https://apps.apple.com/us/app/karing/id6472431552) (search the keyword `karing vpn`)
-
-#### TestFlight
-[Download in TestFlight](https://testflight.apple.com/join/RLU59OsJ)
-
-:::tip Non-Mainland China AppStore account required
-Don’t know how to register? Please refer [to the Apple ID Store](https://dot.karing.app/pi.html?r_c=xda)
-:::
-
+### iOS(iPhone/iPad)/MacOS/TvOS(Apple TV)
+- App Store [Stable Version] [AppStore](https://apps.apple.com/us/app/karing/id6472431552)
+- TestFlight [Beta Version] Try out new features [TestFlight](https://testflight.apple.com/join/RLU59OsJ)
+- If your account cannot download the app normally, please try an account in non-mainland China such as Hong Kong/US, or go to: [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
+- Note: App Store version and TestFlight version Cannot be installed at the same time: Installing the App Market version will overwrite the TestFlight version, and similarly installing the TestFlight version will overwrite the App Market version. Please choose the version to install according to the specific situation
 
 ### Android/Harmony
-- [Download in GitHub release page](https://github.com/KaringX/karing/releases/latest)
-  - file name: karing_xxx_android_arm64.apk  (xxx is the version number)
-- [Download in APKPure](https://apkpure.com/p/com.nebula.karing)
-- [GH Proxy](https://dot.karing.app/client.html?p=android)
+- [GitHub Release page](https://github.com/KaringX/karing/releases/latest)
+- Android recommends downloading the installation package: File name rule karing_xxx_android_arm.apk (xxx is the version number)
+- [APKPure App Market](https://apkpure.com/p/com.nebula.karing)
+- [android backup download link](https://dot.karing.app/client.html?p=android)
 
 ### Windows
-- Download the latest version of the installation package from the [release page](https://github.com/KaringX/karing/releases/latest)
-- It is recommended to download the installation package: file name rule karing_xxx_windows_x64.exe (xxx is the version number)
-- After downloading, run the installation (if you encounter defender interception, please click 'Show details' - 'Run anyway' to install)
-If github.com is inaccessible, you can also [click here to download](https://dot.karing.app/client.html?p=windows)
+- [GitHub Releases](https://github.com/KaringX/karing/releases/latest)
+- Windows recommends downloading the installation package: File name rule karing_xxx_windows_x64.exe (xxx is the version number)
+- Run the installation after downloading (if defender blocks, please click 'show details' - 'Run anyway' to install)
+- [win_x64 alternative download link](https://dot.karing.app/client.html?p=windows)
 
-## donate
+## New version release notification
+- New releases will also be notified in the [Telegram group](https://t.me/KaringApp)
+
+## Donate
 - ![donate](/img/donate-usdt.jpg)
-

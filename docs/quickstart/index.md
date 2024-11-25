@@ -34,7 +34,7 @@ sidebar_position: 1
 - Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe (xxx为版本号)
   - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
   - 如果github.com无法访问,也可使用 [win_x64 备用下载链接](https://dot.karing.app/client.html?p=windows)
-- Android/Harmony 下载: karing_xxx_android_arm64.apk
+- Android/Harmony 下载: karing_xxx_android_arm.apk
   - 如无法访问,也可使用 [android 备用下载链接](https://dot.karing.app/client.html?p=android)
   - [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
 

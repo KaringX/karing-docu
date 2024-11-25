@@ -13,7 +13,7 @@ slug: /download
 
 ### Android/Harmony
 - [GitHub Release page](https://github.com/KaringX/karing/releases/latest)
-  - Android 建议下载安装包: 文件名规则 karing_xxx_android_arm64.apk (xxx为版本号)
+  - Android 建议下载安装包: 文件名规则 karing_xxx_android_arm.apk (xxx为版本号)
 - [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
 - [android 备用下载链接](https://dot.karing.app/client.html?p=android)
 

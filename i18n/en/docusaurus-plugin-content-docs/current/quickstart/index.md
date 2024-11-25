@@ -1,50 +1,102 @@
 ---
 sidebar_position: 1
-title: Quickstart
 ---
 
-# Quickstart
-First of all, you need to add your configuration or subscription to the app.
+# Quick Start Guide
+- Here is Karing's official tutorial. Adhering to the principle of simplicity and practicality, it will be explained as briefly as possible.
 
-### Open Settings
+### Main Features
+- Easy to use, quick to get started, one-click to take off
+- Support Clash/Clash.Meta, V2ray (support batch), Stash, Sing-box, Shadowsocks, Sub, Github configuration link and configuration import.
+- Support mainstream protocols, including Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, etc.
+- A set of routing rules is applied to multiple subscription sources, automatically selecting efficient nodes.
+- Support custom routing rule groups and node groups.
+- Customize the default routing rule group for novice users - Out of the box.
+- Built-in support for the modified sing-box core, excellent performance.
+- Support backup and synchronization, configure multiple devices at once.
+- Added novice mode for easier configuration.
 
-To open Settings screen, click the gear icon in the upper left corner of the main screen.
+### Interface preview
+![Software interface](./img/qs-1.png#center)
 
-![quickstart-1.webp](./img/quickstart-1.webp#center)
+## 1. Download
+### iOS(iphone/ipad)/Mac users
+- AppStore(search keyword karing vpn)
+- https://apps.apple.com/us/app/karing/id6472431552
+- TestFlight
+- https://testflight.apple.com/join/RLU59OsJ
+- Note: A non-mainland China AppStore account is required
+- Don't know how to register? Please refer to [Apple ID Store](https://dot.karing.app/pi.html?r_c=xda)
 
----
+### Windows/Android/Harmony users
+- Download the latest installation package
+- https://github.com/KaringX/karing/releases/latest
+- Windows It is recommended to download the installation package: File name rule karing_xxx_windows_x64.exe (xxx is the version number)
+- Run the installation after downloading (if defender intercepts, please click 'Show details' - 'Run anyway' to install)
+- If github.com cannot be accessed, you can also use [win_x64 backup download link](https://dot.karing.app/client.html?p=windows)
+- Android/Harmony download: karing_xxx_android_arm.apk
+- If you cannot access it, you can also use [android backup download link](https://dot.karing.app/client.html?p=android)
+- [APKPure App Market](https://apkpure.com/p/com.nebula.karing)
 
-### Adding configuration
+### System requirements
+- Windows >= 10
+- Android >= 8
+- IOS >= 15
+- MacOS >= 12
+- TvOS >= 17
 
-- If you have `Subscription Link`, click `Add Subscription Link` and paste your link.
-- If you have `Configuration File`, click `Add Configuration File` and select your file.
-- If you have QR-code, click `Scan QR Code`.
+### Purchase price
+- karing **free** on all platforms
 
-![quickstart-2.webp](./img/quickstart-2.webp#center)
-
-### Subscription Link
-
-So in this example we will use `Subscription Link`.
-Paste your Subscription Link and click button at the right corner to add subscription.
-
-![quickstart-3.webp](./img/quickstart-3.webp#center)
-
-:::tip Where to find Subscription Link?
-If you don't have your own configuration, you can get it from our recommended providers.
-
-Click [here](https://dot.karing.app/pi.html?r_c=en) to get it.
+:::tip promotion
+- Here are some reliable paid nodes, please go to [Node Sharing](https://dot.karing.app/pi.html?r_c=cn)
+- How to get free traffic, please see [New User Benefits](/newuser)
 :::
 
-### Finishing setup
+## 2. Quick use/quickstart
+1. Click the settings button in the upper left corner of the APP -> Enter `Add Configuration`
+- Open `Add Configuration Link` (can also be added by importing or scanning)
+- ![Settings](./img/qs-2.png)
+- Paste the configuration link or configuration content of Clash/V2ray/SS into the input box
+- If there is no configuration, you can apply for it through [New User Benefits](/newuser)
+- Click the add button in the upper right corner
+- ![Add Configuration](./img/qs-3.png)
 
-After adding your configuration, Karing will select best server by default.
-If you want to select server manually, click `Auto Select` and choose server you want from the list.
+2. Return to the main screen
+- A server has been selected for you by default
+- Click the server name below to reselect the server
+- Click Connect (switch button) to start your network journey
+- ![Connect](./img/qs-4.png)
 
-To `Connect`(switch button) to the server, click `Connect` button.
+### How to choose a faster server
+- Click the server name at the bottom of the main screen to open 'Select Server'
+- Click the 'Delay Detection' button
+- ![Node List](./img/qs-5.png)
+- After a while, the corresponding server delay will be displayed behind each server
+- The lower the delay value, the better
+- The triangle prompt indicates an error and the server may not be available. Click to view the specific error message
+- Select a server with a low delay value
+- It is recommended to use the `Auto Select` server function
 
-![quickstart-4.webp](./img/quickstart-4.webp#center)
+### How to use the Apple TV (tvos) version
+- Download and install Apple TV (tvos) and mobile Karing
+- Mobile installation of the above process [1] Add configuration
+- Open Apple TV Karing
+- Use a mobile device with Karing installed to scan Apple QR code of Karing on TV
+- After scanning the connection successfully, Karing on mobile will enter the Apple TV control center
+- Click the [Upload] button in the upper right corner to synchronize the core configuration (after synchronization, Karing on Apple TV will have an additional [Connect] button)
+- Go back to Karing on Apple TV and enable the connection
+- After Karing on Apple TV is successfully connected, you can view relevant status information in the Karing on mobile Apple TV control center
 
-## Other Versions
-- Thinks to @Пупкин Вася , Here is a more detailed doc https://telegra.ph/Karing-07-15
+## 3. Advanced functions
+- 👉[Built-in diversion rule set](../tutorial/diversion.md)
+- 👉[Custom diversion rules, node groups](../tutorial/custom-diversion.md)
+- 👉[Application inbound proxy (Android)](../tutorial/perapp-proxy.md)
+- 👉[Backup and multi-end synchronization configuration](../tutorial/backup-sync.md)
 
-
+## Finally, FAQ
+- I put karing into a USB drive and carry it with me? 👉[Portable Configuration (Windows)](../tutorial/portable.md)
+- I am an ISP (airport owner)
+- How do I integrate my package link on karing? 👉[ISP Integration](../cooperation/menu.md)
+- How do I write a quick link to import karing configuration with one click? 👉[scheme format](../cooperation/scheme.md)
+- For other questions, please go to [FAQ](/faq/)
