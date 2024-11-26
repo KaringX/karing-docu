@@ -4,66 +4,125 @@ slug: /faq
 title: FAQ
 ---
 
-# Frequently Asked Questions
+# FAQ
 
-## Is Karing free?
-Yes! Karing is absolutely free.
+## Karing App
 
-**Apple users**: As long as you have an Apple account outside of mainland China, you can download it.
-If you are inconvenient to register directly, we recommend the [Apple ID store](https://dot.karing.app/pi.html?r_c=xda)
+### Is Karing free? How much is it?
+- Completely free
+- Apple users: All Apple accounts outside of mainland China can download it
+- Apple users: If you are not convenient to register directly, we recommend [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
+- For Windows version, please go to [Github](https://github.com/KaringX/karing/releases/latest) to download (you may need to open a proxy to download)
+
+### Which platforms are supported
+- Already supported: IOS, MacOS, TvOS, Windows, Android
+- To be developed: Linux
+
+### Which subscription configuration types are supported
+- Clash, V2ray (supports batch), Stash, Karing, Sing-box, Shadowsocks, Sub, Github
+
+### Which protocols are supported
+- Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard and other protocols
+
+### Which version should Apple users download?
+- If you only want stable use, it is recommended to download the AppStore version
+- If you want to try out new features, you can download the TestFlight Beta version
 
 ```mdx-code-block
 import DocCard from '@theme/DocCard';
 
 <DocCard
-  item={{ type: 'link', label: '⬇️ Download Karing', href: '/download' }}
+item={{ type: 'link', label: '⬇️ Download Karing', href: '/download' }}
 />
 ```
 
-## Which platforms does Karing support?
-**Supported**: iOS, macOS, tvOS, Windows
-**Under development**: Android
-**To be developed**: Linux
+### How to use
+- For new users who want to get started quickly, it is recommended to refer to the quick start tutorial on this site
 
-## Which version should Apple users download?
-If you just want stable use, it is recommended to download the AppStore version.
-If you want to try new features, you can download the TestFlight Beta version
-
-
-## How to update Karing?
-**iOS/macOS**: Open the AppStore and click Update. Usually it will be updated automatically.
-
-Windows users: There will be a prompt after Karing automatically updates. You only need to follow the prompts to download or restart the App installation.
-
-## Is it safe to use Karing?
-
-Apps will be reviewed by Apple before being put on the AppStore, and the Apple version can only be downloaded from the AppStore or TestFlight (please do not download the App from unofficial channels).
-We also follow the same security and privacy rules as Apple platforms on non-Apple platforms to ensure that your information will not be leaked.
-
-Non-Apple platform users are recommended to download from [Github](https://github.com/KaringX/karing/releases/latest)
-
-## What to do if I don't have configuration/subscription link?
-If you don't have your own configuration, you can get it from our recommended providers.
-Select your region and follow the instructions to get the configuration.
-
-[Click here to get it](/blog/isp/node-share)
-
-## What subscription configuration types are supported?
-Clash, V2ray (support batch), Stash, Karing, Sing-box, Shadowsocks, Sub, Github
-
-## What protocols are supported?
-Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard and other protocols
-
-## How to use?
-You can refer to our quickstart guide to get started quickly.
 ```mdx-code-block
 <DocCard
-  item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
+item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 />
 ```
 
-## Question/Feedback/Issues
+### How to update the App
+- Apple users: Use the system's own update
+- Windows/Android users: Karing will prompt after automatic update, you just need to download or restart the App installation according to the prompt
 
-You can feedback to us through Settings-Feedback and leave your email address.
-You can also join [official Telegram group](https://t.me/KaringApp) to report issues to the developer.
-Or another way is report issues on [Github](https://github.com/KaringX/karing/issues)
+### Is it safe
+- Apps will be reviewed by Apple before being listed on the AppStore, and the Apple version can only be downloaded from the AppStore or TestFlight (please do not download apps from unofficial channels)
+- We also follow the same security and privacy rules as Apple platforms for non-Apple platforms to ensure that your information will not be leaked
+- Non-Apple platform users are recommended to download from [Github](https://github.com/KaringX/karing/releases/latest)
+- Karing's official download sources are only AppStore and https://github.com/KaringX/karing/releases, please do not download and install from other channels
+- Karing is not listed on Google Play, please do not download and install from Google Play
+
+### What to do if there is no configuration
+- Please refer to [Node Sharing](/blog/isp/node-share) or [Airport Recommendation](/blog/isp/cn)
+
+### Add configuration/update configuration error
+- Connection reset by peer or Connection refused: Most of the reasons are because the subscription request is blocked, please try again after opening VPN/proxy
+- http statusCode:404: Subscription does not exist, try again after changing a subscription link or changing UserAgent (airport ISP may send different types of subscription configurations based on UserAgent)
+- http statusCode:403: Request rejected by ISP, please try another subscription link
+- Failed host lookup: Subscription link domain name resolution failed, please try again after opening VPN/proxy
+- http response is empty: ISP response is empty, try another subscription link or change UserAgent
+- No server available: If you can add it using other apps, try changing the UserAgent and try again
+
+## Runtime problem list
+### <font color="red">Note: If there is a problem, please upgrade to the latest version first</font>
+### How to check whether my current network supports IPv6
+- Karing disconnects
+- Click the speed test on the main screen
+- Find the page showing Connected via XXX, if XXX is IPv6, it means that your current network supports IPv6
+
+### Some apps cannot connect or connection errors
+- 1. Upgrade to the latest version first
+- 2. First, you need to confirm that the proxy node used can be connected, and the country and region settings in [Diversion] are correct
+- 3. Open [Home Screen]-[Network Detection] to check whether the corresponding domain name can be accessed normally, and modify the relevant settings according to the error message
+- 4. If you don’t know how to set the domain name in the previous step, you can go to [Home Screen]-[Connection Status] to check whether there is a related domain name request (you need to switch the problematic app first and refresh the app)
+- 5. If there is no related domain name request in step 4, it is basically a problem with DNS resolution. Go to [Home Screen]-[DNS]-[Server]-select a server setting-detect server delay-set the relevant DNS server according to the delay
+- 6. If there is a related domain name request in step 4, check whether the diversion is correct. If it is a diversion error, modify the relevant diversion rules
+
+### Android Xiaomi phone cannot be installed, prompting high-risk application
+- This problem has nothing to do with the Karing version. Currently, all versions of Karing will have this problem on Xiaomi phones because Karing has been blacklisted by Xiaomi backend
+- Solution: Exit the installer, disconnect all networks (switch to airplane mode), and retry the installation
+
+### Android crashes when clicking on the connection, and the log shows missing default interface
+- Restart the device
+
+### Android crashes frequently when opening the connection
+- Change Settings-TUN-Network Stack to other values ​​and retry the connection
+
+### <a class="anchor" id="1023853913"></a>Android connection error: process is bad
+- Start the connection from the control center instead
+
+### Open Google.com, it will jump to Google.cn, etc.
+- Open https://google.com/ncr in the browser, or manually clear the browser cache
+
+### Windows system, after Karing turns on TUN mode, Karing memory and CPU usage are very high
+- Caused by TUN mode conflict, such as clash series, etc., please uninstall other VPN software and restart Karing
+- Caused by routing loop, such as turning on windows data forwarding (turning windows into a router), please disable this function, command reference Powershell:
+```
+Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
+```
+
+### Windows system, error when opening the connection (TUN): A required privilege is not held by the client
+- System permission setting error, solution reference https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
+
+### Windows system, error when opening the connection: launch process karingService.exe failed: exception ProcessException: Access is denied.
+- The launch of karingService.exe is restricted by the system or other software, try to reinstall Karing to another directory
+
+### Windows system, error every time it is opened: service start timeout
+- After the backup is exported, send the backup zip file to the developer via telegram to troubleshoot the cause of the problem
+
+### Error when starting the connection: check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
+- Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
+- If it is a non-Windows system, you can try to restart the device, or go to Karing-Settings-Port, find the port of the error message above, change it to another port (recommended port number>4000), and try to connect again
+
+## Karing is compatible with Clash. What are the differences and similarities in Karing functions?
+- Karing is compatible with Clash subscription links, as well as most functions. Here is a detailed comparison list
+- [karing and clash function comparison table](/clash)
+
+## More questions/issue submission
+- You can report issues to us through Settings-Feedback and leave your email address
+- Or join the [Telegram group/Telegram](https://t.me/KaringApp) to report issues to the administrator
+- Or submit issues to [Github](https://github.com/KaringX/karing/issues)

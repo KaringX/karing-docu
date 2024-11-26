@@ -17,7 +17,7 @@ sidebar_position: 3
 ```jsx title="src/Controllers/SubController.php"
  public function index($request, $response, $args): ResponseInterface
     {
-        //...省略
+        //...
 
         return $response->withHeader('Subscription-Userinfo', $sub_details)
             ->withHeader('Content-Type', $content_type)

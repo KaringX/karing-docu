@@ -26,6 +26,6 @@ sidebar_position: 4
 ### 自定义:添加自定义配置,添加后到[我的配置]查看
 ### 备份与同步:备份/同步App所有配置及设置信息,支持以下类型
 - iCloud: 仅 ios/macos 
-- WebDav
+- Webdav
 - 局域网同步
 - 导入/导出

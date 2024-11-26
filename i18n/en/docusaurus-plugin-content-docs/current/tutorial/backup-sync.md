@@ -1,30 +1,29 @@
 ---
-
 title: Backup and Sync
-
 ---
 
 # Backup and Sync
-- karing supports multi-device sync configuration through the following methods:
-  - Webdav
-  - LAN sync
-  - Import/Export zip files
+- karing supports multi-terminal synchronization configuration through the following methods
+- iCloud (ios/macos)
+- Webdav
+- LAN Sync
+- zip file import/export
 
-## Method 1: Webdav
+## Solution 1: Webdev
 - Settings -> Backup and Sync -> `Webdav`
-- Refer to your cloud storage documentation for specific server configuration
+- For specific server configuration, please refer to the cloud disk document used by each
 
 ### AList
-- Since it seems that only native Nutstore supports Webdav in China, you can use AList to implement Webdav
-- Reference documentation:
-  - https://alist.nn.ci/zh/guide/webdav.html
-  - https://alist.nn.ci/guide/webdav.html
+- It seems that only the native Nut Cloud supports Webdav in mainland China, and AList can be used to implement Webdav
+- Reference document:
+- https://alist.nn.ci/zh/guide/webdav.html
+- https://alist.nn.ci/guide/webdav.html
 
-## Method 2: LAN Sync
-- **Note**: Import only supports iOS/Android mobile devices
+## Solution 2: LAN Sync
+- **Note**: Import only supports iOS/Android mobile phones
 - Settings -> Backup and Sync -> `LAN Sync`
-- Exporter -> Option `Sync to Others` will generate a QR code
-- Importer -> Option `Scan QR code to Sync`
+- Exporter -> Option `Sync to others` will generate a QR code
+- Importer -> Option `Scan QR code to sync`
 
-## Method 3: File Import/Export
-- Settings -> Backup and Sync -> LAN Sync -> `File Import/Export`
+## Solution 3: File import/export
+- Settings -> Backup and sync -> LAN sync -> `File import/export`
