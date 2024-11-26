@@ -65,6 +65,7 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - http statusCode:403: Request rejected by ISP, please try another subscription link
 - Failed host lookup: Subscription link domain name resolution failed, please try again after opening VPN/proxy
 - http response is empty: ISP response is empty, try another subscription link or change UserAgent
+- No server available: If you can add it using other apps, try changing the UserAgent and try again
 
 ## Runtime problem list
 ### <font color="red">Note: If there is a problem, please upgrade to the latest version first</font>

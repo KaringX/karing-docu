@@ -66,6 +66,7 @@ import DocCard from '@theme/DocCard';
  - http statusCode:403 : 请求被ISP拒绝,请换其他订阅链接
  - Failed host lookup  : 订阅链接域名解析失败, 请开启vpn/代理后重试
  - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent 
+ - 无可用服务器: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试
 
 ## 运行时问题list
 ### <font color="red">注意:出现问题,请先升级到最新版</font>
