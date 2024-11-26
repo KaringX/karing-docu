@@ -90,7 +90,7 @@ const config = {
                         position: 'right',
                     },
                     {
-                        href: 'https://github.com/KaringX/karing-docu',
+                        href: 'https://github.com/KaringX/karing',
                         label: 'GitHub',
                         position: 'right',
                     },
