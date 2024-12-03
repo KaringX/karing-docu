@@ -52,7 +52,7 @@ const config = {
                 },
                 blog: {
                     showReadingTime: true,
-                    blogSidebarCount: 10,
+                    blogSidebarCount: 15,
                     onUntruncatedBlogPosts: 'ignore',
                 },
                 theme: {

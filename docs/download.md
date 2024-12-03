@@ -16,7 +16,8 @@ slug: /download
   - Android 建议下载安装包: 文件名规则 karing_xxx_android_arm.apk (xxx为版本号)
 - [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
 - [android 备用下载链接](https://dot.karing.app/client.html?p=android)
-
+- <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
+- 鸿蒙系统可参考: [HarmonyOS安装karing](/blog/case/harmonyos)
 
 ### Windows
 - [GitHub Releases](https://github.com/KaringX/karing/releases/latest)

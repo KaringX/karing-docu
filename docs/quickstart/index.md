@@ -36,7 +36,9 @@ sidebar_position: 1
   - 如果github.com无法访问,也可使用 [win_x64 备用下载链接](https://dot.karing.app/client.html?p=windows)
 - Android/Harmony 下载: karing_xxx_android_arm.apk
   - 如无法访问,也可使用 [android 备用下载链接](https://dot.karing.app/client.html?p=android)
-  - [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
+  - 其他应用市场: [APKPure](https://apkpure.com/p/com.nebula.karing)
+  - <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
+  - 鸿蒙系统可参考: [HarmonyOS安装karing](/blog/case/harmonyos)
 
 ### 系统要求
 -  Windows >= 10
