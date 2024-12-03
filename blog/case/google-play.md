@@ -22,8 +22,13 @@ doamin:xn--ngstr-lra8j.com
 ### 分流规则
 - 使用规则 `acl:Google` , 具体包含域名可对照文件: [Google.json](https://github.com/KaringX/karing-ruleset/blob/sing/ACL4SSR/Ruleset/Google.json)
 - 设置步骤：
-  - **开启规则**: Karing 设置 -> 分流 -> ACL -> 启用, ACL -> 搜索并开启 Google
-  - **定义动作**: 分流 -> 分流规则 -> ACL -> Google -> *当前选择*
+  - **开启规则**: Karing 设置 -> 分流 -> *分流规则* -> 右上角修改按钮(✏图案)
+    - -> 自定义分流组 右上角➕号 -> 备注 `google play`
+    - -> 在规则列表中选择 *google play*
+    - -> 下拉至内置规则 `Rule Set(build-in)`
+    - 搜索选择  `acl:Google`
+    - 右上角 点击√保存
+  - **定义动作**: 分流 -> 分流规则 -> `google play` -> *当前选择*
 
 - 如下图
   - ![ACL:Google](./img/gplay-1.png)

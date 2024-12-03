@@ -22,8 +22,14 @@ tags: [docker,proxy,镜像,加速器]
 - 本步可跳过: karing默认自带`geoip/cn`的规则, 会自动匹配非国内IP走代理
 - 当然, 也可和我一样, 自定义一条针对 docker域名的路由
 #### 创建自定义规则
-- 1. 设置 -> 分流 -> `GeoSite` -> 打开 `启用` -> `GeoSite` -> 搜索 *docker* 并开启`docker`规则
-- 2. 设置 -> 分流 -> `分流规则` ->  `GeoSite/docker` -> 修改为 **当前选择**
+- 1. 设置 -> 分流 -> *分流规则* -> 右上角修改按钮(✏图案)
+  - -> 自定义分流组 右上角➕号 -> 备注 `docker`
+  - -> 在规则列表中选择 *docker*
+  - -> 下拉至内置规则 `Rule Set(build-in)`
+  - 搜索选择  `geosite:docker`
+  - 右上角 点击√保存
+
+- 2. 设置 -> 分流 -> `分流规则` ->  `docker` -> 修改为 **当前选择**
   - ![geosite:docker](./img/docker-3.png)
 
 #### 测试
