@@ -28,7 +28,13 @@ slug: /download
 ## 新版本发布通知
 - 新发布版本, 同时会在 [电报群](https://t.me/KaringApp) 通知
 
-## 捐赠
+
+## 多语言支持征集
+- 如果您愿意提供多语言支持, 包括但不限于 英语、俄语、波斯语、阿拉伯语、越南语、缅甸语、西班牙语、土耳其语、希腊语等，请联系 [GooRingX](https://t.me/ovowe)
+- If you are willing to provide multilingual support, including but not limited to English, Russian, Persian, Arabic, Vietnamese, Burmese, Spanish, Turkish, Greek, etc., please contact [GooRingX](https://t.me/ovowe) .
+- Your generous assistance will make `karing` even powerful!
+
+
+<!-- ## 捐赠
 - ![donate](/img/donate-usdt.jpg)
-
-
+ -->
