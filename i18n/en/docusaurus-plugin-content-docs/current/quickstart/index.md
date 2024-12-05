@@ -37,6 +37,8 @@ sidebar_position: 1
 - Android/Harmony download: karing_xxx_android_arm.apk
 - If you cannot access it, you can also use [android backup download link](https://dot.karing.app/client.html?p=android)
 - [APKPure App Market](https://apkpure.com/p/com.nebula.karing)
+- <font color="red">Xiaomi/MIUI users</font>: If you are unable to install, first turn on `Airplane mode (disconnected)` and `Turn off security guard-enhanced protection` before installing.
+- For Hongmeng system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)
 
 ### System requirements
 - Windows >= 10
