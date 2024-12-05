@@ -72,7 +72,7 @@ import DocCard from '@theme/DocCard';
 ### <font color="red">注意:出现问题,请先升级到最新版</font>
 ### 如果查看我当前的网络是否支持IPv6
 - Karing断开连接
-- 点击主屏上的测速
+- 点击主屏上的测速(需要是app自带的测速,如果设置了自定义的测速,使用方法咨询google)
 - 找到页面里显示的Connected via XXX, 如果XXX为IPv6,则说明你当前网络支持IPv6
 
 
@@ -88,11 +88,11 @@ import DocCard from '@theme/DocCard';
 - 此问题和Karing版本无关,目前所有版本的Karing在小米手机上均会出现此问题,原因是Karing被小米后台加入了黑名单
 - 解决方案:退出安装程序,断开所有网络后(切换到飞行模式),重试安装
 
-### Android 下点击连接就闪退,日志显示 missing default interface
-- 重启设备
-
 ### Android 开启连接频繁闪退
-- 将 设置-TUN-网络栈 改成其他值再重试连接
+- 将 设置-TUN-网络栈 改成其他值(比如gvisor)再重试连接
+
+### Android TV 遥控器无法切换焦点(主屏)
+- 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
 
 ### <a class="anchor" id="1023853913"></a>Android 连接报错: process is bad
 - 改为从控制中心启动连接
@@ -107,20 +107,21 @@ import DocCard from '@theme/DocCard';
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
 
-### Windows系统,开启连接(TUN)报错:A required privilege is not held by the client
+### Windows系统,(TUN)开启连接报错:A required privilege is not held by the client
 - 系统权限设置错误,解决方案参考 https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
 
-### Windows系统, 开启连接报错: launch process karingService.exe failed: exception ProcessException: Access is denied.
+### <a class="anchor" id="1054821454"></a>### Windows系统,开启连接报错: configure tun interface: Cannot create a file when that file already exists
+- 删除其他有TUN的代理软件后重启电脑
+  
+### <a class="anchor" id="783742866"></a>### Windows系统,开启连接报错: launch process karingService.exe failed: exception ProcessException: Access is denied.
 - karingService.exe 的启动被系统或其他软件限制,尝试将Karing重新安装到其他目录
 
-### Windows系统, 每次开启都报错: service start timeout
-- 备份导出后,通过telegram发送将备份的zip文件给开发者,以便排查问题原因
+### <a class="anchor" id="643911015"></a>### Windows系统,开启连接报错: start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions
+- 端口 3057(也可能是其他端口,具体看设置) 被其他应用占用, 到 [设置]-[端口]- 将值为3057的端口改成其他未被使用的端口后重试连接
 
-
-### 启动连接报错:check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
+### Windows系统,开启连接报错:check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
 - Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接
 - 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
-
 
 ## Karing兼容Clash, 在Karing功能上有何异同?
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
