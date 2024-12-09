@@ -109,7 +109,10 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 - System permission setting error, solution reference https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
 
 ### <a class="anchor" id="1054821454"></a>### Windows system, error when opening the connection: configure tun interface: Cannot create a file when that file already exists
-- Delete other proxy software with TUN and restart the computer
+- Uninstall/delete other proxy software with TUN and restart the computer
+
+### ### Windows系统,开启连接报错: configure tun interface: The system cannot find the file specified
+- Uninstall/delete other proxy software with TUN and restart the computer
 
 ### <a class="anchor" id="783742866"></a>### Windows system, error when opening the connection: launch process karingService.exe failed: exception ProcessException: Access is denied.
 - The launch of karingService.exe is restricted by the system or other software, try to reinstall Karing to another directory
