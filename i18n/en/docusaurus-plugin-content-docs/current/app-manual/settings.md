@@ -42,6 +42,9 @@ sidebar_position: 2
 
 ### Protocol detection: Detect the protocol used by network requests, this function affects diversion
 
+### WARP
+- License: After setting, newly added warp nodes without license will be bound to this License.
+
 ### Network sharing: Use the device where Karing is located as a Socks proxy server for other devices to access the network
 
 ### Front proxy: Pack a proxy request into another proxy request and forward it. For example, there are two proxy nodes A and B, the current device D, and the target W. The delay of D->A and D->W is too high or unreachable, the delay of D->B is low, and the delay of B->A is low. Then B can be set as the front node (proxy) of A, so that the request path becomes D->B->A->W, the overall delay is low, and the experience is significantly improved
