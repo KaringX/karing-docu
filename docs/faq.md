@@ -126,6 +126,10 @@ import DocCard from '@theme/DocCard';
 - Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接
 - 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
 
+### 移动网络下节点正常使用,但是WiFi下延迟测试失败(重新连接也一样)
+- 移动网络和WiFi是不同的网络,WiFi下可能受WiFi路由器及运营商影响
+- 可用尝试重启路由器,如果依然不行,大概率是被运营商影响,可用尝试更改DNS后再试
+
 ## Karing兼容Clash, 在Karing功能上有何异同?
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
   - [karing与clash功能对照表](/clash)

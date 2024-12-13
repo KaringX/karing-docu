@@ -124,6 +124,10 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 - Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
 - If it is a non-Windows system, you can try to restart the device, or go to Karing-Settings-Port, find the port of the error message above, change it to another port (recommended port number>4000), and try to connect again
 
+### The node works normally under mobile network, but the delay test fails under WiFi (the same is true when reconnecting)
+- Mobile network and WiFi are different networks. WiFi may be affected by WiFi router and operator(isp)
+- You can try to restart the router. If it still doesn't work, it is probably affected by the operator(isp). You can try to change the DNS and try again
+
 ## Karing is compatible with Clash. What are the differences and similarities in Karing functions?
 - Karing is compatible with Clash subscription links, as well as most functions. Here is a detailed comparison list
 - [karing and clash function comparison table](/clash)
