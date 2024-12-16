@@ -47,4 +47,6 @@ sidebar_position: 2
 
 ### Network sharing: Use the device where Karing is located as a Socks proxy server for other devices to access the network
 
-### Front proxy: Pack a proxy request into another proxy request and forward it. For example, there are two proxy nodes A and B, the current device D, and the target W. The delay of D->A and D->W is too high or unreachable, the delay of D->B is low, and the delay of B->A is low. Then B can be set as the front node (proxy) of A, so that the request path becomes D->B->A->W, the overall delay is low, and the experience is significantly improved
+### Always open connection (IOS/MacOS/TvOS):
+- After turning on this switch, you cannot turn off the VPN by clicking the VPN switch in the system. You need to go to the VPN details to turn off [Connect on demand] or disconnect in Karing; when you disconnect in Karing, the [Connect on demand] in the system will also be invalid
+- After turning on this switch, when the VPN background process exits due to abnormal reasons, the system will automatically start the VPN background process through [Connect on demand] (if the startup fails, please go to Karing to connect manually)
