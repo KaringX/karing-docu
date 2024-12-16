@@ -59,6 +59,18 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### What to do if there is no configuration
 - Please refer to [Node Sharing](/blog/isp/node-share) or [Airport Recommendation](/blog/isp/cn)
 
+### What is the difference between proxy and global?
+- Reference - [4. Rule Mode: Rule/Global](../app-manual/home.md)
+
+### What is the difference between system proxy and TUN
+- Note: System proxy and TUN are both ways for proxy software to enter the station, and have nothing to do with rule/global
+- Note: System proxy: only for system proxy on PC devices
+- System proxy refers to the proxy settings in your system, which requires other software to adapt. Unadapted software will not use system proxy
+- TUN: virtual network card, the proxy software creates a virtual network card through the driver, and basically all software requests in the system will be automatically redirected to the virtual network card (different operating systems are slightly different, such as uwp applications in windows), without the need for other software adaptation
+
+## Runtime problem list
+### <font color="red">Note: If there is a problem, please upgrade to the latest version first</font>
+
 ### Add configuration/update configuration error
 - Connection reset by peer or Connection refused: Most of the reasons are because the subscription request is blocked, please try again after opening VPN/proxy
 - http statusCode:404: Subscription does not exist, try again after changing a subscription link or changing UserAgent (airport ISP may send different types of subscription configurations based on UserAgent)
@@ -67,8 +79,6 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - http response is empty: ISP response is empty, try another subscription link or change UserAgent
 - No server available: If you can add it using other apps, try changing the UserAgent and try again
 
-## Runtime problem list
-### <font color="red">Note: If there is a problem, please upgrade to the latest version first</font>
 ### How to check whether my current network supports IPv6
 - Karing disconnects
 - Click the speed test on the main screen(it needs to be the speed test that comes with the app. If you set a custom speed test, consult Google for usage)

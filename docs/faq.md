@@ -60,6 +60,18 @@ import DocCard from '@theme/DocCard';
 ### 没有配置怎么办
  - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
 
+### 代理和全局的区别是什么?
+ - 参考 - [4. 规则模式:规则/全局](../app-manual/home.md)
+
+### 系统代理和TUN的区别是什么
+ - 说明:系统代理和TUN都是代理软件的入站方式,和 规则/全局 没有关系
+ - 说明:系统代理:仅针对PC设备上的系统代理
+ - 系统代理指的是你系统里的代理设置,需要其他软件适配,未适配的软件不会使用系统代理
+ - TUN:虚拟网卡,代理软件在通过驱动建立了一张虚拟网卡,系统内基本所有软件的请求都会自动被重定向虚拟网卡(不同的操作系统洛稍有不同,比如windows想的uwp应用),无需其他软件适配
+
+## 运行时问题list
+### <font color="red">注意:出现问题,请先升级到最新版</font>
+
 ### 添加配置/更新配置 报错 
  - Connection reset by peer 或者 Connection refused:大部分原因是因为订阅请求被拦截,请开启vpn/代理后重试
  - http statusCode:404 : 订阅不存在,换一个订阅链接或者更改 UserAgent 后重试(机场ISP可能会根据UserAgent下发不同类型的订阅配置) 
@@ -68,8 +80,6 @@ import DocCard from '@theme/DocCard';
  - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent 
  - 无可用服务器: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试
 
-## 运行时问题list
-### <font color="red">注意:出现问题,请先升级到最新版</font>
 ### 如果查看我当前的网络是否支持IPv6
 - Karing断开连接
 - 点击主屏上的测速(需要是app自带的测速,如果设置了自定义的测速,使用方法咨询google)
