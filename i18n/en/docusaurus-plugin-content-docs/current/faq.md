@@ -138,6 +138,20 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 - Mobile network and WiFi are different networks. WiFi may be affected by WiFi router and operator(isp)
 - You can try to restart the router. If it still doesn't work, it is probably affected by the operator(isp). You can try to change the DNS and try again
 
+### High power consumption
+- When using autom select or custom proxy group (setting path: Settings-Auto select):
+  - Extend [Latency Checks interval]
+  - Reduce [Maximux number of servers]
+  - Enable [Filter invalid servers]
+- Use highly stable proxy server nodes
+- Reasonable diversion rule settings:
+  - Inbound diversion:
+    - Android recommends reasonable use of the application diversion function to reduce the traffic entering the proxy software
+  - Outbound diversion:
+    - Android: Use diversion based on package ID
+    - Macos: Use diversion based on process path/process name
+    - Windows: Use diversion based on process path/process name
+
 ## Karing is compatible with Clash. What are the differences and similarities in Karing functions?
 - Karing is compatible with Clash subscription links, as well as most functions. Here is a detailed comparison list
 - [karing and clash function comparison table](/clash)

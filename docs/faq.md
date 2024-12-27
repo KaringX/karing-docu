@@ -78,7 +78,7 @@ import DocCard from '@theme/DocCard';
  - http statusCode:403 : 请求被ISP拒绝,请换其他订阅链接
  - Failed host lookup  : 订阅链接域名解析失败, 请开启vpn/代理后重试
  - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent 
- - 无可用服务器: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试
+ - No server available: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试
 
 ### 如果查看我当前的网络是否支持IPv6
 - Karing断开连接
@@ -139,6 +139,20 @@ import DocCard from '@theme/DocCard';
 ### 移动网络下节点正常使用,但是WiFi下延迟测试失败(重新连接也一样)
 - 移动网络和WiFi是不同的网络,WiFi下可能受WiFi路由器及运营商影响
 - 可用尝试重启路由器,如果依然不行,大概率是被运营商影响,可用尝试更改DNS后再试
+
+### 耗电量比较高
+- 使用自动选择或者自定义代理组的情况下(设置路径:设置-自动选择):
+  - 延长[延迟检测时间间隔]
+  - 降低[服务器数量上限]
+  - 开启[过滤无效服务器]
+- 使用高稳定性的代理服务器节点
+- 合理的分流规则设置:
+  - 入站分流:
+    -  android建议合理使用分应用功能,降低进入代理软件的流量
+  - 出站分流: 
+    - android:使用基于包Id的分流
+    - macos:使用基于进程路径/进程名称的分流
+    - windows:使用基于进程路径/进程名称的分流
 
 ## Karing兼容Clash, 在Karing功能上有何异同?
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
