@@ -32,6 +32,3 @@ slug: /download
 - If you are willing to provide multilingual support, including but not limited to English, Russian, Persian, Arabic, Vietnamese, Burmese, Spanish, Turkish, Greek, etc., please contact [GooRingX](https://t.me/ovowe) .
 - Your generous assistance will make `karing` even powerful!
 
-<!-- ## Donate
-- ![donate](/img/donate-usdt.jpg)
--->

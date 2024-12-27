@@ -16,6 +16,7 @@ hide_table_of_contents: true
 - [最新版下载](/download)
 - [节点分享](/blog/isp/node-share)
 - [常见问题](/faq)
+- [捐助](/donate)
 
 ## Apple/iOS
 - [Download in App Store](https://apps.apple.com/us/app/karing/id6472431552) (search the keyword `karing vpn`)
@@ -31,7 +32,7 @@ hide_table_of_contents: true
     - https://github.com/KaringX/karing/issues
 - 电报群/Telegram
     - https://t.me/KaringApp
-
+  
 
 
 
