@@ -35,6 +35,3 @@ slug: /download
 - Your generous assistance will make `karing` even powerful!
 
 
-<!-- ## 捐赠
-- ![donate](/img/donate-usdt.jpg)
- -->

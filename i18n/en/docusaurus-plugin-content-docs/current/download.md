@@ -16,6 +16,8 @@ slug: /download
 - Android recommends downloading the installation package: File name rule karing_xxx_android_arm.apk (xxx is the version number)
 - [APKPure App Market](https://apkpure.com/p/com.nebula.karing)
 - [android backup download link](https://dot.karing.app/client.html?p=android)
+- <font color="red">Xiaomi/MIUI users</font>: If you are unable to install, first turn on `Airplane mode (disconnected)` and `Turn off security guard-enhanced protection` before installing.
+- For Hongmeng system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)
 
 ### Windows
 - [GitHub Releases](https://github.com/KaringX/karing/releases/latest)
@@ -26,6 +28,7 @@ slug: /download
 ## New version release notification
 - New releases will also be notified in the [Telegram group](https://t.me/KaringApp)
 
-## Contributor solicitation
+## Multilingual support solicitation
 - If you are willing to provide multilingual support, including but not limited to English, Russian, Persian, Arabic, Vietnamese, Burmese, Spanish, Turkish, Greek, etc., please contact [GooRingX](https://t.me/ovowe) .
 - Your generous assistance will make `karing` even powerful!
+
