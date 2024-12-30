@@ -101,15 +101,17 @@ import DocCard from '@theme/DocCard';
 ### Android 开启连接频繁闪退
 - 将 设置-TUN-网络栈 改成其他值(比如gvisor)再重试连接
 
-### Android 开启连接报错: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}
-- 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接
-- 解决方案:换其他Android设备
+### Android 开启连接报错
+- **错误信息:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
+  - 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接
+  - 解决方案:换其他Android设备
+- **错误信息:** process is bad
+  - 改为从控制中心启动连接
+
 
 ### Android TV 遥控器无法切换焦点(主屏)
 - 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
 
-### <a class="anchor" id="1023853913"></a>Android 连接报错: process is bad
-- 改为从控制中心启动连接
 
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
@@ -121,24 +123,22 @@ import DocCard from '@theme/DocCard';
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
 
-### Windows系统,(TUN)开启连接报错:A required privilege is not held by the client
-- 系统权限设置错误,解决方案参考 https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
+### Windows系统,
 
-### <a class="anchor" id="1054821454"></a>### Windows系统,开启连接报错: configure tun interface: Cannot create a file when that file already exists
-- 卸载/删除其他有TUN的代理软件后重启电脑
-
-### Windows系统,开启连接报错: configure tun interface: The system cannot find the file specified
-- 卸载/删除其他有TUN的代理软件后重启电脑
-
-### <a class="anchor" id="783742866"></a>### Windows系统,开启连接报错: launch process karingService.exe failed: exception ProcessException: Access is denied.
-- karingService.exe 的启动被系统或其他软件限制,尝试将Karing重新安装到其他目录
-
-### <a class="anchor" id="643911015"></a>### Windows系统,开启连接报错: start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions
-- 端口 3057(也可能是其他端口,具体看设置) 被其他应用占用, 到 [设置]-[端口]- 将值为3057的端口改成其他未被使用的端口后重试连接
-
-### Windows系统,开启连接报错:check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
-- Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接
-- 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
+### Windows系统,开启连接报错
+- **错误信息** (TUN)开启连接报错: A required privilege is not held by the client
+  - 系统权限设置错误,解决方案参考 https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
+- **错误信息：** configure tun interface: Cannot create a file when that file already exists
+  - 卸载/删除其他有TUN的代理软件后重启电脑
+- **错误信息：** configure tun interface: The system cannot find the file specified
+  - 卸载/删除其他有TUN的代理软件后重启电脑
+- **错误信息：** launch process karingService.exe failed: exception ProcessException: Access is denied.
+  - karingService.exe 的启动被系统或其他软件限制,尝试将Karing重新安装到其他目录
+- **错误信息：** `start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
+  - 端口 3057(也可能是其他端口,具体看设置) 被其他应用占用, 到 [设置]-[端口]- 将值为3057的端口改成其他未被使用的端口后重试连接
+- **错误信息：** `check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
+  - Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接
+  - 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
 
 ### 移动网络下节点正常使用,但是WiFi下延迟测试失败(重新连接也一样)
 - 移动网络和WiFi是不同的网络,WiFi下可能受WiFi路由器及运营商影响

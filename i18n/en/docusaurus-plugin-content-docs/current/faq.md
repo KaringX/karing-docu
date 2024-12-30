@@ -99,15 +99,15 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### Android system, crashes frequently when opening the connection
 - Change Settings-TUN-Network Stack to another value (such as gvisor) and try connecting again
 
-### Android system, error when opening the connection: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}
-- Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
-- Solution: Change to another Android device
+### Android system, error when opening the connection
+- **error:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
+  - Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
+  - Solution: Change to another Android device
+- **error:** process is bad
+  - Start the connection from the control center instead
 
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
-
-### <a class="anchor" id="1023853913"></a>Android connection error: process is bad
-- Start the connection from the control center instead
 
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
@@ -119,24 +119,20 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 ```
 
-### Windows system, error when opening the connection (TUN): A required privilege is not held by the client
-- System permission setting error, solution reference https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
-
-### <a class="anchor" id="1054821454"></a>### Windows system, error when opening the connection: configure tun interface: Cannot create a file when that file already exists
-- Uninstall/delete other proxy software with TUN and restart the computer
-
-### ### Windows system, error when opening the connection: configure tun interface: The system cannot find the file specified
-- Uninstall/delete other proxy software with TUN and restart the computer
-
-### <a class="anchor" id="783742866"></a>### Windows system, error when opening the connection: launch process karingService.exe failed: exception ProcessException: Access is denied.
-- The launch of karingService.exe is restricted by the system or other software, try to reinstall Karing to another directory
-
-### <a class="anchor" id="643911015"></a>### Error when opening the connection: start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions
-- Port 3057 (or other ports, depending on the settings) is occupied by other applications. Go to [Settings]-[Port]- Change the port value of 3057 to another unused port and try the connection again
-
-### Windows system, error when opening the connection: check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
-- Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
-- If it is a non-Windows system, you can try to restart the device, or go to Karing-Settings-Port, find the port of the error message above, change it to another port (recommended port number>4000), and try to connect again
+### Windows system, error when opening the connection
+- **error** when opening the connection (TUN): A required privilege is not held by the client
+  - System permission setting error, solution reference https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
+- **error:** configure tun interface: Cannot create a file when that file already exists
+  - Uninstall/delete other proxy software with TUN and restart the computer
+- **error:** configure tun interface: The system cannot find the file specified
+  - Uninstall/delete other proxy software with TUN and restart the computer
+- **error:** launch process karingService.exe failed: exception ProcessException: Access is denied.
+  - The launch of karingService.exe is restricted by the system or other software, try to reinstall Karing to another directory
+- **error:** `start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
+  - Port 3057 (or other ports, depending on the settings) is occupied by other applications. Go to [Settings]-[Port]- Change the port value of 3057 to another unused port and try the connection again
+- **error:** `check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
+  - Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
+  - If it is a non-Windows system, you can try to restart the device, or go to Karing-Settings-Port, find the port of the error message above, change it to another port (recommended port number>4000), and try to connect again
 
 ### The node works normally under mobile network, but the delay test fails under WiFi (the same is true when reconnecting)
 - Mobile network and WiFi are different networks. WiFi may be affected by WiFi router and operator(isp)
