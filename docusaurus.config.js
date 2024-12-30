@@ -24,7 +24,7 @@ const config = {
     projectName: 'karing-docu', // Usually your repo name.
     deploymentBranch: 'gh-pages',
 
-    onBrokenLinks: 'warn', //'ignore' | 'log' | 'warn' | 'throw'
+    onBrokenLinks: 'throw', //'ignore' | 'log' | 'warn' | 'throw'
     onBrokenMarkdownLinks: 'warn',
     onBrokenAnchors: 'ignore',
 
