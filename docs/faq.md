@@ -61,7 +61,7 @@ import DocCard from '@theme/DocCard';
  - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
 
 ### 代理和全局的区别是什么?
- - 参考 - [4. 规则模式:规则/全局](../app-manual/home.md)
+ - 参考 - [4. 规则模式:规则/全局](./app-manual/home.md#mode)
 
 ### 系统代理和TUN的区别是什么
  - 说明:系统代理和TUN都是代理软件的入站方式,和 规则/全局 没有关系
@@ -72,12 +72,12 @@ import DocCard from '@theme/DocCard';
 ## 运行时问题list
 ### <font color="red">注意:出现问题,请先升级到最新版</font>
 
-### 添加配置/更新配置 报错 
+### 添加配置/更新配置 报错
  - Connection reset by peer 或者 Connection refused:大部分原因是因为订阅请求被拦截,请开启vpn/代理后重试
- - http statusCode:404 : 订阅不存在,换一个订阅链接或者更改 UserAgent 后重试(机场ISP可能会根据UserAgent下发不同类型的订阅配置) 
+ - http statusCode:404 : 订阅不存在,换一个订阅链接或者更改 UserAgent 后重试(机场ISP可能会根据UserAgent下发不同类型的订阅配置)
  - http statusCode:403 : 请求被ISP拒绝,请换其他订阅链接
  - Failed host lookup  : 订阅链接域名解析失败, 请开启vpn/代理后重试
- - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent 
+ - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent
  - No server available: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试
 
 ### 如果查看我当前的网络是否支持IPv6
@@ -125,7 +125,7 @@ import DocCard from '@theme/DocCard';
 
 ### Windows系统,开启连接报错: configure tun interface: The system cannot find the file specified
 - 卸载/删除其他有TUN的代理软件后重启电脑
-  
+
 ### <a class="anchor" id="783742866"></a>### Windows系统,开启连接报错: launch process karingService.exe failed: exception ProcessException: Access is denied.
 - karingService.exe 的启动被系统或其他软件限制,尝试将Karing重新安装到其他目录
 
@@ -149,7 +149,7 @@ import DocCard from '@theme/DocCard';
 - 合理的分流规则设置:
   - 入站分流:
     -  android建议合理使用分应用功能,降低进入代理软件的流量
-  - 出站分流: 
+  - 出站分流:
     - android:使用基于包Id的分流
     - macos:使用基于进程路径/进程名称的分流
     - windows:使用基于进程路径/进程名称的分流

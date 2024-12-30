@@ -23,7 +23,7 @@ sidebar_position: 1
 
 ### 3. System proxy switch (PC only)
 
-### 4. Rule mode: Rule/Global
+### 4. Rule mode: Rule/Global {#mode}
 - Note: Rules/Global refers to the rules for traffic flowing out of the proxy software (outbound)
 - Rule: distribute traffic according to the diversion rules
 - Global: all traffic is forwarded/proxyed through [current selection](../app-manual/glossary.md)

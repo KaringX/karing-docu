@@ -60,7 +60,7 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - Please refer to [Node Sharing](/blog/isp/node-share) or [Airport Recommendation](/blog/isp/cn)
 
 ### What is the difference between proxy and global?
-- Reference - [4. Rule Mode: Rule/Global](../app-manual/home.md)
+- Reference - [4. Rule Mode: Rule/Global](./app-manual/home.md#mode)
 
 ### What is the difference between system proxy and TUN
 - Note: System proxy and TUN are both ways for proxy software to enter the station, and have nothing to do with rule/global
