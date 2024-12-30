@@ -1,7 +1,7 @@
 {
-  "label": "Cooperation",
+  "label": "Harry Panel",
   "position": 4,
-  "collapsed": true,
+  "collapsed": false,
   "link": {
     "type": "generated-index"
   }
