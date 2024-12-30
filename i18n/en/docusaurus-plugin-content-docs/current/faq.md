@@ -96,8 +96,12 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - This problem has nothing to do with the Karing version. Currently, all versions of Karing will have this problem on Xiaomi phones because Karing has been blacklisted by Xiaomi backend
 - Solution: Exit the installer, disconnect all networks (switch to airplane mode), and retry the installation
 
-### Android crashes frequently when opening the connection
+### Android system, crashes frequently when opening the connection
 - Change Settings-TUN-Network Stack to another value (such as gvisor) and try connecting again
+
+### Android system, error when opening the connection: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}
+- Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
+- Solution: Change to another Android device
 
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
@@ -121,7 +125,7 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 ### <a class="anchor" id="1054821454"></a>### Windows system, error when opening the connection: configure tun interface: Cannot create a file when that file already exists
 - Uninstall/delete other proxy software with TUN and restart the computer
 
-### ### Windows系统,开启连接报错: configure tun interface: The system cannot find the file specified
+### ### Windows system, error when opening the connection: configure tun interface: The system cannot find the file specified
 - Uninstall/delete other proxy software with TUN and restart the computer
 
 ### <a class="anchor" id="783742866"></a>### Windows system, error when opening the connection: launch process karingService.exe failed: exception ProcessException: Access is denied.
@@ -130,7 +134,7 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 ### <a class="anchor" id="643911015"></a>### Error when opening the connection: start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions
 - Port 3057 (or other ports, depending on the settings) is occupied by other applications. Go to [Settings]-[Port]- Change the port value of 3057 to another unused port and try the connection again
 
-### Windows system, error when opening the connectio: check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
+### Windows system, error when opening the connection: check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be `true` if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067
 - Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
 - If it is a non-Windows system, you can try to restart the device, or go to Karing-Settings-Port, find the port of the error message above, change it to another port (recommended port number>4000), and try to connect again
 

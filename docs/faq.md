@@ -101,6 +101,10 @@ import DocCard from '@theme/DocCard';
 ### Android 开启连接频繁闪退
 - 将 设置-TUN-网络栈 改成其他值(比如gvisor)再重试连接
 
+### Android 开启连接报错: android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}
+- 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接
+- 解决方案:换其他Android设备
+
 ### Android TV 遥控器无法切换焦点(主屏)
 - 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
 
