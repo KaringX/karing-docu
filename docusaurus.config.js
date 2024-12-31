@@ -137,6 +137,10 @@ const config = {
                         title: 'More',
                         items: [
                             {
+                                label: '捐赠 | donate',
+                                href: '/donate',
+                            },
+                            {
                                 label: 'Developer Blog',
                                 to: '/blog',
                             },
@@ -169,6 +173,17 @@ const config = {
             crossorigin: 'anonymous',
         }
     ],
+    // plugins: [
+    //     [
+    //         '@docusaurus/plugin-client-redirects',
+    //         {
+    //             redirects: [{
+    //                 from: '/donate', // 自定义的路径
+    //                 to: '/newuser', // 目标外部链接
+    //             },]
+    //         },//END redirects
+    //     ],
+    // ],
 };
 
 export default config;
