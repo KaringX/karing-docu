@@ -9,7 +9,7 @@ title: 案例 SSPanel
 - karing-connect: https://github.com/KaringX/karing-connect
   - 包含本案例涉及修改的文件
 
-## 方案A 通过咒语绑定karing
+## 方案A 通过咒语绑定karing {#spell}
 ### 思路
 - 首先，karing APP进入一个中间页 `/karing/connect`
   - 设置cookie `redir=/karing/connect` 作为返回地址
