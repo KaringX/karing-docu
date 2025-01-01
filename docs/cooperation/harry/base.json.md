@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 机场基本配置文件 base.json
+# 机场基础配置 base.json
 
 ## 说明
 - `base.json` 存储机场的基础信息, 当APP发生状态切换时更新(比如 启动、连接、切换至前台) , 最短时间间隔为3小时.
