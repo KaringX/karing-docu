@@ -22,7 +22,7 @@ sidebar_position: 6
     // --- ---> 以下为机场基本信息
     // VPN服务(机场)名称
     "name": "your service name",
-    // 主页
+    // 主页, 中文域名/俄文域名/punycode 会自动转换成ascii码的域名
     "home": "https://your-homepage/",
     // 文档
     "faq": "https://your-homepage/docs",
@@ -40,7 +40,7 @@ sidebar_position: 6
     "notice_update_interval": 180,
     //
     // --- ---> 以下为与Karing对接的配置
-    // 对接页面URL
+    // 对接页面URL, 中文域名/俄文域名/punycode 会自动转换成ascii码的域名
     "connect": "",
     // 魔法指令 用于在绑定页面跳转至VPN服务(机场)的短语, 一个ISP最多定义2两个词
     "spells": [

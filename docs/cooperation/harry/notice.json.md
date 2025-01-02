@@ -27,19 +27,37 @@ sidebar_position: 8
 - 如果有编码能力, 建议托管在自己站点, 发送机场消息时同步修改json文件, 省时省力.
 
 ## 注释说明 {#desc}
-### 匹配规则: platform,channel,version_regex,region_code 必须全部匹配,app才会收到通知
+
 ### 字段解释
- - platform: 平台类型,可选值为windows,macos,ios,android其中之一, 必填
- - channel: 按默认值即可,请勿修改, 必填
- - version_regex: Karing版本号正则表达式(不填或为空,匹配所有版本)
- - region_code: 用户所在国家和地区,匹配用户在karing里设置的国家和地区,多个地区用英文逗号[,]分割,比如"us,ru,ir",如果为空,则匹配所有地区
- - update_time: 通知更新时间,格式 yyyy-mm-dd hh:mm:ss(比如 2010-12-10 12:10:00), 此时间会显示在karing端的通知信息中, 必填
- - expire_time: 通知过期时间,格式 yyyy-mm-dd hh:mm:ss(比如 2010-12-10 12:10:00), 超过此时间后,Karing会删除该通知,(不填或为空:update_time + 30天)
-- title: 通知标题,不宜过长
-- 通知展现形式包括(只能设置其中一个)
-  - content: 通知内容,用户点击后,展示文本内容
-  - url: 通知页面URL,用户点击后,打开url对应的网页
-- 注意: update_time和expire_time未对时区做任何处理,可能存在由于时区上的差异导致实际会相差几个小时
+ - platform [**必填**]: 平台类型,可选值为 windows,macos,ios,android 其中之一
+ - channel [**必填**]: 按默认值即可,请勿修改,
+ - version_regex: Karing版本号正则表达式, 留空则匹配所有版本
+ - region_code:
+   - 匹配用户在karing里设置的国家和地区
+   - 多个地区用英文逗号`,`分割, 比如 `us,ru,ir`
+   - 留空,则匹配所有地区
+ - update_time [**必填**]: 通知更新时间
+   - 格式 yyyy-mm-dd hh:mm:ss(比如 2010-12-10 12:10:00), 此时间会显示在karing端的通知信息中
+ - expire_time: 通知过期时间
+   - 格式 yyyy-mm-dd hh:mm:ss(比如 2010-12-10 12:10:00), 超过此时间后,Karing会删除该通知
+   - 不填或为空: update_time + 30天
+
+- title : 通知标题
+  - 不宜过长, 以免移动端显示不全.
+  - 留空则表示无消息.
+- 通知展现形式包括:
+  - content: 通知内容,用户点击title后,展示文本内容
+  - url: 通知页面URL,用户点击title后,打开url对应的网页
+  - content和url 只能设置其中一个
+
+### 注意事项
+- update_time和expire_time未对时区做任何处理, 可能存在由于时区上的差异导致实际会相差几个小时
+- Karing会强制匹配字段列表, 如果不一致则认为是无效消息.
+  - platform,channel,version_regex,region_code 必须存在
+
+
+### 示例
+
 ```jsx title="notice.json"
 
 [
