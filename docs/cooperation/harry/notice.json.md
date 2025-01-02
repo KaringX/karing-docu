@@ -5,11 +5,12 @@ sidebar_position: 8
 # APP通知消息 notice.json
 
 ## 说明
-- `notice.json` 存储机场自定义的通知消息, 机长可给用户推送优惠、线路维护等全局消息.
+- `notice.json` 推送机场自定义的通知消息, 机长可给用户推送优惠、线路维护等全局消息.
+- 展示位置: Karing - 设置 - 通知.
 
 ### 什么时候会请求机场对应消息？
-- 当用户完成机场与Karing的绑定之后, 根据`base.json`文件中`notice_update_interval`选项的时间, 轮询拉取`notice.json`
-- 默认3小时拉取一次, 最小可配置为10分钟.
+- 当用户完成ISP/机场绑定, [应用启动/应用切换到前台/开启连接/断开连接]并且[配置请求时间]内未请求的,会触发请求`notice.json`.
+- 配置请求时间:默认180分钟, 最小10分钟(`base.json`文件中`notice_update_interval`, 单位为分钟).
 
 ### 可否自主托管
 - 默认托管在 karing 站点上.
@@ -26,25 +27,32 @@ sidebar_position: 8
 - 如果有编码能力, 建议托管在自己站点, 发送机场消息时同步修改json文件, 省时省力.
 
 ## 注释说明 {#desc}
+### 匹配规则: platform,channel,version_regex,region_code 必须全部匹配,app才会收到通知
+### 字段解释
+ - platform: 平台类型,可选值为windows,macos,ios,android其中之一, 必填
+ - channel: 按默认值即可,请勿修改, 必填
+ - version_regex: Karing版本号正则表达式(不填或为空,匹配所有版本)
+ - region_code: 用户所在国家和地区,匹配用户在karing里设置的国家和地区,多个地区用英文逗号[,]分割,比如"us,ru,ir",如果为空,则匹配所有地区
+ - update_time: 通知更新时间,格式 yyyy-mm-dd hh:mm:ss(比如 2010-12-10 12:10:00), 此时间会显示在karing端的通知信息中, 必填
+ - expire_time: 通知过期时间,格式 yyyy-mm-dd hh:mm:ss(比如 2010-12-10 12:10:00), 超过此时间后,Karing会删除该通知,(不填或为空:update_time + 30天)
+- title: 通知标题,不宜过长
+- 通知展现形式包括(只能设置其中一个)
+  - content: 通知内容,用户点击后,展示文本内容
+  - url: 通知页面URL,用户点击后,打开url对应的网页
+- 注意: update_time和expire_time未对时区做任何处理,可能存在由于时区上的差异导致实际会相差几个小时
 ```jsx title="notice.json"
+
 [
     // --- ---> 以下为windows平台消息
     {
         "platform": "windows",
         "channel": "windows",
-        // 通知版本号
-        //      默认留空, 全局通知
         "version_regex": "",
-        // 对应地域, 比如: cn 中国区, ru 俄罗斯
-        //      默认留空, 全局通知
         "region_code": "",
-        // 消息时间
         "update_time": "",
-        // 当前消息标题
+        "expire_time": "",
         "title": "",
-        // 当前消息内容
         "content": "",
-        // 消息对应链接, 如设置 则用户点击消息会跳转至url
         "url": ""
     },
     // --- ---> 以下为ios testflight平台消息
@@ -54,6 +62,7 @@ sidebar_position: 8
         "version_regex": "",
         "region_code": "",
         "update_time": "",
+        "expire_time": "",
         "title": "",
         "content": "",
         "url": ""
@@ -65,17 +74,19 @@ sidebar_position: 8
         "version_regex": "",
         "region_code": "",
         "update_time": "",
+        "expire_time": "",
         "title": "",
         "content": "",
         "url": ""
     },
-    // --- ---> 以下为macos平台消息
+    // --- ---> 以下为macos平台消息(包括testflight)
     {
         "platform": "macos",
         "channel": "macos",
         "version_regex": "",
         "region_code": "",
         "update_time": "",
+        "expire_time": "",
         "title": "",
         "content": "",
         "url": ""
@@ -83,10 +94,11 @@ sidebar_position: 8
     // --- ---> 以下为android平台消息
     {
         "platform": "android",
-        "channel": "*,android,Android - Manual installation",
+        "channel": "*,android",
         "version_regex": "",
         "region_code": "",
         "update_time": "",
+        "expire_time": "",
         "title": "",
         "content": "",
         "url": ""
