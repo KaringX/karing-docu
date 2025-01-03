@@ -106,8 +106,9 @@ import DocCard from '@theme/DocCard';
   - 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接
   - 解决方案:换其他Android设备
 - **错误信息:** process is bad
-  - 改为从控制中心启动连接
-
+  - 解决方案:改为从控制中心启动连接
+- **错误信息:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
+  - 解决方案:请勿对VPN应用开启分身
 
 ### Android TV 遥控器无法切换焦点(主屏)
 - 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换

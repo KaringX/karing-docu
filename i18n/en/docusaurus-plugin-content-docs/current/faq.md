@@ -104,7 +104,9 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
   - Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
   - Solution: Change to another Android device
 - **error:** process is bad
-  - Start the connection from the control center instead
+  - Solution: Start the connection from the control center instead
+- **错误信息:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
+  - Solution: Do not enable clones for VPN applications
 
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
