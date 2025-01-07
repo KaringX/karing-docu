@@ -141,7 +141,7 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 - You can try to restart the router. If it still doesn't work, it is probably affected by the operator(isp). You can try to change the DNS and try again
 
 ### High power consumption
-- When using autom select or custom proxy group (setting path: Settings-Auto select):
+- When using autom select or custom Proxy Group/Custom Auto Select (setting path: Settings-Auto select):
   - Extend [Latency Checks interval]
   - Reduce [Maximux number of servers]
   - Enable [Filter invalid servers]

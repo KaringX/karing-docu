@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Custom diversion
-- If the built-in geo(-ip, -site) and ACL rules cannot meet your needs, you can try `Custom diversion group` and `Custom proxy group`
+- If the built-in geo(-ip, -site) and ACL rules cannot meet your needs, you can try `Custom diversion group` and `Custom proxy group/Custom Auto Select`
 
 ## Materials
 - karing >= 1.0.15.133
@@ -64,5 +64,5 @@ Process Path: Windows process full path
 App Package: Android application package id
 :::
 
-## Custom proxy group
+## Custom proxy group/Custom Auto Select
 - The steps are similar to the diversion group, so I will not repeat them

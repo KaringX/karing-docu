@@ -6,7 +6,7 @@ sidebar_position: 20
 ### Current selection
 - Automatic selection: Automatically select the node with the lowest latency from the candidate list
 - Direct connection: Direct connection without proxy
-- Custom proxy group: Custom [Automatic selection]
+- Custom proxy group/Custom Auto Select: Custom [Automatic selection]
 - Proxy node: A specific proxy server
 
 ### DNS (Domain Name Service)
