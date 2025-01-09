@@ -117,14 +117,18 @@ import DocCard from '@theme/DocCard';
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
 
+### Windows系统
+- **如何以管理员身份开机启动**
+  - 升级到>=1.0.38.506版本
+  - 以管理员身份启动Karing
+  - 开启[开机启动],如果之前已经开启,则需要关闭后,重新开启
+
 ### Windows系统,Karing开启TUN模式后, Karing内存及CPU占用超高
 - TUN模式冲突所致,比如clash系列等,请卸载其他vpn软件后重新启动Karing
 - 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器),请禁用此功能,命令参考 Powershell:
 ```
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
-
-### Windows系统,
 
 ### Windows系统,开启连接报错
 - **错误信息** (TUN)开启连接报错: A required privilege is not held by the client

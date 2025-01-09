@@ -114,6 +114,13 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 
+
+### Windows System
+- **How ​​to start up as an administrator**
+  - Upgrade to version >= 1.0.38.506
+  - Start Karing as an administrator
+  - Enable [Launch At Startup], if it has been enabled before, you need to close it and then reopen it
+
 ### Windows system, after Karing turns on TUN mode, Karing memory and CPU usage are very high
 - Caused by TUN mode conflict, such as clash series, etc., please uninstall other VPN software and restart Karing
 - Caused by routing loop, such as turning on windows data forwarding (turning windows into a router), please disable this function, command reference Powershell:
