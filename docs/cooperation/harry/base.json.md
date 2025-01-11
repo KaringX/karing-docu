@@ -27,7 +27,7 @@ sidebar_position: 6
     // 文档
     "faq": "https://your-homepage/docs",
     // 客服或工单
-    "customerService": "https://your-homepage/user/ticket",
+    "customer_service": "https://your-homepage/user/ticket",
     // 社交媒体
     "follow": "https://t.me/KaringApp",
     //
