@@ -57,5 +57,5 @@ sidebar_position: 1
 ### 9. 当前选择,类型可以为:
 - [自动选择](../app-manual/glossary.md)
 - [直连](../app-manual/glossary.md)
-- [自定义代理组](../app-manual/glossary.md)
+- [自定义代理组/自定义自动选择](../app-manual/glossary.md)
 - [代理节点](../app-manual/glossary.md)

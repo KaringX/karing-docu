@@ -104,13 +104,22 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
   - Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
   - Solution: Change to another Android device
 - **error:** process is bad
-  - Start the connection from the control center instead
+  - Solution: Start the connection from the control center instead
+- **错误信息:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
+  - Solution: Do not enable clones for VPN applications
 
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
 
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
+
+
+### Windows System
+- **How ​​to start up as an administrator**
+  - Upgrade to version >= 1.0.38.506
+  - Start Karing as an administrator
+  - Enable [Launch At Startup], if it has been enabled before, you need to close it and then reopen it
 
 ### Windows system, after Karing turns on TUN mode, Karing memory and CPU usage are very high
 - Caused by TUN mode conflict, such as clash series, etc., please uninstall other VPN software and restart Karing
@@ -139,7 +148,7 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
 - You can try to restart the router. If it still doesn't work, it is probably affected by the operator(isp). You can try to change the DNS and try again
 
 ### High power consumption
-- When using autom select or custom proxy group (setting path: Settings-Auto select):
+- When using autom select or custom Proxy Group/Custom Auto Select (setting path: Settings-Auto select):
   - Extend [Latency Checks interval]
   - Reduce [Maximux number of servers]
   - Enable [Filter invalid servers]

@@ -50,5 +50,5 @@ sidebar_position: 1
 ### 9. Current selection, type can be:
 - [Auto selection](../app-manual/glossary.md)
 - [Direct connection](../app-manual/glossary.md)
-- [Custom proxy group](../app-manual/glossary.md)
+- [Custom proxy group/Custom Auto Select](../app-manual/glossary.md)
 - [Proxy node](../app-manual/glossary.md)
