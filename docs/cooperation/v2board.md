@@ -39,8 +39,8 @@ title: 案例 V2Board
 
 ### 第一步 v2board 系统
 - 在v2board目录下增加两个文件
-	- custom.js: `public/theme/v2board/assets/custom.js`
-	- karing-connect.html: `public/karing-connect.html`
+	- custom.js: [`public/theme/v2board/assets/custom.js`](https://github.com/KaringX/karing-connect/blob/main/v2board/custom.js)
+	- karing-connect.html:  [`public/karing-connect.html`](https://github.com/KaringX/karing-connect/blob/main/v2board/karing-connect.html)
 	- *注意* 如果您使用其他主题, 注意替换custom路径中的 `theme/v2board`
 - custom会载入一个远程文件 `karing.min.js`
   - 也可在GitHub下载原始文件 并自主部署.
