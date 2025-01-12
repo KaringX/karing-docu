@@ -7,7 +7,7 @@ title: 案例 V2Board
 
 ### 物料
 - V2Board 1.7.4: https://github.com/v2board/v2board/releases/tag/1.7.4
-- karing-connect: https://github.com/KaringX/karing-connect
+- karing-connect: [https://github.com/KaringX/karing-connect](https://github.com/KaringX/karing-connect/tree/main/v2board)
   - 包含本案例涉及修改的文件
 
 ## 方案A 通过咒语绑定karing {#spell}
@@ -44,11 +44,19 @@ title: 案例 V2Board
 	- *注意* 如果您使用其他主题, 注意替换custom路径中的 `theme/v2board`
   - 最新文件地址:
     	- https://github.com/KaringX/karing-connect/tree/main/v2board
+
+#### custom.js 说明
 - custom会载入一个远程文件 `karing.min.js`
   - 也可在GitHub下载原始文件 并自主部署.
   - 除了karing开发的接口名是固定的, 其他皆可按自己需求修改.
   - 原始文件无加密, 未删注释.
     - https://github.com/KaringX/karing-connect/blob/main/karing.js
+- 文件中参数 debug 默认false, 设置为true时:
+  - 终端打印日志
+  - 不判断 window.karing 对象是否存在, 直接模拟走一遍流程
+    - 最终会报错: 导入配置失败.
+
+
 
 ### 第二步 harry.karing.app 后台
 - 修改配置文件 `base.json`

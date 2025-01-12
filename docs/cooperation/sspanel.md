@@ -6,7 +6,7 @@ title: 案例 SSPanel
 # 修改SSPanel与Karing实现互通
 ### 物料
 - SSPanel-Uim 2024.1: https://github.com/Anankke/SSPanel-UIM/releases/tag/2024.1
-- karing-connect: https://github.com/KaringX/karing-connect
+- karing-connect: [https://github.com/KaringX/karing-connect](https://github.com/KaringX/karing-connect/tree/main/sspanel)
   - 包含本案例涉及修改的文件
 
 ## 方案A 通过咒语绑定karing {#spell}
