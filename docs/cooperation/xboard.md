@@ -48,7 +48,7 @@ title: 案例 Xboard
 - Xboard运行于webman
 - 容器共享目录 `.docker/.data:/var/www/.docker/.data`
 
-### 第一步 v2board 系统
+### 第一步 Xboard 系统
 #### 1.1 添加新文件
 - 在Xboard目录下增加两个文件
 - custom.js: [`public/theme/Xboard/assets/custom.js`](https://github.com/KaringX/karing-connect/blob/main/xboard/custom.js)
