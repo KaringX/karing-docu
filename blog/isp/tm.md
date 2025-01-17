@@ -1,5 +1,5 @@
 ---
-title: VPN for Для Туркменистана
+title: VPN Для Туркменистана
 authors: [btchide]
 tags: [tm, Turkmenistan VPN]
 ---
