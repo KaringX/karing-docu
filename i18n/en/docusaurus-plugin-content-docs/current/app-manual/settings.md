@@ -7,14 +7,11 @@ sidebar_position: 2
 - The functions are more streamlined, advanced functions are hidden, and advanced functions will not take effect (even if other advanced functions are enabled in non-beginner mode)
 - Protocol sniffing is forced to turn on
 
-### ISP (Airport): Display the ISP information of the first configuration related information in the [My Configuration] list
-- Name: ISP (Airport), click to open the ISP settings webpage
-- FAQ: ISP (Airport), click to open the FAQ webpage provided by the ISP
-- Clear ISP information: Clear the ISP information
+### vpn provider/airport: binded VPN provider/airport information
 
-### Notification: Karing official notification display
+### Notification: Karing official / vpn provider notification
 
-### Online panel: Web version core allows status panel (not supported by IOS)
+### Online panel: Core running status web version
 
 ### DNS leak detection: Detect whether there is a DNS leak. This function is limited by the detection capabilities provided by the specific detection page and the influence of the diversion rules. It is not very accurate and is only for reference
 
