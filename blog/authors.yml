@@ -12,6 +12,13 @@ elon:
 
 netzrun:
   name: NETZ.RUN
-  title: VPN-provider
+  title: VPN Provider
   url: https://1.x31415926.top/redir?i=3ec&trace_id=923366e25c1d69c41
   image_url: https://storage.netz.sh/static/logos/logo.webp
+
+btchide:
+  name: BTCHide✈️
+  title: VPN Provider
+  url: https://1.x31415926.top/redir?i=425&trace_id=786789ef93860ee
+  image_url: https://bibihy-shop.org/theme/assets/img/logo.png
+
