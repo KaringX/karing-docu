@@ -96,9 +96,16 @@ title: 案例 Xboard
 
 
 ### 第二步 harry.karing.app 后台
-- 修改配置文件 `base.json`
-    - *connect* 字段
-    - 咒语 *spells* 字段, 推荐使用机场名称.
+#### 方法1 快捷设置咒语
+- 进入harry后台, 机场列表, 点击`设置咒语`按钮.
+  - ![button](./img/set-spell-1.png)
+- 设置咒语和连接url
+  - ![setting](./img/set-spell-2.png)
+
+
+#### 方法2 修改配置文件 `base.json`
+- *connect* 字段
+- 咒语 *spells* 字段, 推荐使用机场名称.
 ```js
 {
     "pid": 123456,

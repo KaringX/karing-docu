@@ -15,6 +15,8 @@ window.onload = function () {
             if (l_t != null && !l_t.startsWith('zh')) {
                 if (l_t == 'ru') {
                     window.location.href = '/blog/quickstart-in-russian';
+                } else if (l_t == 'fa') {
+                    window.location.href = '/blog/quickstart-for-iranian';
                 } else {
                     window.location.href = '/en/quickstart/';
                 }
