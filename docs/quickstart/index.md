@@ -53,6 +53,8 @@ sidebar_position: 1
 :::tip 推广
 - 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://dot.karing.app/pi.html?r_c=cn)
 - 怎么获取免费流量, 请看 [新用户福利](/newuser)
+- **19元 180G全国流量** 首月免月租 [免费领取 电信星年卡](https://ym.ksjhaoka.com/show?id=82341893&s=QBWYsYh0345026)
+
 :::
 
 
