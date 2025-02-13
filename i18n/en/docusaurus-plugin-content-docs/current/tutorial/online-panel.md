@@ -7,7 +7,7 @@
 
 ## Usage
 - Settings -> `Online panel` -> Automatically wake up the default browser to open the yacd interface
-- URL: `https://yacd.haishan.me/?hostname=127.0.0.1&port=3057&secret=xxxx`
+- URL: `http://127.0.0.1/?hostname=127.0.0.1&port=3057&secret=xxxx`
 
 ### Default IP and port
 - hostname: 127.0.0.1
