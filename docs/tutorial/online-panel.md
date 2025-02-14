@@ -7,7 +7,7 @@
 
 ## 使用
 - 设置 -> `在线面板` -> 自动唤起默认浏览器打开yacd界面
-- URL: `https://yacd.haishan.me/?hostname=127.0.0.1&port=3057&secret=xxxx`
+- URL: `http://127.0.0.1/?hostname=127.0.0.1&port=3057&secret=xxxx`
 
 ### 默认IP及端口
 - hostname: 127.0.0.1
