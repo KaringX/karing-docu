@@ -54,8 +54,8 @@ sidebar_position: 1
 - 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://dot.karing.app/pi.html?r_c=cn)
 - 怎么获取免费流量, 请看 [新用户福利](/newuser)
 -
-- 电信星年卡 **19元 180G** 全国流量首月免月租 [👉🏻正规电信卡，放心使用](https://ym.ksjhaoka.com/show?id=82341893&s=QBWYsYh0345026)
-- 广电双佰卡 **19元** 100G+100分钟 + **流量可结转** [👉🏻中国广电 官方发货](https://ym.ksjhaoka.com/show?id=82341794&s=QBWYsYh0345026)
+- 电信雨露卡 **19元 230G** 首月免月租，长期流量 [👉🏻正规电信卡，放心使用](https://ym.ksjhaoka.com/show?s=QBWYsYh0345026&id=82341913)
+- 广电正龙卡 **19元** 135G+100分钟 + **流量可结转** [👉🏻中国广电 官方发货](https://ym.ksjhaoka.com/show?s=QBWYsYh0345026&id=82341859)
 
 :::
 
