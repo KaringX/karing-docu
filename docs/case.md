@@ -13,6 +13,8 @@ sidebar_position: 7
 - [wls2中使用karing代理端口](/blog/case/wsl2)
 - [鸿蒙OS安装karing](/blog/case/harmonyos)
 - [鸿蒙OS安装Khan Academy Kids](/blog/case/khan-academy-kids)
+- [YouTube去广告](/blog/case/youtube)
+
 
 ### 规则
 - [docker加速器](/blog/case/docker)

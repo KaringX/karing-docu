@@ -51,11 +51,9 @@ sidebar_position: 1
 - karing 全平台**免费**
 
 :::tip 推广
+
 - 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://dot.karing.app/pi.html?r_c=cn)
 - 怎么获取免费流量, 请看 [新用户福利](/newuser)
--
-- 电信雨露卡 **19元 230G** 首月免月租，长期流量 [👉🏻正规电信卡，放心使用](https://ym.ksjhaoka.com/show?s=QBWYsYh0345026&id=82341913)
-- 广电正龙卡 **19元** 135G+100分钟 + **流量可结转** [👉🏻中国广电 官方发货](https://ym.ksjhaoka.com/show?s=QBWYsYh0345026&id=82341859)
 
 :::
 
