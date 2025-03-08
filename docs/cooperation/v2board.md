@@ -10,7 +10,6 @@ title: 案例 V2Board
 - karing-connect: [https://github.com/KaringX/karing-connect](https://github.com/KaringX/karing-connect/tree/main/v2board)
   - 包含本案例涉及修改的文件
 
-## 方案A 通过咒语绑定karing {#spell}
 ### 视频案例
 - 咒语: `v2board`
 - 机场连接页: `http://v2board.local/karing-connect.html`
@@ -21,6 +20,16 @@ title: 案例 V2Board
     您的浏览器不支持 HTML5 视频。
   </video>
 
+
+## 方案A 快捷绑定karing {#shortcut}
+- karing 已经内置最新版本(>=2024.1)的 sspanel、v2board、xboard 的自动绑定代码, 只要在系统栏选择对应系统即可.
+  - 本方案无需修改面板系统, 也无需添加连接页面, `connect`参数填网站登录URL即可.
+  - ![panel system](./img/set-spell-3.png)
+- 如果选择了面板系统之后，测试之后，发现无法完成绑定，则可选“Other” 然后尝试**方案B**
+
+
+
+## 方案B 通过咒语绑定karing {#spell}
 
 ### 思路
 - **先叠个甲**: 本人对v2board不熟悉, 非前端, 仅按个人思路做的案例.
@@ -87,7 +96,7 @@ title: 案例 V2Board
 - Karing APP -> 设置 -> ISP/机场绑定 -> 填入咒语 -> 登录v2board -> 完成绑定
 
 
-## 方案B 通过订阅链接展示机场信息 {#link}
+## 方案C 通过订阅链接展示机场信息 {#link}
 - **提醒** 如果您已经完成与karing的连接, 比如配置了 `base.json` 文件, 则以下订阅链接的修改并不是必要的.
 
 - 通过添加isp信息 karing会为您:

@@ -14,7 +14,6 @@ title: 案例 Xboard
     - html元素对象名
     - Authorization获取路径
 
-## 方案A 通过咒语绑定karing {#spell}
 ### 视频案例
 - 咒语: `xboard`
 - 机场连接页: `http://xboard.local/karing-connect.html`
@@ -24,6 +23,18 @@ title: 案例 Xboard
     <source src="/videos/xboard-1.mp4" type="video/mp4" />
     您的浏览器不支持 HTML5 视频。
   </video>
+
+
+
+## 方案A 快捷绑定karing {#shortcut}
+- karing 已经内置最新版本(>=2024.1)的 sspanel、v2board、xboard 的自动绑定代码, 只要在系统栏选择对应系统即可.
+  - 本方案无需修改面板系统, 也无需添加连接页面, `connect`参数填网站登录URL即可.
+  - ![panel system](./img/set-spell-3.png)
+- 如果选择了面板系统之后，测试之后，发现无法完成绑定，则可选“Other” 然后尝试**方案B**
+
+
+
+## 方案B 通过咒语绑定karing {#spell}
 
 
 ### 思路

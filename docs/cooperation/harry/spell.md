@@ -35,9 +35,9 @@ title: 咒语是什么？
 
 ## 怎么设置咒语 ？
 - 参考 [连接到Karing](../connect.md)
-- 案例 [通过V2Board绑定Karing](/cooperation/v2board#spell)
-- 案例 [修改XBoard与Karing实现互通](/cooperation/xboard#spell)
-- 案例 [SSPanel连接Karing](/cooperation/sspanel#spell)
+- 案例 [通过V2Board绑定Karing](/cooperation/v2board#shortcut)
+- 案例 [修改XBoard与Karing实现互通](/cooperation/xboard#shortcut)
+- 案例 [SSPanel连接Karing](/cooperation/sspanel#shortcut)
 
 
 
