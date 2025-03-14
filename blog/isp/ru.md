@@ -1,6 +1,6 @@
 ---
 title: NETZ.RUN VPN
-authors: [netzrun]
+authors: [netzrun,sigmagate]
 tags: [free node, clash, trojan]
 ---
 
