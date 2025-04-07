@@ -13,20 +13,20 @@ elon:
 netzrun:
   name: NETZ.RUN
   title: VPN Provider
-  url: https://1.x31415926.top/redir?i=3ec&trace_id=923366e25c1d69c41
+  url: https://karing.app/blog/isp/ru/#netz
   image_url: https://storage.netz.sh/static/logos/logo.webp
 
 btchide:
   name: BTCHide✈️
   title: VPN Provider
-  url: https://1.x31415926.top/redir?i=425&trace_id=786789ef93860ee
+  url: https://karing.app/blog/isp/tm/#btchide
   image_url: https://bibihy-shop.org/theme/assets/img/logo.png
 
 
 sigmagate:
   name: SigmaGate
   title: VPN Provider
-  url: https://1.x31415926.top/redir?i=426&trace_id=23366e25c1d69c909
+  url: https://karing.app/blog/isp/ru/#sigmagate
   image_url: https://sigmagate.link/images/windows.png
 
 
