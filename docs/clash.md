@@ -7,9 +7,13 @@ title: Clash 兼容列表
 
 # Karing兼容Clash功能对照表
 
-- 本文档旨在列出 Karing 兼容 Clash(Meta/mihome) 功能的异同.
+- 本文档旨在列出 Karing 兼容 Clash(Meta/mihomo) 功能的异同.
 	- 用户可根据自身需求, 选择需要的客户端软件.
 	- 文档相对实际开发进程有滞后, 敬请见谅.
+- x
+- 如果你需要满血的clash客户端, 推荐基于Mihomo内核的 [**Clash Mi**](https://clashmi.app/download)
+  - https://clashmi.app/download
+- x
 - Clash文档地址: [虚空终端 Docs](https://wiki.metacubex.one/config/)
 - 以下文档中 ✔打勾的即已兼容
 
