@@ -52,7 +52,7 @@ sidebar_position: 1
 
 :::tip 推广
 
-- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](https://dot.karing.app/pi.html?r_c=cn)
+- 这里收集了一些比较靠谱的收费节点, 请移步 [节点分享](/blog/isp/cn#list)
 - 怎么获取免费流量, 请看 [新用户福利](/newuser)
 
 :::
