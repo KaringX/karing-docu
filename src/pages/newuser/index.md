@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 
 ### 1. 注册账号
-- 浏览器中打开链接 [https://www.dg6.top/#/register?code=lFH4ii9D](https://1.x31415926.top/redir?url=&i=3eb&t=1727161247&trace_id=1343966f25f3077d42)
+- 浏览器中打开链接 [https://inv.dginv.click/#/register?code=lFH4ii9D](https://1.x31415926.top/redir?i=3eb)
 - 输入电子邮箱,登录密码, 点击 *邮箱验证码*边的 `发送` 按钮, 获取邮箱验证码
   - 点击后到你的邮箱里查收验证码, 将验证码填入到 `邮箱验证码` 一栏，点击注册
   - PS: 如果收件箱中没有, 可能在垃圾箱中
