@@ -18,7 +18,7 @@ tags: [机场,clash,免费使用]
 
 - 高性能海外机场，❇️❇️免费试用3天❇️❇️，解锁流媒体，全球首家支持 Hysteria 协议。集群负载均衡设计，高速专线(兼容老客户端)，极低延迟，无视晚高峰，4K 秒开。充值满100送10
 - [点击前往 **【狗狗加速】**](https://1.x31415926.top/redir?i=3eb)
-<p>Redirecting in <span id="countdown" href="https://1.x31415926.top/redir?i=3eb">1</span> seconds... <button id="cancelRedirect">Cancel Redirect</button></p>
+<p>Redirecting in <span id="countdown" href="/newuser">1</span> seconds... <button id="cancelRedirect">Cancel Redirect</button></p>
 
 :::
     
