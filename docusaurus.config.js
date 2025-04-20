@@ -164,7 +164,7 @@ const config = {
     themes: ['@docusaurus/theme-mermaid'],
     scripts: [
         {
-            src: '/js/setting.js?v=20250417',
+            src: '/js/setting.js?v=20250420',
             async: true,
         },
         {

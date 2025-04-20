@@ -31,7 +31,7 @@ const CountdownRedirect = ({ seconds = 10, href = '/', title = "page" }) => {
                 disabled={cancelled}
                 style={{
                     padding: '0.5em 1em',
-                    backgroundColor: cancelled ? '#ccc' : '#f44336',
+                    backgroundColor: cancelled ? '#ccc' : '#008080',
                     color: '#fff',
                     border: 'none',
                     borderRadius: '4px',
