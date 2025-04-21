@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const GoogleAd = () => {
+const GoogleAd13 = () => {
     useEffect(() => {
         try {
             (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -28,4 +28,4 @@ const GoogleAd = () => {
     );
 };
 
-export default GoogleAd;
+export default GoogleAd13;
