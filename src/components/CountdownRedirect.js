@@ -20,8 +20,8 @@ const CountdownRedirect = ({ seconds = 10, href = '/', title = "page" }) => {
     };
 
     return (
-        <div style={{ padding: '1em', border: '1px solid #ccc', borderRadius: '8px' }}>
-            <p>
+        <div style={{ padding: '0.8em', border: '1px solid #ccc', borderRadius: '8px' }}>
+            <p style={{ "margin-bottom": '0.2em' }}>
                 页面将在 <strong id="countdown">{remaining}</strong> 秒后跳转到：
                 <a href={href}>{title}</a>
             </p>
@@ -40,7 +40,7 @@ const CountdownRedirect = ({ seconds = 10, href = '/', title = "page" }) => {
             >
                 {cancelled ? '已取消' : '取消跳转'}
             </button>
-        </div>
+        </div >
     );
 };
 
