@@ -1,11 +1,11 @@
 ---
-title: 修改默认url-test连通性测试网址
+title: 修改默认url-test延迟检测URL
 authors: [elon]
-tags: [clash,url-test,karing,clashmi]
+tags: [clash,url-test,karing,clashmi,连通性测试,延迟检测,ping]
 ---
 
 ## why
-- 有时候 karing/clash 连通性测试(延迟检测、ping)会很慢, 甚至超时, 即使重设DNS也没有效果.
+- 有时候 karing/clash 延迟检测(连通性测试、ping)会很慢, 甚至超时, 即使重设DNS也没有效果.
 - 这是因为有些机场节点, 本地DNS设置的关系, 获取了错误的`www.gstatic.com` IP
   - 而一般软件默认的`url-test`地址, 就是 *http://www.gstatic.com/generate_204*
 - 这个时候直接替换成新地址是最便捷的方法
