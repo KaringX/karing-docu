@@ -1,30 +1,39 @@
 ---
-title: 修改默认测试网址
+title: 修改默认url-test连通性测试网址
 authors: [elon]
 tags: [clash,url-test,karing,clashmi]
 ---
 
-
 ## why
-- 有时候karing/clash  的默认测联通性和ping的 http://www.gstatic.com/generate_204 但有的时候，但这个网址有问题的时候会出现你所有的测速都是超时，造成不必要的误会，那么这个时候，你可以考虑替换一下clash默认的测联通性的网址。
-以下以clash的win版为例，其他版本一样，替换列表在最下面
+- 有时候 karing/clash 连通性测试(延迟检测、ping)会很慢, 甚至超时, 即使重设DNS也没有效果.
+- 这是因为有些机场节点, 本地DNS设置的关系, 获取了错误的`www.gstatic.com` IP
+  - 而一般软件默认的`url-test`地址, 就是 *http://www.gstatic.com/generate_204*
+- 这个时候直接替换成新地址是最便捷的方法
 
+## 如何替换?
 
+### Karing
+- 设置 -> 延迟检测 -> URL
+- ![karing 延迟测试URL](./img/url-test-1.png)
+
+### ClashMi
+- 应用设置 -> 延迟测试URL
+- ![ClashMi 延迟测试URL](./img/url-test-2.png)
 
 ## url-test网址列表
-|:-:|:-:|:-:|:-:|
-|Google|[http://www.gstatic.com/generate_204](http://www.gstatic.com/generate_204)|5|10|
-|Google|[http://www.google-analytics.com/generate_204](http://www.google-analytics.com/generate_204)|6|4|
-|Google|[http://www.google.com/generate_204](http://www.google.com/generate_204)|0|10|
-|Google|[http://connectivitycheck.gstatic.com/generate_204](http://connectivitycheck.gstatic.com/generate_204)|4|10|
-|Apple|[http://captive.apple.com](http://captive.apple.com/)|3|10|
-|Apple|[http://www.apple.com/library/test/success.html](http://www.apple.com/library/test/success.html)|7|10|
-|MicroSoft|[http://www.msftconnecttest.com/connecttest.txt](http://www.msftconnecttest.com/connecttest.txt)|5|10|
-|Cloudflare|[http://cp.cloudflare.com/](http://cp.cloudflare.com/)|4|10|
-|Firefox|[http://detectportal.firefox.com/success.txt](http://detectportal.firefox.com/success.txt)|5|10|
-|V2ex|[http://www.v2ex.com/generate_204](http://www.v2ex.com/generate_204)|0|10|
-|小米|[http://connect.rom.miui.com/generate_204](http://connect.rom.miui.com/generate_204)|10|4|
-|华为|[http://connectivitycheck.platform.hicloud.com/generate_204](http://connectivitycheck.platform.hicloud.com/generate_204)|10|5|
-|Vivo|[http://wifi.vivo.com.cn/generate_204](http://wifi.vivo.com.cn/generate_204)|10|5|
+- **注意**: 最好替换为与原地址不同的提供者
+- 列表:
+
+| 提供者     | 链接                                                                                                   | 返回(HTTP CODE）           |
+| ---------- | ------------------------------------------------------------------------------------------------------ | -------------------------- |
+| Google     | [http://www.gstatic.com/generate_204](http://www.gstatic.com/generate_204)                             | 204                        |
+| Google     | [http://www.google-analytics.com/generate_204](http://www.google-analytics.com/generate_204)           | 204                        |
+| Google     | [http://www.google.com/generate_204](http://www.google.com/generate_204)                               | 204                        |
+| Google     | [http://connectivitycheck.gstatic.com/generate_204](http://connectivitycheck.gstatic.com/generate_204) | 204                        |
+| Apple      | http://captive.apple.com                                                                               | 200 Success                |
+| Apple      | https://www.apple.com/library/test/success.html                                                        | 200 Success                |
+| MicroSoft  | http://www.msftconnecttest.com/connecttest.txt                                                         | 200 Microsoft Connect Test |
+| Cloudflare | http://cp.cloudflare.com/generate_204                                                                  | 204                        |
+| Firefox    | [http://detectportal.firefox.com/success.txt](http://detectportal.firefox.com/success.txt)             | 200 success                |
 
 
