@@ -101,6 +101,9 @@ import DocCard from '@theme/DocCard';
 ### Android 开启连接频繁闪退
 - 将 设置-TUN-网络栈 改成其他值(比如gvisor)再重试连接
 
+### Android 报错:panic: invalid page type
+- 断开连接-设置-清理缓存 后再重试连接
+
 ### Android 开启连接报错
 - **错误信息:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
   - 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接

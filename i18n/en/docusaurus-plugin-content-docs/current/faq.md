@@ -99,6 +99,9 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### Android system, crashes frequently when opening the connection
 - Change Settings-TUN-Network Stack to another value (such as gvisor) and try connecting again
 
+### Android error: panic: invalid page type
+- Disconnect connection - Settings - ClearUp Cache and try again
+
 ### Android system, error when opening the connection
 - **error:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
   - Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
