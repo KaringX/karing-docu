@@ -114,6 +114,10 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
 
+### After TUN mode is turned off on ios/macos, the device cannot connect to the Internet
+- Due to system limitations, the software architecture of ios/macos is different from that of android/windows. Under ios/macos, even if TUN mode is not turned on, the VPN network extension process will be started. However, since the VPN network extension process does not turn on TUN mode, it will not read/forward data from the system, so it cannot connect to the Internet
+- Solution: 1. Turn on TUN mode 2. Manually set the proxy in other apps to the karing proxy address (proxy address can be found in - settings - port). This setting only allows apps with proxy settings to connect to the network via karing 3. For macos, you can turn on the system proxy so that apps that support the system proxy can access the network
+
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 
