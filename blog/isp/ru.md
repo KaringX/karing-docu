@@ -22,7 +22,7 @@ tags: [free node, clash, trojan, ]
 
 ### Официальный сайт
 
-[https://netz.run/](https://netz.run/?utm_source=karing)
+[https://netz.st/](https://netz.st/?utm_source=karing)
 
 ### Преимущества
 
