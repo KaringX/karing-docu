@@ -40,7 +40,7 @@ slug: /download
 - [Beta Version-Installer-Download](https://dot.karing.app/client.html?tag=windows-installer-beta)
 - [Beta Version-Zip-Download](https://dot.karing.app/client.html?tag=windows-zip-beta)
 - [Alternative downloads: Stable Version/Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
-- <font color="red">注意: 安装时,如遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装</font>
+- <font color="red">Note: If you encounter defender blocking during installation, please click 'Show details' - 'Run anyway' to install</font>
 -
 - [稳定版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-stable)
 - [稳定版-压缩包-点击下载](https://dot.karing.app/client.html?tag=windows-zip-stable)
