@@ -5,6 +5,12 @@ slug: /download
 
 # Download Karing/下载Karing
 
+### System requirements/系统要求
+- IOS >= 15
+- MacOS >= 12
+- Android >= 8
+- Windows >= 10
+
 ### iOS(iPhone/iPad)/MacOS/TvOS(Apple TV)
 - [Stable Version-AppStore-Download](https://apps.apple.com/us/app/karing/id6472431552)
 - [Beta Version-TestFlight-Download](https://testflight.apple.com/join/RLU59OsJ)
