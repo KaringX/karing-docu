@@ -3,35 +3,58 @@ sidebar_position: 8
 slug: /download
 ---
 
-# 下载Karing
+# Download Karing/下载Karing
 
 ### iOS(iPhone/iPad)/MacOS/TvOS(Apple TV)
-- 应用市场[稳定版] [AppStore](https://apps.apple.com/us/app/karing/id6472431552)
-- TestFlight[Beta测试版]  新功能尝鲜 [TestFlight](https://testflight.apple.com/join/RLU59OsJ)
-- 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
-- 注意: 应用市场版 和 TestFlight版 无法同时安装:安装应用市场版本会覆盖TestFlight版,同理安装TestFlight版会覆盖应用市场版,请您视具体情况选择要安装的版本
+- [Stable Version-AppStore-Download](https://apps.apple.com/us/app/karing/id6472431552)
+- [Beta Version-TestFlight-Download](https://testflight.apple.com/join/RLU59OsJ)
+- <font color="red">Note: AppStore version and TestFlight version cannot be installed at the same time. Please choose the version to install according to the specific situation.</font>
+-
+- [稳定版-应用市场-点击下载](https://apps.apple.com/us/app/karing/id6472431552)
+- [测试版-TestFlight-点击下载](https://testflight.apple.com/join/RLU59OsJ)
+- <font color="red">注意: 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)</font>
+- <font color="red">注意: 应用市场版 和 TestFlight版 无法同时安装,请您视具体情况选择要安装的版本</font>
 
 ### Android/Harmony
-- [GitHub Release page](https://github.com/KaringX/karing/releases/latest)
-  - Android 建议下载安装包: 文件名规则 karing_xxx_android_arm.apk (xxx为版本号)
-- [APKPure 应用市场](https://apkpure.com/p/com.nebula.karing)
-- [android 备用下载链接](https://dot.karing.app/client.html?p=android)
-- <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
-- 鸿蒙系统可参考: [HarmonyOS安装karing](/blog/case/harmonyos)
+- [Stable Version-Download](https://dot.karing.app/client.html?tag=android-stable)
+- [Beta Version-Download](https://dot.karing.app/client.html?tag=android-beta)
+- [Android TV Stable Version(armeabi-v7a)-Download](https://dot.karing.app/client.html?tag=android-armv7a-stable)
+- [Android TV Beta Version(armeabi-v7a)-Download](https://dot.karing.app/client.html?tag=android-armv7a-beta)
+- [Alternative downloads: Stable Version/Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
+- [Alternative downloads: Stable Version-APKPure AppStore-Download](https://apkpure.com/p/com.nebula.karing)
+- <font color="red">Note: Xiaomi/MIUI users: If you are unable to install, please turn on Airplane Mode (offline) and Turn off Security Guardian - Enhanced Protection before installing.</font>
+- <font color="red">Note: For Hongmeng system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)</font>
+-
+- [稳定版-点击下载](https://dot.karing.app/client.html?tag=android-stable)
+- [测试版-点击下载](https://dot.karing.app/client.html?tag=android-beta)
+- [Android TV 稳定版(armeabi-v7a)-点击下载](https://dot.karing.app/client.html?tag=android-armv7a-stable)
+- [Android TV 测试版(armeabi-v7a)-点击下载](https://dot.karing.app/client.html?tag=android-armv7a-beta)
+- [备用下载: 稳定版/测试版-GitHub-点击下载](https://github.com/KaringX/karing/releases/latest)
+- [备用下载: 稳定版-APKPure 应用市场-点击下载](https://apkpure.com/p/com.nebula.karing)
+- <font color="red">注意: 小米/MIUI用户: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装</font>
+- <font color="red">注意: 鸿蒙系统可参考: [HarmonyOS安装karing](/blog/case/harmonyos)</font>
 
 ### Windows
-- [GitHub Releases](https://github.com/KaringX/karing/releases/latest)
-  - Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe (xxx为版本号)
-    - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
-- [win_x64 备用下载链接](https://dot.karing.app/client.html?p=windows)
+- [Stable Version-Installer-Download](https://dot.karing.app/client.html?tag=windows-installer-stable)
+- [Stable Version-Zip-Download](https://dot.karing.app/client.html?tag=windows-zip-stable)
+- [Beta Version-Installer-Download](https://dot.karing.app/client.html?tag=windows-installer-beta)
+- [Beta Version-Zip-Download](https://dot.karing.app/client.html?tag=windows-zip-beta)
+- [Alternative downloads: Stable Version/Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
+- <font color="red">注意: 安装时,如遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装</font>
+-
+- [稳定版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-stable)
+- [稳定版-压缩包-点击下载](https://dot.karing.app/client.html?tag=windows-zip-stable)
+- [测试版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-beta)
+- [测试版-压缩包-点击下载](https://dot.karing.app/client.html?tag=windows-zip-beta)
+- [备用下载: 稳定版/测试版-GitHub-点击下载](https://github.com/KaringX/karing/releases/latest)
+- <font color="red">注意: 安装时,如遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装</font>
 
-## 新版本发布通知
+
+# New version release notification/新版本发布通知
+- New releases will be notified in the [Telegram group](https://t.me/KaringApp)
 - 新发布版本, 同时会在 [电报群](https://t.me/KaringApp) 通知
 
 
-## 多语言支持征集
-- 如果您愿意提供多语言支持, 包括但不限于 英语、俄语、波斯语、阿拉伯语、越南语、缅甸语、西班牙语、土耳其语、希腊语等，请联系 [GooRingX](https://t.me/ovowe)
-- If you are willing to provide multilingual support, including but not limited to English, Russian, Persian, Arabic, Vietnamese, Burmese, Spanish, Turkish, Greek, etc., please contact [GooRingX](https://t.me/ovowe) .
-- Your generous assistance will make `karing` even powerful!
+
 
 
