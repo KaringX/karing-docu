@@ -8,6 +8,7 @@ slug: /download
 ## System requirements
 - IOS >= 15
 - MacOS >= 12
+- TvOS >= 17
 - Android >= 8
 - Windows >= 10
 
