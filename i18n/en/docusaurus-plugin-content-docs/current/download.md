@@ -5,7 +5,7 @@ slug: /download
 
 # Download Karing
 
-### System requirements
+## System requirements
 - IOS >= 15
 - MacOS >= 12
 - Android >= 8
