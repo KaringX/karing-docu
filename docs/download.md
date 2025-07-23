@@ -23,7 +23,7 @@ slug: /download
 - [Alternative downloads: Stable Version/Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
 - [Alternative downloads: Stable Version-APKPure AppStore-Download](https://apkpure.com/p/com.nebula.karing)
 - <font color="red">Note: Xiaomi/MIUI users: If you are unable to install, please turn on Airplane Mode (offline) and Turn off Security Guardian - Enhanced Protection before installing.</font>
-- <font color="red">Note: For Hongmeng system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)</font>
+- <font color="red">Note: For HarmonyOS system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)</font>
 -
 - [稳定版-点击下载](https://dot.karing.app/client.html?tag=android-stable)
 - [测试版-点击下载](https://dot.karing.app/client.html?tag=android-beta)
