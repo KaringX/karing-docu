@@ -20,7 +20,8 @@ slug: /download
 - [Beta Version-Download](https://dot.karing.app/client.html?tag=android-beta)
 - [Android TV Stable Version(armeabi-v7a)-Download](https://dot.karing.app/client.html?tag=android-armv7a-stable)
 - [Android TV Beta Version(armeabi-v7a)-Download](https://dot.karing.app/client.html?tag=android-armv7a-beta)
-- [Alternative downloads: Stable Version/Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
+- [Alternative downloads: Stable Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
+- [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
 - [Alternative downloads: Stable Version-APKPure AppStore-Download](https://apkpure.com/p/com.nebula.karing)
 - <font color="red">Note: Xiaomi/MIUI users: If you are unable to install, please turn on Airplane Mode (offline) and Turn off Security Guardian - Enhanced Protection before installing.</font>
 - <font color="red">Note: For HarmonyOS system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)</font>
@@ -29,7 +30,8 @@ slug: /download
 - [测试版-点击下载](https://dot.karing.app/client.html?tag=android-beta)
 - [Android TV 稳定版(armeabi-v7a)-点击下载](https://dot.karing.app/client.html?tag=android-armv7a-stable)
 - [Android TV 测试版(armeabi-v7a)-点击下载](https://dot.karing.app/client.html?tag=android-armv7a-beta)
-- [备用下载: 稳定版/测试版-GitHub-点击下载](https://github.com/KaringX/karing/releases/latest)
+- [备用下载: 稳定版-GitHub-点击下载](https://github.com/KaringX/karing/releases/latest)
+- [备用下载: 测试版-GitHub-点击下载](https://github.com/KaringX/karing/releases)
 - [备用下载: 稳定版-APKPure 应用市场-点击下载](https://apkpure.com/p/com.nebula.karing)
 - <font color="red">注意: 小米/MIUI用户: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装</font>
 - <font color="red">注意: 鸿蒙系统可参考: [HarmonyOS安装karing](/blog/case/harmonyos)</font>
@@ -39,14 +41,16 @@ slug: /download
 - [Stable Version-Zip-Download](https://dot.karing.app/client.html?tag=windows-zip-stable)
 - [Beta Version-Installer-Download](https://dot.karing.app/client.html?tag=windows-installer-beta)
 - [Beta Version-Zip-Download](https://dot.karing.app/client.html?tag=windows-zip-beta)
-- [Alternative downloads: Stable Version/Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
+- [Alternative downloads: Stable Version-GitHub-Download](https://github.com/KaringX/karing/releases/latest)
+- [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
 - <font color="red">Note: If you encounter defender blocking during installation, please click 'Show details' - 'Run anyway' to install</font>
 -
 - [稳定版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-stable)
 - [稳定版-压缩包-点击下载](https://dot.karing.app/client.html?tag=windows-zip-stable)
 - [测试版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-beta)
 - [测试版-压缩包-点击下载](https://dot.karing.app/client.html?tag=windows-zip-beta)
-- [备用下载: 稳定版/测试版-GitHub-点击下载](https://github.com/KaringX/karing/releases/latest)
+- [备用下载: 稳定版-GitHub-点击下载](https://github.com/KaringX/karing/releases/latest)
+- [备用下载: 测试版-GitHub-点击下载](https://github.com/KaringX/karing/releases)
 - <font color="red">注意: 安装时,如遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装</font>
 
 
