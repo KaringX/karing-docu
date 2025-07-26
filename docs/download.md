@@ -22,6 +22,11 @@ slug: /download
 - <font color="red">注意: 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)</font>
 - <font color="red">注意: 应用市场版 和 TestFlight版 无法同时安装,请您视具体情况选择要安装的版本</font>
 
+### MacOS
+- [Beta Version-Download](https://dot.karing.app/client.html?tag=macos-beta)
+-
+- [测试版-点击下载](https://dot.karing.app/client.html?tag=macos-beta)
+
 ### Android/Harmony
 - [Stable Version-Download](https://dot.karing.app/client.html?tag=android-stable)
 - [Beta Version-Download](https://dot.karing.app/client.html?tag=android-beta)
