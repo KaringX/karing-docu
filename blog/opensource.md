@@ -49,10 +49,10 @@ tags: [fullter,sing-box,github,karing]
 - [x] flutter_ui_mode_manager 修改版
   - https://github.com/KaringX/flutter_ui_mode_manager
 
-## TODO
-- [ ] 机场后端(仅作范例) sing-poet
+## 机场后端服务器
+- [x] 机场后端(仅作范例) sing-poet
   - 支持panel对接
-  - 支持协议 tuic、hy2
-  - PS 无人维护状态
+  - 支持协议 tuic、hy2、anytls、vless-reality
+  - https://github.com/KaringX/sing-poet
 
 

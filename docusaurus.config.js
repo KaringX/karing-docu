@@ -145,8 +145,8 @@ const config = {
                                 to: '/blog',
                             },
                             {
-                                label: 'GitHub',
-                                href: 'https://github.com/KaringX/karing-docu',
+                                label: 'Clash Mi官网',
+                                href: 'https://clashmi.app',
                             },
                         ],
                     },

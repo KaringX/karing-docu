@@ -4,12 +4,13 @@ description: 移动端网络代理工具, 支持clash订阅, iOS/Android平台
 hide_table_of_contents: true
 ---
 
-# Clash Mi官网网站  clashmi.app official
+# Clash Mi官方网站  clashmi.app official
 - 内置clash mihomo 满血内核
 - 开源 + 完全免费
 - 简单易用的移动端网络代理工具
   - 支持操作系统: iOS、Android
   - 支持订阅链接: Clash
+- [Clash Mi](https://clashmi.app) 唯一官方网站: https://clashmi.app
 
 ## 下载地址
 - [Download](https://clashmi.app/download)
