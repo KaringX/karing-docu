@@ -92,6 +92,10 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - 5. If there is no related domain name request in step 4, it is basically a problem with DNS resolution. Go to [Home Screen]-[DNS]-[Server]-select a server setting-detect server delay-set the relevant DNS server according to the delay
 - 6. If there is a related domain name request in step 4, check whether the diversion is correct. If it is a diversion error, modify the relevant diversion rules
 
+### Macos: Click to connect, and it will automatically disconnect after the connection is successful.
+- 1. Check 'Console' - 'Crash Reports' for files related to 'karingServiceSE'. If so, it indicates a VPN process crash. Send the crash file to the developer for analysis.
+- 2. Go to Settings - Privacy & Security - Full Disk Access - Enable permissions for 'karingServiceSE'.
+
 ### Android Xiaomi phone cannot be installed, prompting high-risk application
 - This problem has nothing to do with the Karing version. Currently, all versions of Karing will have this problem on Xiaomi phones because Karing has been blacklisted by Xiaomi backend
 - Solution: Exit the installer, disconnect all networks (switch to airplane mode), and retry the installation
