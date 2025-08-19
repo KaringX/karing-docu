@@ -19,6 +19,13 @@ sidebar_position: 1
 ### Interface preview
 ![Software interface](./img/qs-1.png#center)
 
+## System requirements
+- IOS >= 15
+- MacOS >= 12
+- TvOS >= 17
+- Android >= 8
+- Windows >= 10
+
 ## 1. Download
 ### iOS(iphone/ipad)/tvOS(appleTV)
 - AppStore(search keyword karing vpn)

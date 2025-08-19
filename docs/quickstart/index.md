@@ -16,6 +16,13 @@ sidebar_position: 1
 - 支持备份和同步, 一次配置多设备同步.
 - 增加新手模式 配置更简单.
 
+## 系统要求
+- IOS >= 15
+- MacOS >= 12
+- TvOS >= 17
+- Android >= 8
+- Windows >= 10
+
 ### 界面预览
 ![软件界面](./img/qs-1.png#center)
 
