@@ -20,7 +20,7 @@ sidebar_position: 1
 ![Software interface](./img/qs-1.png#center)
 
 ## 1. Download
-### iOS(iphone/ipad)/Mac users
+### iOS(iphone/ipad)/tvOS(appleTV)
 - AppStore(search keyword karing vpn)
 - https://apps.apple.com/us/app/karing/id6472431552
 - TestFlight
@@ -28,24 +28,8 @@ sidebar_position: 1
 - Note: A non-mainland China AppStore account is required
 - Don't know how to register? Please refer to [Apple ID Store](https://dot.karing.app/pi.html?r_c=xda)
 
-### Windows/Android/Harmony users
-- Download the latest installation package
-- https://github.com/KaringX/karing/releases/latest
-- Windows It is recommended to download the installation package: File name rule karing_xxx_windows_x64.exe (xxx is the version number)
-- Run the installation after downloading (if defender intercepts, please click 'Show details' - 'Run anyway' to install)
-- If github.com cannot be accessed, you can also use [win_x64 backup download link](https://dot.karing.app/client.html?p=windows)
-- Android/Harmony download: karing_xxx_android_arm.apk
-- If you cannot access it, you can also use [android backup download link](https://dot.karing.app/client.html?p=android)
-- [APKPure App Market](https://apkpure.com/p/com.nebula.karing)
-- <font color="red">Xiaomi/MIUI users</font>: If you are unable to install, first turn on `Airplane mode (disconnected)` and `Turn off security guard-enhanced protection` before installing.
-- For Hongmeng system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)
-
-### System requirements
-- Windows >= 10
-- Android >= 8
-- IOS >= 15
-- MacOS >= 12
-- TvOS >= 17
+### Other platform
+- [Download](../download)
 
 ### Purchase price
 - karing **free** on all platforms

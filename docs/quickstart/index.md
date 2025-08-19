@@ -19,8 +19,8 @@ sidebar_position: 1
 ### 界面预览
 ![软件界面](./img/qs-1.png#center)
 
-## 一、 下载
-### iOS(iphone/ipad)/Mac用户
+## 一、 [下载](../download)
+### iOS(iphone/ipad)/tvOS(appleTV)
 - AppStore(搜索关键词 karing vpn)
     - https://apps.apple.com/us/app/karing/id6472431552
 - TestFlight
@@ -28,24 +28,8 @@ sidebar_position: 1
 - 注意: 需要非中国大陆AppStore账号
     - 不会注册?请参考 [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
 
-### Windows/Android/Harmony用户
-- 下载最新版安装包
-    - https://github.com/KaringX/karing/releases/latest
-- Windows 建议下载安装包:文件名规则 karing_xxx_windows_x64.exe (xxx为版本号)
-  - 下载后运行安装(如果遇到defender拦截,请点击'显示详细信息' - '仍要运行' 即可安装)
-  - 如果github.com无法访问,也可使用 [win_x64 备用下载链接](https://dot.karing.app/client.html?p=windows)
-- Android/Harmony 下载: karing_xxx_android_arm.apk
-  - 如无法访问,也可使用 [android 备用下载链接](https://dot.karing.app/client.html?p=android)
-  - 其他应用市场: [APKPure](https://apkpure.com/p/com.nebula.karing)
-  - <font color="red">小米/MIUI用户</font>: 如遇无法安装的情况, 先打开`飞行模式(断网)` 和 `关闭安全守护-增强防护` 再安装.
-  - 鸿蒙系统可参考: [HarmonyOS安装karing](/blog/case/harmonyos)
-
-### 系统要求
--  Windows >= 10
--  Android >= 8
--  IOS >= 15
--  MacOS >= 12
--  TvOS >= 17
+### 其他平台
+- [下载](../download)
 
 ### 购买价格
 - karing 全平台**免费**

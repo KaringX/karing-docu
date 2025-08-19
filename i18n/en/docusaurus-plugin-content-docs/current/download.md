@@ -12,7 +12,7 @@ slug: /download
 - Android >= 8
 - Windows >= 10
 
-### iOS(iPhone/iPad)/TvOS(Apple TV)
+### iOS(iPhone/iPad)/tvOS(Apple TV)
 - [Stable Version-AppStore-Download](https://apps.apple.com/us/app/karing/id6472431552)
 - [Beta Version-TestFlight-Download](https://testflight.apple.com/join/RLU59OsJ)
 - <font color="red">Note: AppStore version and TestFlight version cannot be installed at the same time. Please choose the version to install according to the specific situation.</font>
