@@ -12,7 +12,7 @@ slug: /download
 - Android >= 8
 - Windows >= 10
 
-### iOS(iPhone/iPad)/MacOS/TvOS(Apple TV)
+### iOS(iPhone/iPad)/TvOS(Apple TV)
 - [Stable Version-AppStore-Download](https://apps.apple.com/us/app/karing/id6472431552)
 - [Beta Version-TestFlight-Download](https://testflight.apple.com/join/RLU59OsJ)
 - <font color="red">Note: AppStore version and TestFlight version cannot be installed at the same time. Please choose the version to install according to the specific situation.</font>
@@ -23,8 +23,10 @@ slug: /download
 - <font color="red">注意: 应用市场版 和 TestFlight版 无法同时安装,请您视具体情况选择要安装的版本</font>
 
 ### MacOS
+- [Stable Version-Download](https://dot.karing.app/client.html?tag=macos-stable)
 - [Beta Version-Download](https://dot.karing.app/client.html?tag=macos-beta)
 -
+- [稳定版-点击下载](https://dot.karing.app/client.html?tag=macos-stable)
 - [测试版-点击下载](https://dot.karing.app/client.html?tag=macos-beta)
 
 ### Android/Harmony
