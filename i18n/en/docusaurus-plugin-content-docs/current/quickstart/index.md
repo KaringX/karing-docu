@@ -8,7 +8,7 @@ sidebar_position: 1
 ### Main Features
 - Easy to use, quick to get started, one-click to take off
 - Support Clash/Clash.Meta, V2ray (support batch), Stash, Sing-box, Shadowsocks, Sub, Github configuration link and configuration import.
-- Support mainstream protocols, including Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, etc.
+- Support mainstream protocols, including Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru etc.
 - A set of routing rules is applied to multiple subscription sources, automatically selecting efficient nodes.
 - Support custom routing rule groups and node groups.
 - Customize the default routing rule group for novice users - Out of the box.

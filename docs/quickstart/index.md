@@ -8,7 +8,7 @@ sidebar_position: 1
 ### 主要特性
 - 使用简单, 快速上手, 一键起飞
 - 支持Clash/Clash.Meta、V2ray(支持批量)、Stash、Sing-box、Shadowsocks、Sub、Github配置链接及配置导入.
-- 支持主流协议, 包括 Shadowsocks,ShadowsocksR,VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard 等.
+- 支持主流协议, 包括 Shadowsocks,ShadowsocksR,VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru 等.
 - 一套路由规则应用于多个订阅源, 自动选择高效节点.
   - 支持自定义路由规则组、节点组.
   - 为小白用户定制默认路由规则组 - 开箱即用.

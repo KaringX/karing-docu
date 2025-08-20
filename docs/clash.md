@@ -41,6 +41,8 @@ title: Clash 兼容列表
 - [x] TUIC
 - [x] WireGuard
 - [x] SSH
+- [x] AnyTLS
+- [x] Mieru
 
 
 

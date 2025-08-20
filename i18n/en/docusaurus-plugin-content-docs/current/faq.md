@@ -22,7 +22,7 @@ title: FAQ
 - Clash, V2ray (supports batch), Stash, Karing, Sing-box, Shadowsocks, Sub, Github
 
 ### Which protocols are supported
-- Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard and other protocols
+- Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard , AnyTLS, Mieru and other protocols
 
 ### Which version should Apple users download?
 - If you only want stable use, it is recommended to download the AppStore version

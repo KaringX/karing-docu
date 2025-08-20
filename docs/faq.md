@@ -22,7 +22,7 @@ title: FAQ
 - Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github
 
 ### 支持哪些协议
-- Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard等协议
+- Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru等协议
 
 
 ### 苹果用户下载哪个版本
