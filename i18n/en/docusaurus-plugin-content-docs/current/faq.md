@@ -115,13 +115,21 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - **错误信息:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
   - Solution: Do not enable clones for VPN applications
 
+### Android disconnects after connecting for a while or switching to the background
+- Change Karing's power saving policy to "Unlimited"
+- If your CPU is a MediaTek, you may also need to disable the Karing optimization switch in "Dura Speed"
+- Enable Karing's "Always-on VPN" switch in the system VPN settings
+
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
 
-### After TUN mode is turned off on ios/macos, the device cannot connect to the Internet
-- Due to system limitations, the software architecture of ios/macos is different from that of android/windows. Under ios/macos, even if TUN mode is not turned on, the VPN network extension process will be started. However, since the VPN network extension process does not turn on TUN mode, it will not read/forward data from the system, so it cannot connect to the Internet
-- Solution: 1. Turn on TUN mode 2. Manually set the proxy in other apps to the karing proxy address (proxy address can be found in - settings - port). This setting only allows apps with proxy settings to connect to the network via karing 3. For macos, you can turn on the system proxy so that apps that support the system proxy can access the network
+### Device Unable to Connect to the Internet After TUN Mode is Disabled on iOS/macOS
+- Due to system limitations and software architecture differences between iOS/macOS and Android/Windows, even if TUN mode is disabled, the VPN network extension process will still be started on iOS/macOS. However, since the VPN network extension process does not enable TUN mode, it will not read or forward data from the system, thus preventing network connection.
+- Solutions: 1. Enable TUN mode. 2. Manually set the proxy in other apps to the Karing proxy address (for the proxy address, see Settings > Port). This setting only allows apps with the proxy enabled to connect to the network via Karing. 3. For macOS, enable the system proxy so that apps that support it can access the network.
 
+### Unable to Connect on macOS (Automatically Disconnects After Connecting)
+- Open the system's 'Console', switch to 'Crash Reports', search for 'karingServiceSE', click the first result, and look for 'Thread xx Creashed:' (xx is a number). If libswift_concurrency.dylib is present in the stack, You need to manually delete libswift_Concurrency.dylib (the path can be found in the search result Binary Images:); if not, submit an issue to GitHub (you need to submit Thread xx Creashed and the subsequent stack information together)
+- Go to Settings - Privacy & Security - Full Disk Access - Enable permissions for 'karingServiceSE'.
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 

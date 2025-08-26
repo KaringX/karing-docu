@@ -94,11 +94,6 @@ import DocCard from '@theme/DocCard';
 - 5. 如果第4步没有相关域名请求,基本就是DNS解析出问题,到[主屏]-[DNS]-[服务器]-任选一个服务器设置-检测服务器延迟-根据延迟设置相关DNS服务器
 - 6. 如果第4步有相关域名请求,再检查分流是否正确,如果是分流错误,修改相关分流规则
 
-### Macos: 点击连接,连接成功后,马上自动断开
-- 1. 检查 '控制台'-'崩溃报告' 中是否有'karingServiceSE'相关文件,如果有,则说明VPN进程崩溃,将相关崩溃文件发送给开发人员分析
-- 2. 设置-隐私与安全性-完全磁盘访问权限-开启 'karingServiceSE'的权限
-
-
 ### Android 小米手机无法安装,提示高风险应用
 - 此问题和Karing版本无关,目前所有版本的Karing在小米手机上均会出现此问题,原因是Karing被小米后台加入了黑名单
 - 解决方案:退出安装程序,断开所有网络后(切换到飞行模式),重试安装
@@ -118,12 +113,22 @@ import DocCard from '@theme/DocCard';
 - **错误信息:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
   - 解决方案:请勿对VPN应用开启分身
 
+### Android 连接一段时间或切换后台后断开连接
+  - 将Karing的省电策略改为:无限制
+  - 如果你的CPU为联发科,可能还需要关闭'Dura Speed'里针对Karing的优化开关
+  - 系统VPN设置里将Karing的'始终开启的VPN'开关打开
+
 ### Android TV 遥控器无法切换焦点(主屏)
-- 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
+  - 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
 
 ### ios/macos TUN模式关闭后,设备无法联网
-- ios/macos 由于系统限制,软件架构上与android/windows等不同,在ios/macos下,即使未开启TUN模式,也一样会启动vpn 网络扩展进程,但是由于vpn 网络扩展进程未开启TUN模式,不会从系统读取/转发数据,因此无法联网
-- 解决方案:1. 开启TUN模式 2.在其他app里手动设置设置代理为karing代理地址(代理地址可参考-设置-端口),此种设置只允许设置了代理的app经由karing连接到网络 3. 对于macos,可打开系统代理,以便支持系统代理的应用访问网络
+  - ios/macos 由于系统限制,软件架构上与android/windows等不同,在ios/macos下,即使未开启TUN模式,也一样会启动vpn 网络扩展进程,但是由于vpn 网络扩展进程未开启TUN模式,不会从系统读取/转发数据,因此无法联网
+  - 解决方案:1. 开启TUN模式 2.在其他app里手动设置设置代理为karing代理地址(代理地址可参考-设置-端口),此种设置只允许设置了代理的app经由karing连接到网络 3. 对于macos,可打开系统代理,以便支持系统代理的应用访问网络
+
+### macos 无法连接(连接后马上会自动断开)
+  - 打开系统的'控制台',切换到'崩溃报告', 搜索'karingServiceSE', 点击第一个搜索结果, 查找 'Thread xx Creashed:'(xx为数字), 如果堆栈中有 libswift_Concurrency.dylib, 则需要手动删除libswift_Concurrency.dylib(路径在查找结果Binary Images: 中可以找到);如果没有,则提交issue到github(需要将Thread xx Creashed及其后面的堆栈信息一起提交)
+  - 设置-隐私与安全性-完全磁盘访问权限-开启 'karingServiceSE'的权限
+
 
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
