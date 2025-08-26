@@ -130,6 +130,8 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### Unable to Connect on macOS (Automatically Disconnects After Connecting)
 - Open the system's 'Console', switch to 'Crash Reports', search for 'karingServiceSE', click the first result, and look for 'Thread xx Creashed:' (xx is a number). If libswift_concurrency.dylib is present in the stack, You need to manually delete libswift_Concurrency.dylib (the path can be found in the search result Binary Images:); if not, submit an issue to GitHub (you need to submit Thread xx Creashed and the subsequent stack information together)
 - Go to Settings - Privacy & Security - Full Disk Access - Enable permissions for 'karingServiceSE'.
+
+
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 
