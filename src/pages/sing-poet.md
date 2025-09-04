@@ -6,7 +6,10 @@ description: 机场后端服务器, sing-box
 # sing-poet
 - Using sing-box as the backend server for VPN service providers
 - 使用 sing-box 作为 VPN 服务提供商（机场）的后端服务器。
-    - 使用 XrayR项目代码作为联通panel系统的中枢，理论上XrayR支持的面板，都可以修改一点代码进行支持。
+- 使用 XrayR项目代码作为联通panel系统的中枢.
+- 支持:
+    - 协议: sing-box支持的所有协议，参看 https://sing-box.sagernet.org/configuration/inbound/
+    - 面板: 理论上XrayR支持的面板，都可以修改一点代码进行支持。
 - 注意: 本项目仅当案例及练手之用，不保证稳定性及安全性。
 
 
