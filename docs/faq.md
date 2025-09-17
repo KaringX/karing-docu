@@ -85,6 +85,8 @@ import DocCard from '@theme/DocCard';
 - 点击主屏上的测速(需要是app自带的测速,如果设置了自定义的测速,使用方法咨询google)
 - 找到页面里显示的Connected via XXX, 如果XXX为IPv6,则说明你当前网络支持IPv6
 
+### 为何套CF的节点在Karing可能无法正常连接?
+- CF节点不能使用CF的DNS,到DNS里将[Cloudflare DNS]全部取消或者换成其他DNS服务商的DNS
 
 ### 一些App无法连接或连接报错
 - 1. 先升级到最新版本

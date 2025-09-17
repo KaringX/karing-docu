@@ -84,6 +84,9 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - Click the speed test on the main screen(it needs to be the speed test that comes with the app. If you set a custom speed test, consult Google for usage)
 - Find the page showing Connected via XXX, if XXX is IPv6, it means that your current network supports IPv6
 
+### Why might a CF node not connect properly in Karing?
+- CF nodes cannot use CF's DNS. Uncheck "Cloudflare DNS" in the DNS settings or switch to another DNS provider.
+
 ### Some apps cannot connect or connection errors
 - 1. Upgrade to the latest version first
 - 2. First, you need to confirm that the proxy node used can be connected, and the country and region settings in [Diversion] are correct
