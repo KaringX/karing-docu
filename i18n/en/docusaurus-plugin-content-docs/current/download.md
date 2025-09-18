@@ -41,6 +41,11 @@ slug: /download
 - [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
 - <font color="red">Note: If you encounter defender blocking during installation, please click 'Show details' - 'Run anyway' to install</font>
 
+### Linux
+- [Beta Version-deb Package-Download](https://dot.karing.app/client.html?tag=linux-deb-beta)
+- [Beta Version-rpm Package-Download](https://dot.karing.app/client.html?tag=linux-rpm-beta)
+- [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
+
 # New version release notification
 - New releases will be notified in the [Telegram group](https://t.me/KaringApp)
 
