@@ -123,6 +123,9 @@ import DocCard from '@theme/DocCard';
 ### Android TV 遥控器无法切换焦点(主屏)
   - 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
 
+### Android Google Play 无法下载应用
+  - 参考 [解决google play无法下载的问题](/blog/case/google-play)
+  
 ### ios/macos TUN模式关闭后,设备无法联网
   - ios/macos 由于系统限制,软件架构上与android/windows等不同,在ios/macos下,即使未开启TUN模式,也一样会启动vpn 网络扩展进程,但是由于vpn 网络扩展进程未开启TUN模式,不会从系统读取/转发数据,因此无法联网
   - 解决方案:1. 开启TUN模式 2.在其他app里手动设置设置代理为karing代理地址(代理地址可参考-设置-端口),此种设置只允许设置了代理的app经由karing连接到网络 3. 对于macos,可打开系统代理,以便支持系统代理的应用访问网络

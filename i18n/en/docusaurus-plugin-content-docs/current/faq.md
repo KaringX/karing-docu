@@ -126,6 +126,10 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 ### Android TV remote control cannot switch focus (home screen)
 - You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
 
+
+### Unable to download apps from Android Google Play
+- See [Solving the issue of Google Play download failures](/blog/case/google-play)
+
 ### Device Unable to Connect to the Internet After TUN Mode is Disabled on iOS/macOS
 - Due to system limitations and software architecture differences between iOS/macOS and Android/Windows, even if TUN mode is disabled, the VPN network extension process will still be started on iOS/macOS. However, since the VPN network extension process does not enable TUN mode, it will not read or forward data from the system, thus preventing network connection.
 - Solutions: 1. Enable TUN mode. 2. Manually set the proxy in other apps to the Karing proxy address (for the proxy address, see Settings > Port). This setting only allows apps with the proxy enabled to connect to the network via Karing. 3. For macOS, enable the system proxy so that apps that support it can access the network.
