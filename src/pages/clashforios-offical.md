@@ -1,6 +1,6 @@
 ---
 title: Clash Mi - 基于Mihomo内核的移动端代理工具
-description: 移动端网络代理工具, 支持clash订阅, iOS/Android平台
+description: 移动端网络代理工具, 支持clash订阅, iOS/macOS/Android/Windows/Linux平台
 hide_table_of_contents: true
 ---
 
@@ -8,7 +8,7 @@ hide_table_of_contents: true
 - 内置clash mihomo 满血内核
 - 开源 + 完全免费
 - 简单易用的移动端网络代理工具
-  - 支持操作系统: iOS、Android
+  - 支持操作系统: iOS、macOS、Android、Windows、Linux
   - 支持订阅链接: Clash
 - [Clash Mi](https://clashmi.app) 唯一官方网站: https://clashmi.app
 
