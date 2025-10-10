@@ -42,6 +42,8 @@ slug: /download
 - <font color="red">Note: If you encounter defender blocking during installation, please click 'Show details' - 'Run anyway' to install</font>
 
 ### Linux
+- [Stable Version-deb Package-Download](https://dot.karing.app/client.html?tag=linux-deb-stable)
+- [Stable Version-rpm Package-Download](https://dot.karing.app/client.html?tag=linux-rpm-stable)
 - [Beta Version-deb Package-Download](https://dot.karing.app/client.html?tag=linux-deb-beta)
 - [Beta Version-rpm Package-Download](https://dot.karing.app/client.html?tag=linux-rpm-beta)
 - [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
