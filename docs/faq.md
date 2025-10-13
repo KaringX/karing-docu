@@ -121,7 +121,7 @@ import DocCard from '@theme/DocCard';
   - 系统VPN设置里将Karing的'始终开启的VPN'开关打开
 
 ### Android TV 遥控器无法切换焦点(主屏)
-  - 可使用遥控器上的菜单按钮快速切换,再结合上下左右按钮等切换
+  - 设置-启用 '跟随屏幕旋转'
 
 ### Android Google Play 无法下载应用
   - 参考 [解决google play无法下载的问题](/blog/case/google-play)

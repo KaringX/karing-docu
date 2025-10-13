@@ -124,7 +124,7 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - Enable Karing's "Always-on VPN" switch in the system VPN settings
 
 ### Android TV remote control cannot switch focus (home screen)
-- You can use the menu button on the remote control to quickly switch, and then use the up, down, left, and right buttons to switch
+- Settings - Enable 'Rotate with the screen'
 
 
 ### Unable to download apps from Android Google Play
