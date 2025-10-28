@@ -139,6 +139,11 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - Go to Settings - Privacy & Security - Full Disk Access - Enable permissions for 'karingServiceSE'.
 
 
+### Why does macOS require 'Full Disk Access'?
+- This permission only needs to be enabled on certain devices (operating system issues).
+- On these devices, without 'Full Disk Access', Karing's system extensions cannot access Karing's configuration files, resulting in connection failures.
+- This permission is only used to read Karing's configuration files and is not used for any other purpose.
+
 ### Open Google.com, it will jump to Google.cn, etc.
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 

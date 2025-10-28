@@ -134,6 +134,10 @@ import DocCard from '@theme/DocCard';
   - 打开系统的'控制台',切换到'崩溃报告', 搜索'karingServiceSE', 点击第一个搜索结果, 查找 'Thread xx Creashed:'(xx为数字), 如果堆栈中有 libswift_Concurrency.dylib, 则需要手动删除libswift_Concurrency.dylib(路径在查找结果Binary Images: 中可以找到);如果没有,则提交issue到github(需要将Thread xx Creashed及其后面的堆栈信息一起提交)
   - 设置-隐私与安全性-完全磁盘访问权限-开启 'karingServiceSE'的权限
 
+### macos 为什么需要 '完全磁盘访问权限'
+ - 此权限仅在某些设备上才需要开启(操作系统问题)
+ - 这些设备上,不开启 '完全磁盘访问权限',karing的系统扩展组件无法访问karing的自己的配置文件,导致无法开启连接
+ - 此权限仅用于读取karing自己的配置文件,不会用于其他用途
 
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
