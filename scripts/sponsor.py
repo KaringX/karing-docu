@@ -4,6 +4,25 @@ import re
 import os
 import time
 
+def clean_html_text(text):
+    """清理HTML文本，去除标签并处理特殊字符"""
+    if not text:
+        return ""
+
+    # 移除HTML标签
+    text = re.sub(r'<[^>]+>', '', text)
+
+    # 可选：处理HTML实体
+    text = text.replace('&nbsp;', ' ').replace('&amp;', '&')
+    text = text.replace('&lt;', '<').replace('&gt;', '>')
+    text = text.replace('&quot;', '"').replace('&#39;', "'")
+
+    # 去除多余的空格和换行
+    text = re.sub(r'\s+', ' ', text).strip()
+
+    return text
+
+
 def fetch_isp_data(url):
     """从指定URL获取ISP数据"""
     try:
@@ -26,9 +45,11 @@ def generate_markdown_content(isp_data):
         desp = isp.get('desp', '')
         url = isp.get('url', '')
 
+        desp_clear = clean_html_text(desp)
+
         # 生成Markdown格式
         content += f"## {name}\n"
-        content += f"- {desp}\n"
+        content += f"- {desp_clear}\n"
         content += f"- [点击前往 **【{name}】**]({url})\n\n"
 
     content += "<!-- ISP2 END -->"

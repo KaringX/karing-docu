@@ -25,7 +25,6 @@ const config = {
     deploymentBranch: 'gh-pages',
 
     onBrokenLinks: 'throw', //'ignore' | 'log' | 'warn' | 'throw'
-    onBrokenMarkdownLinks: 'warn',
     onBrokenAnchors: 'ignore',
 
     // Even if you don't use internationalization, you can use this field to set
@@ -160,6 +159,9 @@ const config = {
         }),
     markdown: {
         mermaid: true,
+        hooks: {
+            onBrokenMarkdownLinks: 'warn'
+        }
     },
     themes: ['@docusaurus/theme-mermaid'],
     scripts: [
