@@ -1,5 +1,5 @@
 ---
-title: Statistics
+title: 统计与分析
 sidebar_position: 7
 ---
 

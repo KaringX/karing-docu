@@ -1,5 +1,5 @@
 ---
-title: Statistics
+title: Statistics And Analysis
 sidebar_position: 7
 ---
 
