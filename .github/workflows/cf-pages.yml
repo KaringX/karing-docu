@@ -2,13 +2,13 @@ name: Deploy static content to Cloudflare Pages
 
 on:
   schedule:
-    - cron: '0 0,10 * * *' # # 北京时间早上8点和晚上6点
+  schedule:
+    - cron: '0 0 * * *'    # 每天UTC 0点 (北京时间8点)
+    - cron: '0 10 * * *'   # 每天UTC 10点 (北京时间18点)
 
   # Runs on pushes targeting the default branch
   push:
-    branches:
-      - gh-pages
-      - main
+    branches: [main, gh-pages]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
