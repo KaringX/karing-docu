@@ -2,7 +2,6 @@ name: Deploy static content to Cloudflare Pages
 
 on:
   schedule:
-  schedule:
     - cron: '0 0 * * *'    # 每天UTC 0点 (北京时间8点)
     - cron: '0 10 * * *'   # 每天UTC 10点 (北京时间18点)
 
