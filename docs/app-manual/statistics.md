@@ -3,7 +3,7 @@ title: Statistics
 sidebar_position: 7
 ---
 
-![](./img/statistics.png#center)
+
 ### TODO
 
 
