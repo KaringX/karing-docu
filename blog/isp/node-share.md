@@ -24,7 +24,7 @@ tags: [免费节点,clash]
 
 
 ### NETZ.RUN VPN
-- 机场入口: [NETZ](https://netz.run/)
+- 机场入口: [NETZ](https://karing.netzrun.link/)
 - 支持订阅格式：Clash, Sing-Box
 - 节点数量 30+
 - 带宽限制: 不限

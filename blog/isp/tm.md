@@ -100,7 +100,7 @@ tags: [free node, clash, trojan, ]
 
 ### Официальный сайт
 
-[https://netz.run/](https://netz.run/?utm_source=karing)
+[https://karing.netzrun.link/](https://karing.netzrun.link/?utm_source=karing)
 
 ### Преимущества
 
