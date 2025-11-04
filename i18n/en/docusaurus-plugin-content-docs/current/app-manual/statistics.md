@@ -30,4 +30,5 @@ sidebar_position: 7
 
 - Setting the time to 'seconds' or 'minutes' limits the data filtering duration to prevent the program from freezing or crashing due to excessive data volume.
 
-## Note: ### An abnormal exit of the VPN process may cause some data to fail to be written to the database, resulting in data loss and potentially inaccurate data display.
+## Note: 
+- An abnormal exit of the VPN process may cause some data to fail to be written to the database, resulting in data loss and potentially inaccurate data display.
