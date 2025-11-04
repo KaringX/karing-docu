@@ -4,7 +4,24 @@ sidebar_position: 7
 ---
 
 
-### TODO
+### 通过Karing的统计与分析功能,可以方便从查看请求历史及流量(包括基于规则的流量)的使用情况
+
+### 目前支持 请求历史/流量趋势图/流量趋势图-分流规则 
+
+### 流量趋势图
+![](./img/statistics_tranffic.png#center)
+
+### 流量趋势图-分流规则
+![](./img/statistics_tranffic_rule.png#center)
 
 
-### Profile traffic information area, refer to [Home screen](../app-manual/home.md) for related instructions
+## 疑问:
+### 为何图表上,流量数值会突然下降后再升高
+- 核心重新加载会重置流量数据,导致流量展示上突然归0
+### '数据脱敏' 有何作用
+- 开启'数据脱敏'后,涉及到访问历史的隐私信息将会被'*'替代后存储,此功能不影响'流量趋势图',但是会影响 '请求历史'/'流量趋势图-分流规则' 等展示
+
+
+## 注意:
+### VPN进程异常退出会导致部分数据无法正常写入db,造成数据丢失,可能导致数据展示不准确
+
