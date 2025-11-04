@@ -22,10 +22,12 @@ sidebar_position: 7
 
 - Core reloading resets the traffic data, causing the traffic display to suddenly return to 0.
 
-### What is the function of 'Data Anonymization'?
+### What is the purpose of 'Data Anonymization'?
 
-- After enabling 'Data Anonymization', privacy information related to access history will be replaced with '*' before storage. This function does not affect the 'Traffic Trend Chart', but it will affect the display of 'Request History'/'Traffic Trend Chart - Traffic Distribution Rules', etc.
+- After enabling 'Data Anonymization', privacy information related to access history will be replaced with '*' and stored. This function does not affect the 'Traffic Trend Chart', but it will affect the display of 'Request History'/'Traffic Trend Chart - Traffic Distribution Rules', etc.
 
-## Note:
+### Why is the 'Sampling Time Unit' in the chart limited in duration?
 
-### Abnormal VPN process exit can cause some data to fail to be written to the database, resulting in data loss and potentially inaccurate data display.
+- Setting the time to 'seconds' or 'minutes' limits the data filtering duration to prevent the program from freezing or crashing due to excessive data volume.
+
+## Note: ### An abnormal exit of the VPN process may cause some data to fail to be written to the database, resulting in data loss and potentially inaccurate data display.
