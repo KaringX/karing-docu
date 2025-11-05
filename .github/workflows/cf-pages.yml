@@ -20,6 +20,12 @@ jobs:
       deployments: write
     name: Publish to Cloudflare Pages
     steps:
+      - name: Debug info
+        run: |
+          echo "🚀 Workflow triggered by: ${{ github.event_name }}"
+          echo "⏰ UTC Time: $(date -u)"
+          echo "🇨🇳 Beijing Time: $(TZ='Asia/Shanghai' date)"
+
       - name: Checkout
         uses: actions/checkout@v4
 

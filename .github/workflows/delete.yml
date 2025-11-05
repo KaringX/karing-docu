@@ -7,10 +7,14 @@ on:
 jobs:
   del_runs:
     runs-on: ubuntu-latest
+    # 为这个作业显式设置所需的权限
+    permissions:
+      actions: write  # 允许删除工作流运行
+      contents: read  # 通常 checkout 代码需要 read 权限，根据你的动作需要调整
     steps:
       - name: Delete workflow runs
         uses: GitRML/delete-workflow-runs@main
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 7
