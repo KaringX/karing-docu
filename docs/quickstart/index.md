@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ### 主要特性
 - 使用简单, 快速上手, 一键起飞
-- 支持Clash/Clash.Meta、V2ray(支持批量)、Stash、Sing-box、Shadowsocks、Sub、Github配置链接及配置导入.
+- 支持Clash/Clash.Meta、Sing-box、V2ray(支持批量)、Stash、Shadowsocks、Sub、Github配置链接及配置导入.
 - 支持主流协议, 包括 Shadowsocks,ShadowsocksR,VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru 等.
 - 一套路由规则应用于多个订阅源, 自动选择高效节点.
   - 支持自定义路由规则组、节点组.
@@ -54,7 +54,7 @@ sidebar_position: 1
 1. 点击APP左上角设置按钮 -> 进入 `添加配置`
     - 打开 `添加配置链接`(也可以通过导入或者扫描添加)
       - ![设置](./img/qs-2.png)
-    - 将 Clash/V2ray/SS 等配置链接或者配置内容粘贴到输入框
+    - 将 Clash/sing-box/V2ray/SS 等配置链接或者配置内容粘贴到输入框
         - 如果没有配置,可以通过 [新用户福利](/newuser) 申请
     - 点击右上角添加按钮
       - ![添加配置](./img/qs-3.png)

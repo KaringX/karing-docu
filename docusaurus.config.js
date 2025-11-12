@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Karing - Clash compatible & Powerful proxy utility',
-    tagline: '兼容Clash的通用网络代理工具, 支持clash/v2ray/ss订阅',
+    tagline: '兼容Clash的通用网络代理工具, 支持clash/sing-box/v2ray/ss等订阅',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
