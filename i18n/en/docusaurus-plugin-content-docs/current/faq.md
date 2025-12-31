@@ -144,6 +144,10 @@ item={{ type: 'link', label: '📚 Quickstart', href: '/quickstart' }}
 - On these devices, without 'Full Disk Access', Karing's system extensions cannot access Karing's configuration files, resulting in connection failures.
 - This permission is only used to read Karing's configuration files and is not used for any other purpose.
 
+### iOS Connecting/Disconnecting using Shortcuts
+- Connect: Create a new shortcut - select Karing - turn the ON switch on (Running in older versions)
+- Disconnect: Create a new shortcut - select Karing - turn the ON switch off (Running in older versions)
+
 ### How to automatically reconnect after a disconnection on Android/iOS/macOS
 - iOS/macOS: System - Settings - VPN - Karing - Enable 'Connect on demand' or Karing - Settings - Enable 'Always keep connected'
 - Android: System - Settings - VPN - Karing - Always keep VPN on
