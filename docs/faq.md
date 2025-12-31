@@ -139,10 +139,14 @@ import DocCard from '@theme/DocCard';
  - 这些设备上,不开启 '完全磁盘访问权限',karing的系统扩展组件无法访问karing的自己的配置文件,导致无法开启连接
  - 此权限仅用于读取karing自己的配置文件,不会用于其他用途
 
+### Ios 如果使用快捷指令连接/断开连接
+ - 连接: 新建快捷指令-选中Karing-打开ON开关(老版本为Running)
+ - 断开连接: 新建快捷指令-选中Karing-关闭ON开关(老版本为Running)
+
+
 ### Android/Ios/Macos 连接断开后如何自动重连
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
-
 
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
