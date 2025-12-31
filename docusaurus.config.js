@@ -84,6 +84,7 @@ const config = {
                         label: 'Tutorial',
                     },
                     { to: '/blog', label: 'Blog', position: 'left' },
+                    { to: '/blog/isp/cn#list', label: '节点分享', position: 'left' },
                     {
                         type: 'localeDropdown',
                         position: 'right',
