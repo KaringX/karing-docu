@@ -148,6 +148,26 @@ import DocCard from '@theme/DocCard';
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
 
+### 小米Android手机耗电快如何改进
+ - '分流规则'新建一条规则,命名根据自己需要设置,并将位置调整到第一个
+ - 将下面包id列表拷贝到上述规则的'应用包Id'输入框
+ ```
+com.xiaomi.xmsf
+com.xiaomi.security.onetrack
+com.miui.analytics
+com.miui.guardprovider
+com.miui.packageinstaller
+com.miui.hybrid
+com.miui.systemAdSolution
+miui.systemui.plugin
+com.tencent.soter.soterserver
+com.sohu.inputmethod.sogou.xiaomi
+com.android.mms
+com.android.providers.downloads
+```
+ - 将上述规则分流设置为'拦截'
+ - 注意:如果你启用了'分应用代理',上述规则可能不生效
+
 ### 打开Google.com,会跳转到Google.cn等
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
 
