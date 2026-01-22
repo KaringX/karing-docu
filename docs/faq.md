@@ -103,6 +103,9 @@ import DocCard from '@theme/DocCard';
 ### Android 开启连接频繁闪退
 - 将 设置-TUN-网络栈 改成其他值(比如gvisor)再重试连接
 
+### Windows下操作界面,容易闪退
+- 关闭 设置-无障碍 
+
 ### Android 报错:panic: invalid page type
 - 断开连接-设置-清理缓存 后再重试连接
 
