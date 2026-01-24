@@ -78,7 +78,7 @@ import DocCard from '@theme/DocCard';
  - http statusCode:403 : 请求被ISP拒绝,请换其他订阅链接
  - Failed host lookup  : 订阅链接域名解析失败, 请开启vpn/代理后重试
  - http response is empty : ISP响应为空,换一个订阅链接或者更改 UserAgent
- - No server available: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试
+ - No server available/无可用服务器: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试(不同的VPN 服务商支持的UserAgent不同)
 
 ### 如果查看我当前的网络是否支持IPv6
 - Karing断开连接
