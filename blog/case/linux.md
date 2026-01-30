@@ -16,9 +16,9 @@ tags: [linux,rpm,deb,AppImage,install]
 
 ### Debian / Ubuntu {#debian}
 - 下载安装包 / download deb file
-  - [稳定版-deb安装包-点击下载](https://dot.karing.app/client.html?tag=linux-deb-stable)
-  - [测试版-deb安装包-点击下载](https://dot.karing.app/client.html?tag=linux-deb-beta)
-  - OR [GitHub Release Page](https://github.com/KaringX/karing/releases)
+  - [稳定版-点击下载  Stable-deb-Download](https://dot.karing.app/client.html?tag=linux-deb-stable)
+  - [测试版-点击下载  Beta-deb-Download](https://dot.karing.app/client.html?tag=linux-deb-beta)
+  - OR [GitHub Release Page](https://github.com/KaringX/karing/releases/latest)
 
 - 安装 / install
   - `sudo apt install ./karing_[version]_linux_amd64.deb`
@@ -26,9 +26,9 @@ tags: [linux,rpm,deb,AppImage,install]
 
 ### Fedora / Redhat {#redhat}
 - 下载安装包 / download rpm file
-  - [稳定版-rpm安装包-点击下载](https://dot.karing.app/client.html?tag=linux-rpm-stable)
-  - [测试版-rpm安装包-点击下载](https://dot.karing.app/client.html?tag=linux-rpm-beta)
-  - OR [GitHub Release Page](https://github.com/KaringX/karing/releases)
+  - [稳定版-点击下载  Stable-rpm-Download](https://dot.karing.app/client.html?tag=linux-rpm-stable)
+  - [测试版-点击下载  Beta-rpm-Download](https://dot.karing.app/client.html?tag=linux-rpm-beta)
+  - OR [GitHub Release Page](https://github.com/KaringX/karing/releases/latest)
 - 安装 / install
   - `sudo dnf install ./karing_[version]_linux_amd64.rpm`
 
@@ -45,7 +45,7 @@ tags: [linux,rpm,deb,AppImage,install]
 
 ### AppImage
 - 下载安装包 / download AppImage file
-  - [GitHub Release Page](https://github.com/KaringX/karing/releases)
+  - [GitHub Release Page](https://github.com/KaringX/karing/releases/latest)
 - 安装 / install
 
   ```bash
