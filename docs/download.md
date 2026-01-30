@@ -5,16 +5,6 @@ slug: /download
 
 # Download Karing/下载Karing
 
-#### System requirements/系统要求
-```
-    iOS >= 15
-    macOS >= 12
-    tvOS >= 17
-    Android >= 8
-    Windows >= 10
-    Linux kernel >= 6
-```
-
 import React from 'react';
 import Link from '@docusaurus/Link';
 
@@ -283,7 +273,21 @@ import Link from '@docusaurus/Link';
 - [Beta Version-rpm Package-Download](https://dot.karing.app/client.html?tag=linux-rpm-beta)
 - [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
 
-# New version release notification/新版本发布通知
+## 其他
+
+### System requirements/系统要求
+```
+    iOS >= 15
+    macOS >= 12
+    tvOS >= 17
+    Android >= 8
+    Windows >= 10
+    Linux kernel >= 6
+```
+
+
+
+### New version release notification/新版本发布通知
 - 新发布版本, 同时会在 [电报群](https://t.me/KaringApp) 通知
 - New releases will be notified in the [Telegram group](https://t.me/KaringApp)
 
