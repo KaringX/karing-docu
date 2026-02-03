@@ -219,6 +219,7 @@ com.android.providers.downloads
     - android:使用基于包Id的分流
     - macos:使用基于进程路径/进程名称的分流
     - windows:使用基于进程路径/进程名称的分流
+- 设置-开发者选项-启用pprof - 返回主屏-正常使用其他app一段时间(>5分钟),  设置-开发者选项-pprof面板-profile-等待下载文件(约15s),将下载的文件telegram发送给@ovowe分析
 
 ## Karing兼容Clash, 在Karing功能上有何异同?
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表

@@ -201,6 +201,7 @@ Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
     - Android: Use diversion based on package ID
     - Macos: Use diversion based on process path/process name
     - Windows: Use diversion based on process path/process name
+- Settings - Developer options - Enable pprof - Return to home screen - Use other apps normally for a while (>5 minutes), Settings - Developer options - pprof panel - Profile - Wait for the file to download (about 15 seconds), send the downloaded file to @ovowe via Telegram for analysis.
 
 ## Karing is compatible with Clash. What are the differences and similarities in Karing functions?
 - Karing is compatible with Clash subscription links, as well as most functions. Here is a detailed comparison list
