@@ -151,6 +151,11 @@ import DocCard from '@theme/DocCard';
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
 
+### Android/Ios 网易新闻里的视频无法播放
+ - 断开连接
+ - 设置-TUN- 关闭  '附加HTTP代理到VPN'
+ - 开启连接
+
 ### 小米Android手机耗电快如何改进
  - '分流规则'新建一条规则,命名根据自己需要设置,并将位置调整到第一个
  - 将下面包id列表拷贝到上述规则的'应用包Id'输入框
