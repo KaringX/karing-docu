@@ -15,8 +15,7 @@ title: FAQ
 - For Windows version, please go to [Github](https://github.com/KaringX/karing/releases/latest) to download (you may need to open a proxy to download)
 
 ### Which platforms are supported
-- Already supported: IOS, MacOS, TvOS, Windows, Android
-- To be developed: Linux
+- Already supported: IOS, MacOS, TvOS, Windows, Android, Linux
 
 ### Which subscription configuration types are supported
 - Clash, V2ray (supports batch), Stash, Karing, Sing-box, Shadowsocks, Sub, Github

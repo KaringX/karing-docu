@@ -15,8 +15,7 @@ title: FAQ
 - Windows版本请到[Github](https://github.com/KaringX/karing/releases/latest)下载(可能需要开代理才能下载)
 
 ### 支持哪些平台
-- 已支持:IOS, MacOS,TvOS, Windows, Android
-- 待开发:Linux
+- 已支持:IOS, MacOS,TvOS, Windows, Android, Linux
 
 ### 支持哪些订阅配置类型
 - Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github
