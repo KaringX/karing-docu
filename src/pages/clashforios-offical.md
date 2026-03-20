@@ -18,10 +18,15 @@ hide_table_of_contents: true
 ## 关注我们/Follow Us On GitHub
 - https://github.com/KaringX/clashmi
 
-## 联系我们/contacts
-- GitHub Issues
+## 定制专属客户端
+- 打造属于你自己的机场专属客户端，支持品牌化定制与多平台发布。
+- 可定制 Logo、名称、主题色、欢迎图、多语言、支付方式等核心能力。
+- [ 👉立即查看定制方案 ➕联系方式 ](/cooperation/custom/skiapp)
+
+## 📬 联系我们 / Contacts
+- 🚀 GitHub Issues
     - https://github.com/KaringX/clashmi/issues
-- 电报群/Telegram
+- 💬 电报群 / Telegram
     - https://t.me/ClashMiApp
 
 
