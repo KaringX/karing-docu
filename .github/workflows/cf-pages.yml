@@ -46,7 +46,9 @@ jobs:
           sed -i "s#https://urlplaceholder.com#${{ vars.CF_PAGES_URL }}#g" ./docusaurus.config.js
           sed -i "s#/baseurlplaceholder#${{ vars.CF_PAGES_BASEURL }}#g" ./docusaurus.config.js
       - name: Build website
-        run: npm run build
+        run: |
+          rm -f AGENTS.md
+          npm run build
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
