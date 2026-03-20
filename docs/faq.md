@@ -15,8 +15,7 @@ title: FAQ
 - Windows版本请到[Github](https://github.com/KaringX/karing/releases/latest)下载(可能需要开代理才能下载)
 
 ### 支持哪些平台
-- 已支持:IOS, MacOS,TvOS, Windows, Android
-- 待开发:Linux
+- 已支持:IOS, MacOS,TvOS, Windows, Android, Linux
 
 ### 支持哪些订阅配置类型
 - Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github
@@ -151,6 +150,11 @@ import DocCard from '@theme/DocCard';
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
 
+### Android/Ios 网易新闻里的视频无法播放
+ - 断开连接
+ - 设置-TUN- 关闭  '附加HTTP代理到VPN'
+ - 开启连接
+
 ### 小米Android手机耗电快如何改进
  - '分流规则'新建一条规则,命名根据自己需要设置,并将位置调整到第一个
  - 将下面包id列表拷贝到上述规则的'应用包Id'输入框
@@ -219,6 +223,7 @@ com.android.providers.downloads
     - android:使用基于包Id的分流
     - macos:使用基于进程路径/进程名称的分流
     - windows:使用基于进程路径/进程名称的分流
+- 设置-开发者选项-启用pprof - 返回主屏-正常使用其他app一段时间(>5分钟),  设置-开发者选项-pprof面板-profile-等待下载文件(约15s),将下载的文件telegram发送给@ovowe分析
 
 ## Karing兼容Clash, 在Karing功能上有何异同?
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
