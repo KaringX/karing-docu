@@ -9,7 +9,7 @@ tags: [karing,russian]
 - Original author: @Murr_666 (Пупкин Вася), @renixa_tg
 - From https://telegra.ph/Karing-06-06
 - AND new version in English https://telegra.ph/Karing-07-15
-- **Last new manual in Russian** 👉 https://telegra.ph/Karing---part1-04-06
+- **Last new manual in Russian** 👉 https://telegra.ph/Karing-Part1-02-16
 
 
 ## Karing
