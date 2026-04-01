@@ -2,19 +2,23 @@
 sidebar_position: 3
 ---
 # Custom diversion
+
 - If the built-in geo(-ip, -site) and ACL rules cannot meet your needs, you can try `Custom diversion group` and `Custom proxy group/Custom Auto Select`
 
 ## Materials
+
 - karing >= 1.0.15.133
 - Brave 1.67.116
 - Only used in the following cases
 
 ## Custom diversion group
+
 - Here we use this function *to solve the problem that Brave translation function cannot be used in mainland China* as an example.
 
 ### Configuration steps
+
 1. Add a diversion group
-- Settings —> Diversion -> Diversion rules -> Edit -> `Custom diversion group` -> ➕ in the upper right corner -> Click the first ➕, add a diversion group, and write a note brave
+- Settings -> Diversion -> Diversion rules -> Edit -> `Custom diversion group` -> +in the upper right corner -> Click the first + add a diversion group, and write a note brave
 2. Add rules
 - Return to the `Custom diversion group` list, select the note name just now
 - Fill in the required rules, taking brave as an example:
@@ -30,12 +34,13 @@ sidebar_position: 3
 - Close the "Connect" button, then open the connection, the button background is green
 5. Test if it works
 - Open a page in brave browser, right click -> Translate
-- Karing homepage -> Connection (💻 icon)
+- Karing homepage -> Connection (connection icon)
 - ![connections](./img/custom-diversion-3.png)
 
 **Note**: All data in the rule are case sensitive
 
 ### Glossary
+
 :::tip Glossary
 Domain Suffix: Domain name suffix
 - For example, ads.google.com and api.google.com have the same domain name suffix .google.com,
@@ -65,4 +70,5 @@ App Package: Android application package id
 :::
 
 ## Custom proxy group/Custom Auto Select
+
 - The steps are similar to the diversion group, so I will not repeat them

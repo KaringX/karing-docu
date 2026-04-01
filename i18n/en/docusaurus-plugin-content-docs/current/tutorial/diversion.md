@@ -4,6 +4,7 @@ sidebar_position: 2
 # Policy and diversion
 
 ## Overview
+
 - There are three types of diversion policies:
 - 1 Airport built-in policies
 - There is a switch `Enable ISP diversion rules` when adding configuration
@@ -17,11 +18,13 @@ sidebar_position: 2
 ## Built-in rule set
 
 ### Enable built-in policies
+
 - Settings -> Diversion -> Diversion rules -> Edit -> Select the custom diversion group to edit -> Rule Set (build-in)-> Check the relevant rules -> Save
 - Return to the diversion rules -> Set diversion
 - Return to the karing homepage, Karing will automatically reconnect to take effect
 
 ### GeoSite/GeoIP rule description
+
 - Example of Chinese mainland (`cn`):
 - The name contains !cn, which means that the site in the rule cannot be accessed normally in the cn area and needs to be accessed through a proxy server
 - The name contains cn (no!), which means that the site in the rule can be accessed normally in the cn area, without a proxy, and is set to direct connection
@@ -46,9 +49,11 @@ social.srs
 ```
 
 ### ACL
+
 - ACL is composed of a series of rule fragments: [an incomplete list](https://github.com/KaringX/karing-ruleset?tab=readme-ov-file#%E8%A7%84%E5%88%99%E7%A2%8E%E7%89%87)
 
 ## Change policy matching
+
 - Diversion policy can correspond to two configurations:
 - Matching action: current selection/auto selection/direct connection/interception/none
 - If a rule is not temporarily enabled, it can be set to *None*
@@ -56,13 +61,16 @@ social.srs
 - You can customize fixed nodes into proxy groups for easy maintenance
 
 ### Setup steps
+
 - Settings -> Diversion -> `Diversion rules` -> Select diversion strategy -> Modify corresponding actions or nodes
 - Return to karing homepage, close the connection, and reconnect to take effect
 
 ## Cases
+
 - [Docker accelerator](/blog/case/docker)
 - [Block ads](/blog/case/banad)
 
 ## Other diversion functions
+
 - [Next lesson Custom diversion](/tutorial/custom-diversion)
 - [Android per-application diversion](/tutorial/perapp-proxy)

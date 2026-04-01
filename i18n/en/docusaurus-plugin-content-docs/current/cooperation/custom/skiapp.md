@@ -10,8 +10,8 @@ title: Custom Client for Your Service
 
 ## Contact
 
-- 🚀 For a custom app version, contact Telegram: [ovowe](https://t.me/ovowe)
-- 💬 Feel free to reach out directly for customization details, timeline, and integration options.
+- For a custom app version, contact Telegram: [ovowe](https://t.me/ovowe)
+- Feel free to reach out directly for customization details, timeline, and integration options.
 
 ## Features
 

@@ -5,16 +5,20 @@ sidebar_position: 6
 # 机场基础配置 base.json
 
 ## 说明
+
 - `base.json` 存储机场的基础信息, 当APP发生状态切换时更新(比如 启动、连接、切换至前台) , 最短时间间隔为3小时.
 
 ### 什么时候会请求机场对应配置？
+
 - 当用户通过 [咒语](./spell.md) 登录机场, 完成导入配置之后, Karing APP即和机场绑定.
 - 绑定发生时, 即开始请求相应机场配置(base.json), 并覆盖对应Karing的默认配置项.
 
 ### 可否自主托管
+
 - 仅托管在 karing 站点上.
 
 ## 注释说明 {#desc}
+
 ```jsx title="base.json"
 {
     // APP切换vpn状态/切换前台/启动时更新base.json, 最短时间间隔为3小时
@@ -54,6 +58,5 @@ sidebar_position: 6
     // 配置每次修改 系统自动+1
     "version": 1
 }
-
 
 ```

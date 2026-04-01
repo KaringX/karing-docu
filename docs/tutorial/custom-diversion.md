@@ -2,18 +2,21 @@
 sidebar_position: 3
 ---
 # 自定义分流
+
 - 如果内置的 geo(-ip、-site)和ACL规则还不能满足你的需求，那么可以尝试 `自定义分流组` 和 `自定义代理组/自定义自动选择`
 
-
 ## 物料
+
 - karing >= 1.0.15.133
 - Brave 1.67.116
   - 仅限以下案例使用
 
 ## 自定义分流组
+
 - 这里用该功能 *解决brave翻译功能在中国大陆无法使用的问题* 来举例。
 
 ### 配置步骤
+
 1. 添加分流组
   - 设置 —> 分流 -> 分流规则 -> 编辑 -> `自定义分流组` -> 右上角➕号 -> 点击第一个➕号, 添加一个分流组, 写上备注 brave
 2. 添加规则
@@ -34,12 +37,10 @@ sidebar_position: 3
   - karing首页 -> 连接（💻图标）
     - ![connections](./img/custom-diversion-3.png)
 
-
 **注意**: 规则中所有数据都大小写敏感
 
-
-
 ### 名词解释
+
 :::tip 名词解释
 Domain Suffix: 域名后缀
   - 比如ads.google.com,api.google.com具有相同的域名后缀.google.com,
@@ -54,13 +55,13 @@ Domain Keyword :域名关键词
 
 IP Cidr: IP段
   - 如果是匹配某个ip,那么/后应该为完整掩码;
-  
+
 Rule Set: 远程规则集
   - 支持srs及json格式
   - 注意:对于github上的规则,请使用页面上的Raw按钮获取文件下载地址
 
-Rule Set(build-in): 内置规则集(geosite, geoip, acl) 
-  
+Rule Set(build-in): 内置规则集(geosite, geoip, acl)
+
 Process Name: windows 进程名称
 
 Process Path: windows进程完整路径
@@ -68,9 +69,7 @@ Process Path: windows进程完整路径
 App Package: android应用包id
 :::
 
-
-
 ## 自定义代理组/自定义自动选择
-- 步骤与分流组类似, 不再赘述
 
+- 步骤与分流组类似, 不再赘述
 

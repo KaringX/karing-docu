@@ -10,11 +10,10 @@ tags: [linux,rpm,deb,AppImage,install]
   - 格式均为 `karing_[version]_linux_amd64.deb`
   - 暂不支持ARM架构的设备
 
-
 ## Installation Steps / 安装步骤 {#install}
 
-
 ### Debian / Ubuntu {#debian}
+
 - 下载安装包 / download deb file
   - [稳定版-点击下载  Stable-deb-Download](https://dot.karing.app/client.html?tag=linux-deb-stable)
   - [测试版-点击下载  Beta-deb-Download](https://dot.karing.app/client.html?tag=linux-deb-beta)
@@ -23,8 +22,8 @@ tags: [linux,rpm,deb,AppImage,install]
 - 安装 / install
   - `sudo apt install ./karing_[version]_linux_amd64.deb`
 
-
 ### Fedora / Redhat {#redhat}
+
 - 下载安装包 / download rpm file
   - [稳定版-点击下载  Stable-rpm-Download](https://dot.karing.app/client.html?tag=linux-rpm-stable)
   - [测试版-点击下载  Beta-rpm-Download](https://dot.karing.app/client.html?tag=linux-rpm-beta)
@@ -33,6 +32,7 @@ tags: [linux,rpm,deb,AppImage,install]
   - `sudo dnf install ./karing_[version]_linux_amd64.rpm`
 
 ### Archlinux / Manjaro {#archlinux}
+
 - 感谢 @czyt 童鞋维护[AUR karing-bin](https://aur.archlinux.org/packages/karing-bin)
   ``` bash
   # 使用 yay
@@ -42,8 +42,8 @@ tags: [linux,rpm,deb,AppImage,install]
   paru -S karing-bin
   ```
 
-
 ### AppImage
+
 - 下载安装包 / download AppImage file
   - [GitHub Release Page](https://github.com/KaringX/karing/releases/latest)
 - 安装 / install
@@ -56,7 +56,6 @@ tags: [linux,rpm,deb,AppImage,install]
   sudo ./karing_[version]_linux_amd64.AppImage
 
   ```
-
 
 ## Issues / 问题列表 {#issues}
 

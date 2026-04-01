@@ -4,12 +4,13 @@ sidebar_position: 8
 ---
 ![](./img/diversion-rule-edit.png#center)
 
+#### 编辑自定义分流组:各分项之间支持OR/AND逻辑运算
 
-### 编辑自定义分流组:各分项之间支持OR/AND逻辑运算
 - OR: 满足一项即命中规则
 - AND: 满足所有项才命中规则
 
-### 分项类型
+#### 分项类型
+
 - 域名后缀:比如.google.com或者google.com
 - 域名:完整域名,比如www.google.com
 - 域名关键词:比如google

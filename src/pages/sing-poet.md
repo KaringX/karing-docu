@@ -4,6 +4,7 @@ description: 机场后端服务器, sing-box
 # hide_table_of_contents: true
 ---
 # sing-poet
+
 - Using sing-box as the backend server for VPN service providers
 - 使用 sing-box 作为 VPN 服务提供商（机场）的后端服务器。
 - 使用 XrayR项目代码作为联通panel系统的中枢.
@@ -12,14 +13,10 @@ description: 机场后端服务器, sing-box
     - 面板: 理论上XrayR支持的面板，都可以修改一点代码进行支持。
 - 注意: 本项目仅当案例及练手之用，不保证稳定性及安全性。
 
-
 ## GitHub
+
 - code: https://github.com/KaringX/sing-poet
 - examples: https://github.com/KaringX/sing-poet/tree/poet/release/poet
-
-
-
-
 
 ## Documentation
 
@@ -69,13 +66,11 @@ systemctl restart sing-poet
 tail -f /var/log/sing-poet.log
 ```
 
-
-
-
 ### 文档地址
+
  https://karing.app/sing-poet
 
-
 ## 鸣谢
+
 - [sing-box](https://github.com/SagerNet/sing-box)
 - [XrayR](https://github.com/XrayR-project/XrayR)

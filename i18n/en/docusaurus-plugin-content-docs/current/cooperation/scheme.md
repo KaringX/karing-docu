@@ -4,11 +4,13 @@ sidebar_position: 10
 # URL Scheme
 
 ## Open system call monitoring
+
 - Settings -> `System Scheme Call` -> Open the required project, default monitoring
 - `karing://`
 - `clash://`
 
 ## Scheme format
+
 - **Note:**
 - Parameters must be urlencoded
 - Format:

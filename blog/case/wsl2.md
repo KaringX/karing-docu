@@ -7,6 +7,7 @@ tags: [wsl2,proxychain,windows防火墙]
 # 在wls2中使用karing的代理端口
 
 ## karing设置
+
 - 1 设置 - 网络共享 - 允许其他主机接入
 - 2 设置 - 端口
   - 基于规则 默认 **3067**
@@ -19,8 +20,8 @@ netstat -na
 ```
     ![软件界面](./img/wsl2-1.png)
 
-
 ## wsl2测试端口是否可访问
+
 - 1 获取host ip
   - 方法A karing - 设置 - 网络接口
     - vEthernet(WSL)的IP
@@ -42,21 +43,25 @@ Escape character is '^]'.
   - 如果出现 *Connected* 则表示连接成功，可直接使用
   - 出现 *time out* 则连接失败，大概率是win防火墙的问题
 
-
 ## windows防火墙设置
+
 ### 第一步 清空karing相关规则
+
 - windows开始菜单 - 控制面板 - 系统和安全 - 防火墙/查看防火墙状态 - 高级设置(左侧栏) - **入站规则**
 - 规则按名称排序 - 删除所有 **karing** 开头相关规则
 ### 第二步 新建规则
+
 #### 方案A 基于端口
+
 - 操作(右侧栏) - 入站规则/新建规则 - 端口 - TCP/特定端口 *3066* - 允许连接 - 全选域和网络位置 - 名称 - 完成
 #### 方案B 基于程序
+
 - 操作(右侧栏) - 入站规则/新建规则 - 程序 - 选择*karingService.exe* 绝对路径 - 允许连接 - 全选域和网络位置 - 名称 - 完成
 
 新建规则之后，再次切换回wsl2中使用telnet测试连接。
 
-
 ## proxychains-ng
+
 - 1 安装
   - archlinux系 `sudo pacman -Sy proxychains-ng`
   - debian系 `sudo apt install proxychains4`

@@ -15,6 +15,7 @@ hide_table_of_contents: true
 :::
 
 ## 1. 注册账号
+
 - 浏览器中打开链接 [https://inv.dginv.click/#/register?code=lFH4ii9D](https://1.x31415926.top/redir?i=3eb)
 - 输入电子邮箱,登录密码, 点击 *邮箱验证码*边的 `发送` 按钮, 获取邮箱验证码
   - 点击后到你的邮箱里查收验证码, 将验证码填入到 `邮箱验证码` 一栏，点击注册
@@ -22,20 +23,16 @@ hide_table_of_contents: true
 
 - ![新人礼 注册](./newuser-1.png)
 
-
 ## 2. 点击 “一键订阅” 复制订阅链接
+
 - 注册成功后登录到后台,进入机场的仪表盘,如下图
 - 点击☞ <font color="red">“复制订阅链接”</font>
 
 - ![新人礼 订阅链接](./newuser-2.png)
 
-
-
 ## 3. 导入karing配置
+
 - 回到karing -> 设置-> 添加配置链接
 - 粘贴链接到输入框, 点击 右上角 ➕添加订阅 即完成添加
 - 返回到karing主屏, 点击“启动”即可开始使用免费流量
-
-
-
 

@@ -4,11 +4,13 @@ sidebar_position: 8
 ---
 ![](./img/diversion-rule-edit.png#center)
 
-### Edit custom diversion group: OR/AND logic operations are supported between each item
+#### Edit custom diversion group: OR/AND logic operations are supported between each item
+
 - OR: The rule is hit when one item is met
 - AND: The rule is hit when all items are met
 
-### Item type
+#### Item type
+
 - Domain Suffix: such as .google.com or google.com
 - Domain: Full domain name, such as www.google.com
 - Domain Keyword: such as google

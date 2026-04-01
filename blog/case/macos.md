@@ -6,6 +6,7 @@ tags: [macOS,dmg,update,install]
 # Using the Latest Version of Karing on macOS
 
 ## 在macOS上使用最新版Karing
+
 - 目前**Karing**采用 **dmg** 文件安装和更新应用
   - 如果您从macOS的AppStore安装了旧版本(小于*1.2.1.827*), 请改用dmg重新安装最新版
 - Currently, **Karing** uses **dmg** files to install and update the application.
@@ -30,20 +31,22 @@ tags: [macOS,dmg,update,install]
   2. Drag the application to the "Applications" folder
   3. When opening for the first time, you need to allow it to run in "System Preferences > Security & Privacy"
 
-
 ## Issues / 问题列表 {#issues}
 
 #### 应用无法访问文件或网络
+
 - 前往"系统偏好设置" > "安全性与隐私" > "隐私"
 - 检查"文件与文件夹"、"网络"等权限
 - 确保应用已被授予必要权限
 
 #### Application cannot access files or the network
+
 - Go to "System Preferences" > "Security & Privacy" > "Privacy"
 - Check the permissions for "Files and Folders", "Network", etc.
 - Make sure the application has been granted the necessary permissions
 
 #### 权限错误 / Permission errors
+
 - 重置应用权限 / Reset application permissions
 ```bash
 sudo chmod -R 755 /Applications/Karing.app

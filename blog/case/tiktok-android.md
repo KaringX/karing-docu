@@ -6,6 +6,7 @@ tags: [tiktok,免拔卡,解除地区,去广告]
 # karing代理Android版TikTok流量
 
 ## TikTok下载，去广告，免拔卡解除地区封锁版
+
 - 安卓版下载地址 https://t.me/tiktalktik
   - 这是印度大神破解的抖音国际版 Tiktok
 
@@ -24,11 +25,12 @@ tags: [tiktok,免拔卡,解除地区,去广告]
 :::
 
 ### 使用说明
+
 - 这里使用karing自带GeoSite规则, 当然, 使用[分应用模式更好](#分应用代理模式)
   - 本例使用分流规则的原因是便于把tiktok流量走*日本*节点
 
-
 ### 设置步骤
+
 1. 通过[telegram](https://t.me/tiktalktik)下载apk文件
    - 本例使用文件 *TikTok_31.7.3_v8a.apk*
 2. 安装apk文件
@@ -51,22 +53,15 @@ tags: [tiktok,免拔卡,解除地区,去广告]
     - 检查下 karing 连接情况
       - ![karing con...](./img/tiktok-3.jpg)
 
-
 ## 分应用代理模式
+
 - 操作步骤请参考 [分应用代理](/tutorial/perapp-proxy)
 - karing -> 设置 -> TUN -> 分应用代理 -> 打开"启用", 勾选"白名单模式", 搜索勾选 `TikTok`
 - 回到karing首页 重新连接
 
-
 ## Jaggu的Mod信息
+
 ![tiktok 提示信息](./img/tiktok-5.jpg)
 
 ![tiktok mod 设置](./img/tiktok-4.jpg)
-
-
-
-
-
-
-
 

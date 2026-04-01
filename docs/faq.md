@@ -9,22 +9,26 @@ title: FAQ
 ## Karing App
 
 ### Karing 免费吗？多少钱
+
 - 完全免费
 -  苹果用户:只要是非中国大陆地区的苹果账号都能下载
 - 苹果用户:如果您不方便直接注册，推荐 [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
 - Windows版本请到[Github](https://github.com/KaringX/karing/releases/latest)下载(可能需要开代理才能下载)
 
 ### 支持哪些平台
+
 - 已支持:IOS, MacOS,TvOS, Windows, Android, Linux
 
 ### 支持哪些订阅配置类型
+
 - Clash,V2ray(支持批量),Stash,Karing,Sing-box,Shadowsocks,Sub,Github
 
 ### 支持哪些协议
+
 - Shadowsocks, ShadowsocksR, VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru等协议
 
-
 ### 苹果用户下载哪个版本
+
  - 如果只想稳定使用,建议下载AppStore版本
  - 如果想尝鲜新功能,可以下载TestFlight Beta版本
 
@@ -37,6 +41,7 @@ import DocCard from '@theme/DocCard';
 ```
 
 ### 如何使用
+
 - 刚接触的用户，想快速上车，推荐参考本站 快速入门教程
 
 ```mdx-code-block
@@ -46,10 +51,12 @@ import DocCard from '@theme/DocCard';
 ```
 
 ### App如何更新
+
  - 苹果用户:使用系统自带更新
  - Windows/Android用户:Karing自动更新后会有提示,您只需要按照提示下载或者重启App安装即可
 
 ### 安全吗
+
 - App上架AppStore前会经过苹果审核，且苹果版本只能在 AppStore 或 TestFlight 才能下载(请勿从非官方渠道下载App)
 - 非Apple平台我们也同样遵循和苹果平台一样的安全和隐私规则,确保您的信息不会泄露
 - 非Apple平台用户建议从[Github](https://github.com/KaringX/karing/releases/latest)下载
@@ -57,21 +64,26 @@ import DocCard from '@theme/DocCard';
 - Karing 没有上架Google Play, 请勿从Google Play下载安装
 
 ### 没有配置怎么办
+
  - 请参考 [节点分享](/blog/isp/node-share) 或者 [机场推荐](/blog/isp/cn)
 
 ### 代理和全局的区别是什么?
+
  - 参考 - [4. 规则模式:规则/全局](./app-manual/home.md#mode)
 
 ### 系统代理和TUN的区别是什么
+
  - 说明:系统代理和TUN都是代理软件的入站方式,和 规则/全局 没有关系
  - 说明:系统代理:仅针对PC设备上的系统代理
  - 系统代理指的是你系统里的代理设置,需要其他软件适配,未适配的软件不会使用系统代理
  - TUN:虚拟网卡,代理软件在通过驱动建立了一张虚拟网卡,系统内基本所有软件的请求都会自动被重定向虚拟网卡(不同的操作系统洛稍有不同,比如windows想的uwp应用),无需其他软件适配
 
 ## 运行时问题list
+
 ### <font color="red">注意:出现问题,请先升级到最新版</font>
 
 ### 添加配置/更新配置 报错
+
  - Connection reset by peer 或者 Connection refused:大部分原因是因为订阅请求被拦截,请开启vpn/代理后重试
  - http statusCode:404 : 订阅不存在,换一个订阅链接或者更改 UserAgent 后重试(机场ISP可能会根据UserAgent下发不同类型的订阅配置)
  - http statusCode:403 : 请求被ISP拒绝,请换其他订阅链接
@@ -80,14 +92,17 @@ import DocCard from '@theme/DocCard';
  - No server available/无可用服务器: 如果使用其他App可用添加,那么尝试更改 UserAgent 后重试(不同的VPN 服务商支持的UserAgent不同)
 
 ### 如果查看我当前的网络是否支持IPv6
+
 - Karing断开连接
 - 点击主屏上的测速(需要是app自带的测速,如果设置了自定义的测速,使用方法咨询google)
 - 找到页面里显示的Connected via XXX, 如果XXX为IPv6,则说明你当前网络支持IPv6
 
 ### 为何套CF的节点在Karing可能无法正常连接?
+
 - CF节点不能使用CF的DNS,到DNS里将[Cloudflare DNS]全部取消或者换成其他DNS服务商的DNS
 
 ### 一些App无法连接或连接报错
+
 - 1. 先升级到最新版本
 - 2. 首先需要确认使用的代理节点是可以联通的,并且[分流]里的国家和地区设置正确
 - 3. 打开[主屏]-[网络检测],检查对应域名是否可以正常访问,根据错误提示信息修改相关设置
@@ -96,19 +111,24 @@ import DocCard from '@theme/DocCard';
 - 6. 如果第4步有相关域名请求,再检查分流是否正确,如果是分流错误,修改相关分流规则
 
 ### Android 小米手机无法安装,提示高风险应用
+
 - 此问题和Karing版本无关,目前所有版本的Karing在小米手机上均会出现此问题,原因是Karing被小米后台加入了黑名单
 - 解决方案:退出安装程序,断开所有网络后(切换到飞行模式),重试安装
 
 ### Android 开启连接频繁闪退
+
 - 将 设置-TUN-网络栈 改成其他值(比如gvisor)再重试连接
 
 ### Windows下操作界面,容易闪退
-- 关闭 设置-无障碍 
+
+- 关闭 设置-无障碍
 
 ### Android 报错:panic: invalid page type
+
 - 断开连接-设置-清理缓存 后再重试连接
 
 ### Android 开启连接报错
+
 - **错误信息:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
   - 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接
   - 解决方案:换其他Android设备
@@ -118,44 +138,53 @@ import DocCard from '@theme/DocCard';
   - 解决方案:请勿对VPN应用开启分身
 
 ### Android 连接一段时间或切换后台后断开连接
+
   - 将Karing的省电策略改为:无限制
   - 如果你的CPU为联发科,可能还需要关闭'Dura Speed'里针对Karing的优化开关
   - 系统VPN设置里将Karing的'始终开启的VPN'开关打开
 
 ### Android TV 遥控器无法切换焦点(主屏)
+
   - 设置-启用 '跟随屏幕旋转'
 
 ### Android Google Play 无法下载应用
+
   - 参考 [解决google play无法下载的问题](/blog/case/google-play)
-  
+
 ### ios/macos TUN模式关闭后,设备无法联网
+
   - ios/macos 由于系统限制,软件架构上与android/windows等不同,在ios/macos下,即使未开启TUN模式,也一样会启动vpn 网络扩展进程,但是由于vpn 网络扩展进程未开启TUN模式,不会从系统读取/转发数据,因此无法联网
   - 解决方案:1. 开启TUN模式 2.在其他app里手动设置设置代理为karing代理地址(代理地址可参考-设置-端口),此种设置只允许设置了代理的app经由karing连接到网络 3. 对于macos,可打开系统代理,以便支持系统代理的应用访问网络
 
 ### macos 无法连接(连接后马上会自动断开)
+
   - 打开系统的'控制台',切换到'崩溃报告', 搜索'karingServiceSE', 点击第一个搜索结果, 查找 'Thread xx Creashed:'(xx为数字), 如果堆栈中有 libswift_Concurrency.dylib, 则需要手动删除libswift_Concurrency.dylib(路径在查找结果Binary Images: 中可以找到);如果没有,则提交issue到github(需要将Thread xx Creashed及其后面的堆栈信息一起提交)
   - 设置-隐私与安全性-完全磁盘访问权限-开启 'karingServiceSE'的权限
 
 ### macos 为什么需要 '完全磁盘访问权限'
+
  - 此权限仅在某些设备上才需要开启(操作系统问题)
  - 这些设备上,不开启 '完全磁盘访问权限',karing的系统扩展组件无法访问karing的自己的配置文件,导致无法开启连接
  - 此权限仅用于读取karing自己的配置文件,不会用于其他用途
 
 ### Ios 如果使用快捷指令连接/断开连接
+
  - 连接: 新建快捷指令-选中Karing-打开ON开关(老版本为Running)
  - 断开连接: 新建快捷指令-选中Karing-关闭ON开关(老版本为Running)
 
-
 ### Android/Ios/Macos 连接断开后如何自动重连
+
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
 
 ### Android/Ios 网易新闻里的视频无法播放
+
  - 断开连接
  - 设置-TUN- 关闭  '附加HTTP代理到VPN'
  - 开启连接
 
 ### 小米Android手机耗电快如何改进
+
  - '分流规则'新建一条规则,命名根据自己需要设置,并将位置调整到第一个
  - 将下面包id列表拷贝到上述规则的'应用包Id'输入框
  ```
@@ -176,15 +205,18 @@ com.android.providers.downloads
  - 注意:如果你启用了'分应用代理',上述规则可能不生效
 
 ### 打开Google.com,会跳转到Google.cn等
+
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
 
 ### Windows系统
+
 - **如何以管理员身份开机启动**
   - 升级到>=1.0.38.506版本
   - 以管理员身份启动Karing
   - 开启[开机启动],如果之前已经开启,则需要关闭后,重新开启
 
 ### Windows系统,Karing开启TUN模式后, Karing内存及CPU占用超高
+
 - TUN模式冲突所致,比如clash系列等,请卸载其他vpn软件后重新启动Karing
 - 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器),请禁用此功能,命令参考 Powershell:
 ```
@@ -192,6 +224,7 @@ com.android.providers.downloads
 ```
 
 ### Windows系统,开启连接报错
+
 - **错误信息** (TUN)开启连接报错: A required privilege is not held by the client
   - 系统权限设置错误,解决方案参考 https://answers.microsoft.com/en-us/insider/forum/all/error-0x80070522-build-10074-a-required-privilege/516f87a8-80a6-4acb-a278-8866b2080460
 - **错误信息：** configure tun interface: Cannot create a file when that file already exists
@@ -207,10 +240,12 @@ com.android.providers.downloads
   - 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
 
 ### 移动网络下节点正常使用,但是WiFi下延迟测试失败(重新连接也一样)
+
 - 移动网络和WiFi是不同的网络,WiFi下可能受WiFi路由器及运营商影响
 - 可用尝试重启路由器,如果依然不行,大概率是被运营商影响,可用尝试更改DNS后再试
 
 ### 耗电量比较高
+
 - 使用自动选择或者自定义代理组的情况下(设置路径:设置-自动选择):
   - 延长[延迟检测时间间隔]
   - 降低[服务器数量上限]
@@ -226,10 +261,12 @@ com.android.providers.downloads
 - 设置-开发者选项-启用pprof - 返回主屏-正常使用其他app一段时间(>5分钟),  设置-开发者选项-pprof面板-profile-等待下载文件(约15s),将下载的文件telegram发送给@ovowe分析
 
 ## Karing兼容Clash, 在Karing功能上有何异同?
+
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
   - [karing与clash功能对照表](/clash)
 
 ## 更多问题/issue提交
+
 - 您可以通过 设置-反馈 并留下您的邮箱,向我们反馈问题
 - 或者加入 [电报群/Telegram](https://t.me/KaringApp) 向管理员反馈问题
 - 或者提交问题到[Github](https://github.com/KaringX/karing/issues)

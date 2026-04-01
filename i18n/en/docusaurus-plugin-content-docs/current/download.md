@@ -6,6 +6,7 @@ slug: /download
 # Download Karing
 
 ## System requirements
+
 - IOS >= 15
 - MacOS >= 12
 - TvOS >= 17
@@ -13,15 +14,18 @@ slug: /download
 - Windows >= 10
 
 ### iOS(iPhone/iPad)/tvOS(Apple TV)
+
 - [Stable Version-AppStore-Download](https://apps.apple.com/us/app/karing/id6472431552)
 - [Beta Version-TestFlight-Download](https://testflight.apple.com/join/RLU59OsJ)
 - <font color="red">Note: AppStore version and TestFlight version cannot be installed at the same time. Please choose the version to install according to the specific situation.</font>
 
 ### MacOS
+
 - [Stable Version-Download](https://dot.karing.app/client.html?tag=macos-stable)
 - [Beta Version-Download](https://dot.karing.app/client.html?tag=macos-beta)
 
 ### Android/Harmony
+
 - [Stable Version-Download](https://dot.karing.app/client.html?tag=android-stable)
 - [Beta Version-Download](https://dot.karing.app/client.html?tag=android-beta)
 - [Android TV Stable Version(armeabi-v7a)-Download](https://dot.karing.app/client.html?tag=android-armv7a-stable)
@@ -33,6 +37,7 @@ slug: /download
 - <font color="red">Note: For HarmonyOS system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)</font>
 
 ### Windows
+
 - [Stable Version-Installer-Download](https://dot.karing.app/client.html?tag=windows-installer-stable)
 - [Stable Version-Zip-Download](https://dot.karing.app/client.html?tag=windows-zip-stable)
 - [Beta Version-Installer-Download](https://dot.karing.app/client.html?tag=windows-installer-beta)
@@ -42,6 +47,7 @@ slug: /download
 - <font color="red">Note: If you encounter defender blocking during installation, please click 'Show details' - 'Run anyway' to install</font>
 
 ### Linux
+
 - [Stable Version-deb Package-Download](https://dot.karing.app/client.html?tag=linux-deb-stable)
 - [Stable Version-rpm Package-Download](https://dot.karing.app/client.html?tag=linux-rpm-stable)
 - [Beta Version-deb Package-Download](https://dot.karing.app/client.html?tag=linux-deb-beta)
@@ -49,10 +55,6 @@ slug: /download
 - [Alternative downloads: Beta Version-GitHub-Download](https://github.com/KaringX/karing/releases)
 
 # New version release notification
+
 - New releases will be notified in the [Telegram group](https://t.me/KaringApp)
-
-
-
-
-
 

@@ -6,12 +6,14 @@ sidebar_position: 3
 # Modify SSPanel-Uim code to display airport information in the karing menu
 
 ## Materials
+
 - SSPanel-Uim: [2024.1](https://github.com/Anankke/SSPanel-UIM/releases/tag/2024.1)
 - By adding isp information, karing will:
 - Display airport information on the settings page (entrance)
 - Subscription service expiration reminder
 
 ## Modify code
+
 - File: src/Controllers/SubController.php
 - Add three lines of information starting with `isp-` in the return response
 ```jsx title="src/Controllers/SubController.php"
@@ -34,6 +36,7 @@ sidebar_position: 3
 - If appName contains Chinese, urlencode must be used
 
 ### Final effect
+
 - Debug information:
 - ![debug](./img/cpr-3.png)
 

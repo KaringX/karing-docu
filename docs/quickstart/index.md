@@ -3,9 +3,11 @@ sidebar_position: 1
 ---
 
 # 快速使用教程
+
 - 这里是Karing官方入门使用教程, 秉承简单实用的原则, 将尽量以简短的表述来说明.
 
 ### 主要特性
+
 - 使用简单, 快速上手, 一键起飞
 - 支持Clash/Clash.Meta、Sing-box、V2ray(支持批量)、Stash、Shadowsocks、Sub、Github配置链接及配置导入.
 - 支持主流协议, 包括 Shadowsocks,ShadowsocksR,VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru 等.
@@ -17,6 +19,7 @@ sidebar_position: 1
 - 增加新手模式 配置更简单.
 
 ## 系统要求
+
 - IOS >= 15
 - MacOS >= 12
 - TvOS >= 17
@@ -24,10 +27,13 @@ sidebar_position: 1
 - Windows >= 10
 
 ### 界面预览
+
 ![软件界面](./img/qs-1.png#center)
 
 ## 一、 [下载](../download)
+
 ### iOS(iphone/ipad)/tvOS(appleTV)
+
 - AppStore(搜索关键词 karing vpn)
     - https://apps.apple.com/us/app/karing/id6472431552
 - TestFlight
@@ -36,9 +42,11 @@ sidebar_position: 1
     - 不会注册?请参考 [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)
 
 ### 其他平台
+
 - [下载](../download)
 
 ### 购买价格
+
 - karing 全平台**免费**
 
 :::tip 推广
@@ -48,9 +56,8 @@ sidebar_position: 1
 
 :::
 
-
-
 ## 二、快速使用/quickstart
+
 1. 点击APP左上角设置按钮 -> 进入 `添加配置`
     - 打开 `添加配置链接`(也可以通过导入或者扫描添加)
       - ![设置](./img/qs-2.png)
@@ -59,7 +66,6 @@ sidebar_position: 1
     - 点击右上角添加按钮
       - ![添加配置](./img/qs-3.png)
 
-
 2. 返回到主屏
     - 默认已为您选择了一个服务器
         - 点击下方的服务器名称可以重新选择服务器
@@ -67,6 +73,7 @@ sidebar_position: 1
         - ![连接](./img/qs-4.png)
 
 ### 如何选择更快的服务器
+
 - 点击主屏下方的服务器名称后，打开 '选择服务器'
 - 点击 '延时检测' 按钮
   - ![节点列表](./img/qs-5.png)
@@ -77,6 +84,7 @@ sidebar_position: 1
 - 建议使用 `自动选择` 服务器功能
 
 ### Apple TV(tvos)版本如何使用
+
 - 下载安装Apple TV(tvos)及移动端Karing
 - 移动端安装上述流程[1]添加配置
 - 打开Apple TV端Karing
@@ -86,23 +94,19 @@ sidebar_position: 1
 - 回到Apple TV端Karing, 开启连接即可
 - Apple TV端Karing连接成功后,可以在移动端Karing Apple TV控制中心查看相关状态信息
 
-
-
 ## 三、进阶功能
+
 - 👉[内置分流规则集](../tutorial/diversion.md)
 - 👉[自定义分流规则、节点组](../tutorial/custom-diversion.md)
 - 👉[应用入站代理(Android)](../tutorial/perapp-proxy.md)
 - 👉[备份和多端同步配置](../tutorial/backup-sync.md)
 
 ## 最后、常见问题/FAQ
+
 - 我把karing装入U盘随身携带？ 👉[便携配置(Windows)](../tutorial/portable.md)
 - 我是ISP(机场主)
   - 怎么在karing上集成我的套餐链接? 👉[ISP集成](../cooperation/menu.md)
   - 一键导入karing配置的快速链接怎么写? 👉[scheme格式](../cooperation/scheme.md)
 
 - 其他问题请移步 [FAQ](/faq/)
-
-
-
-
 

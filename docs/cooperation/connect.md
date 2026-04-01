@@ -4,13 +4,16 @@ title: 连接到Karing
 ---
 
 ## 物料
+
 - [karing](https://github.com/KaringX/karing/releases/latest) version >= 1.0.37.490
 - [karing-connect](https://github.com/KaringX/karing-connect)
   - 包含app接口的二次包装`karing.js`
   - 以及v2board、sspanel的连接案例代码
 
 ## 一、演示
+
 ### 机场连接到karing
+
 - 以下视频将展示 当机场(服务商/ISP站点) 与karing配置完连接的情况下
 - 用户在app上完成登录闭环, 在机场页面登录账号
   - 自动导入配置、自动完成机场信息拉取, 并覆盖原有karing默认配置.
@@ -23,17 +26,18 @@ title: 连接到Karing
   </video>
 
 ### 流程对比
+
 - 对比用户完整使用魔法软件的流程, 采用`karing-connect`方式之后, 将大大简化.
 - 尤其是小白用户, 不需要理解订阅与配置，仅需知道 `咒语` 和 `机场账号`
 
 - ![connect diff](./img/connect-diff.png)
 
-
-
 ## 二、什么是 karing-connect {#point}
+
 - 用户从karing内置webview容器打开机场(VPN服务商)登录页面, 实现登录即导入配置.
 
 ### 完成连接之后的优势
+
 - 用户登录闭环, 一键连接.
 - APP内置机场信息
   - 可添加 机场首页、FAQ、客服、社交账号等信息，置顶显示在Karing菜单.
@@ -49,13 +53,14 @@ title: 连接到Karing
   - karing不记录+收集任何账号密码.
 
 ### 未来可能
+
 - *todo* 机长可修改默认配置及规则
 - *todo* 机场专版APP, 自定义logo、名称、配置
-
 
 ## 三、绑定/连接的方法
 
 ### 三步走
+
 - 1 通过 https://harry.karing.app/provider 注册并创建服务商
 - 2 修改机场代码, 增加连接页面, 比如 `http://v2board.local/karing-connect.html`
   - 载入 `karing.js`
@@ -63,8 +68,8 @@ title: 连接到Karing
 - 3 在服务商管理后台 添加 `咒语` 和 连接页地址
 
 ### 案例连接
-- 如果你使用的是 sspanel和v2board比较新的版本, 那么这里已经有两个完整案例供参考:
 
+- 如果你使用的是 sspanel和v2board比较新的版本, 那么这里已经有两个完整案例供参考:
 
 ```mdx-code-block
 import DocCard from '@theme/DocCard';
@@ -91,11 +96,13 @@ import DocCard from '@theme/DocCard';
 ```
 
 ### karing.js 使用示例
+
 - 目前js文件仅提供两个可用地址, 当然、有条件可部署在自己服务器上.
 - harry站点: https://harry.karing.app/assets/karing.min.js
 - github: https://raw.githubusercontent.com/KaringX/karing-connect/refs/heads/main/karing.min.js
 
 #### 载入方式
+
 1. 修改html
 ```html
 <script src="https://harry.karing.app/assets/karing.min.js"></script>
@@ -115,8 +122,8 @@ script.onload = function () {
 document.body.appendChild(script);
 ```
 
-
 #### 主要方法调用
+
 ```jsx
 
 // 预设 PID
@@ -140,9 +147,6 @@ document.body.appendChild(script);
     }
 })();
 
-
-
-
 // 添加karing配置
 window.onload = async function () {
     try {
@@ -164,15 +168,9 @@ window.onload = async function () {
     }
 };
 
-
-
-
 ```
 
-
-
-
 ## 四、和karing进行合作
-- 点击进入👉 [联系方式与合作形式](/blog/isp/cooperation)
 
+- 点击进入👉 [联系方式与合作形式](/blog/isp/cooperation)
 

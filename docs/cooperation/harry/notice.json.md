@@ -5,14 +5,17 @@ sidebar_position: 8
 # APP通知消息 notice.json
 
 ## 说明
+
 - `notice.json` 推送机场自定义的通知消息, 机长可给用户推送优惠、线路维护等全局消息.
 - 展示位置: Karing - 设置 - 通知.
 
 ### 什么时候会请求机场对应消息？
+
 - 当用户完成ISP/机场绑定, [应用启动/应用切换到前台/开启连接/断开连接]并且[配置请求时间]内未请求的,会触发请求`notice.json`.
 - 配置请求时间:默认180分钟, 最小10分钟(`base.json`文件中`notice_update_interval`, 单位为分钟).
 
 ### 可否自主托管
+
 - 默认托管在 karing 站点上.
   - 地址为 `https://potter.karing.app/isp/{pid}/notice.json?v={version}`
 - 机长可自主选择托管地址, 比如托管在自己站点
@@ -29,6 +32,7 @@ sidebar_position: 8
 ## 注释说明 {#desc}
 
 ### 字段解释
+
  - platform [**必填**]: 平台类型,可选值为 windows,macos,ios,android 其中之一
  - channel [**必填**]: 按默认值即可,请勿修改,
  - version_regex: Karing版本号正则表达式, 留空则匹配所有版本
@@ -51,10 +55,10 @@ sidebar_position: 8
   - content和url 只能设置其中一个
 
 ### 注意事项
+
 - update_time和expire_time未对时区做任何处理, 可能存在由于时区上的差异导致实际会相差几个小时
 - Karing会强制匹配字段列表, 如果不一致则认为是无效消息.
   - platform,channel,version_regex,region_code 必须存在
-
 
 ### 示例
 

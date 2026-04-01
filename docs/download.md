@@ -200,9 +200,8 @@ import Link from '@docusaurus/Link';
   }
 `}</style>
 
-
-
 ### iOS(iPhone/iPad)/tvOS(Apple TV) {#ios}
+
 - [稳定版-应用市场-点击下载](https://apps.apple.com/us/app/karing/id6472431552)
 - [测试版-TestFlight-点击下载](https://testflight.apple.com/join/RLU59OsJ)
 - <font color="red">注意: 如果您的账号无法正常下载应用, 请尝试港区/美区等非中国大陆地区账号,或者移步:  [苹果ID专卖小店](https://dot.karing.app/pi.html?r_c=xda)</font>
@@ -213,6 +212,7 @@ import Link from '@docusaurus/Link';
 - <font color="red">Note: AppStore version and TestFlight version cannot be installed at the same time. Please choose the version to install according to the specific situation.</font>
 
 ### MacOS
+
 - [稳定版-点击下载](https://dot.karing.app/client.html?tag=macos-stable)
 - [测试版-点击下载](https://dot.karing.app/client.html?tag=macos-beta)
 -
@@ -220,6 +220,7 @@ import Link from '@docusaurus/Link';
 - [Beta Version-Download](https://dot.karing.app/client.html?tag=macos-beta)
 
 ### Android/Harmony {#android}
+
 - [稳定版-点击下载](https://dot.karing.app/client.html?tag=android-stable)
 - [测试版-点击下载](https://dot.karing.app/client.html?tag=android-beta)
 
@@ -239,6 +240,7 @@ import Link from '@docusaurus/Link';
 - <font color="red">Note: For HarmonyOS system, please refer to: [HarmonyOS installation karing](/blog/case/harmonyos)</font>
 
 #### Android TV {#android-tv}
+
 - [Android TV 稳定版(armeabi-v7a)-点击下载](https://dot.karing.app/client.html?tag=android-armv7a-stable)
 - [Android TV 测试版(armeabi-v7a)-点击下载](https://dot.karing.app/client.html?tag=android-armv7a-beta)
 -
@@ -246,6 +248,7 @@ import Link from '@docusaurus/Link';
 - [Android TV Beta Version(armeabi-v7a)-Download](https://dot.karing.app/client.html?tag=android-armv7a-beta)
 
 ### Windows {#windows}
+
 - [稳定版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-stable)
 - [稳定版-压缩包-点击下载](https://dot.karing.app/client.html?tag=windows-zip-stable)
 - [测试版-安装包-点击下载](https://dot.karing.app/client.html?tag=windows-installer-beta)
@@ -263,6 +266,7 @@ import Link from '@docusaurus/Link';
 - <font color="red">Note: If you encounter defender blocking during installation, please click 'Show details' - 'Run anyway' to install</font>
 
 ### Linux
+
 - [稳定版-deb安装包-点击下载](https://dot.karing.app/client.html?tag=linux-deb-stable)
 - [稳定版-rpm安装包-点击下载](https://dot.karing.app/client.html?tag=linux-rpm-stable)
 - [测试版-deb安装包-点击下载](https://dot.karing.app/client.html?tag=linux-deb-beta)
@@ -276,6 +280,7 @@ import Link from '@docusaurus/Link';
 ## 其他
 
 ### System requirements/系统要求
+
 ```
     iOS >= 15
     macOS >= 12
@@ -285,13 +290,8 @@ import Link from '@docusaurus/Link';
     Linux kernel >= 6
 ```
 
-
-
 ### New version release notification/新版本发布通知
+
 - 新发布版本, 同时会在 [电报群](https://t.me/KaringApp) 通知
 - New releases will be notified in the [Telegram group](https://t.me/KaringApp)
-
-
-
-
 

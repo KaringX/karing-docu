@@ -4,11 +4,13 @@ tags: [tradingview,proxy,clash,parsers,自定义分流组]
 ---
 
 # 自定义分流规则访问 Tradingview
+
 - 做投资的朋友对tradingview一定不陌生, 它是一个比较好用的工具, 但`cn.tradingview.com`在国内无法使用。
 - 之前使用clash for windows（CLF）的时候，通过设置parsers来保存自定义规则，否则每次更新机场订阅, 自定义规则将被覆盖（丢失）。
 - 本例就通过**karing**简单的自定义分流规则来实现tradingview的访问.
 
 ## 操作步骤
+
 1. 添加分流组
   - 设置 —> 分流 -> `自定义分流组` -> 右上角➕号, 添加一个分流组, 写上备注 tradingview
 
@@ -28,10 +30,4 @@ tags: [tradingview,proxy,clash,parsers,自定义分流组]
   - 设置 -> 分流 -> 最底部 `分流规则探测` -> 输入 `cn.tradingview.com` 探测
     - ![探测](./img/tradingview-2.png)
   - 浏览器打开 tradingview , 🆗
-
-
-
-
-
-
 

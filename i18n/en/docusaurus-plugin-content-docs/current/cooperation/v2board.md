@@ -6,12 +6,14 @@ sidebar_position: 4
 # Modify V2Board code to display airport information in the karing menu
 
 ## Materials
+
 - V2Board: [1.7.4](https://github.com/v2board/v2board/releases/tag/1.7.4)
 - By adding isp information, karing will:
 - Display airport information on the settings page (entrance)
 - Subscription service expiration reminder
 
 ## Modify code
+
 - Karing supports subscription formats such as clash, clash.meta, v2ray, shadowsocks, etc.
 - Here I am lazy and only modify one file `ClientController.php`
 
@@ -54,6 +56,7 @@ class ClientController extends Controller
 - If app_name contains Chinese characters, urlencode must be used
 
 ### Final effect
+
 - Debug information:
 - ![debug](./img/cpr-3.png)
 

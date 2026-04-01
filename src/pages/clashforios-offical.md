@@ -5,6 +5,7 @@ hide_table_of_contents: true
 ---
 
 # Clash Mi官方网站  clashmi.app official
+
 - 内置clash mihomo 满血内核
 - 开源 + 完全免费
 - 简单易用的移动端网络代理工具
@@ -13,23 +14,23 @@ hide_table_of_contents: true
 - [Clash Mi](https://clashmi.app) 唯一官方网站: https://clashmi.app
 
 ## 下载地址
+
 - [Download](https://clashmi.app/download)
 
 ## 关注我们/Follow Us On GitHub
+
 - https://github.com/KaringX/clashmi
 
 ## 定制专属客户端
+
 - 打造属于你自己的机场专属客户端，支持品牌化定制与多平台发布。
 - 可定制 Logo、名称、主题色、欢迎图、多语言、支付方式等核心能力。
 - [ 👉立即查看定制方案 ➕联系方式 ](/cooperation/custom/skiapp)
 
 ## 📬 联系我们 / Contacts
+
 - 🚀 GitHub Issues
     - https://github.com/KaringX/clashmi/issues
 - 💬 电报群 / Telegram
     - https://t.me/ClashMiApp
-
-
-
-
 
