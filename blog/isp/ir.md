@@ -12,9 +12,9 @@ NetShekan VPN -  پاداش‌دهندگان VPN در ایران
 -  خدمت مشتری https://t.me/netshekansupport
 
 ### Official site
-- [NetShekan.com](https://2.x31415926.top/redir?url=aHR0cHM6Ly9uc2hla2FuLmNvbS9hZmZpbGlhdGUvMTQ0OTQ=&i=41f&t=1726111743&trace_id=922566e25ed1c6db6)
+- [NetShekan.com](https://2r.x31415926.top/redir?url=aHR0cHM6Ly9uc2hla2FuLmNvbS9hZmZpbGlhdGUvMTQ0OTQ=&i=41f&t=1726111743&trace_id=922566e25ed1c6db6)
 
-- [Shekanet.online](https://2.x31415926.top/redir?url=aHR0cHM6Ly9uc2hla2FuLmNvbS9hZmZpbGlhdGUvMTQ0OTQ=&i=41f&t=1726111743&trace_id=922566e25ed1c6db6)
+- [Shekanet.online](https://2r.x31415926.top/redir?url=aHR0cHM6Ly9uc2hla2FuLmNvbS9hZmZpbGlhdGUvMTQ0OTQ=&i=41f&t=1726111743&trace_id=922566e25ed1c6db6)
 
 ### Subscription formats
 Supported formats: v2ray
