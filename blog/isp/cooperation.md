@@ -6,7 +6,7 @@ unlisted: true
 # ISP合作公告 | Collaboration Announcement
 
 ## 中文区农场主 | 自助投放广告
-- 在karing中投广告, 让机场也出现在 [karing的推荐页](https://1.x31415926.top/cn.html)
+- 在karing中投广告, 让机场也出现在 [karing的推荐页](https://2.x31415926.top/cn.html)
 - 可在 `harry.karing.app` 自助下单投放.
 - 以下为步骤
 ### 1、注册 [harry.karing.app](https://harry.karing.app/)
@@ -24,7 +24,7 @@ unlisted: true
   - 动手能力比较强的朋友，可在Karing中集成您的机场, 用户将体验到**登录即订阅**的快捷操作 👉[连接到Karing](/cooperation/connect)
 
 ## for VPN providers from other regions
-- If you want your service to be featured on [the karing recommendation page](https://1.x31415926.top/en.html), or if you prefer other collaboration methods, please send an email to us at ElonWang2@outlook.com
+- If you want your service to be featured on [the karing recommendation page](https://2.x31415926.top/en.html), or if you prefer other collaboration methods, please send an email to us at ElonWang2@outlook.com
 - Example Email
 ```
 - Title: Karing Collaboration + Your Service Name

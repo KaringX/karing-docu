@@ -8,7 +8,7 @@ tags: [vpn, recommend]
 ## VPN service
 - There are currently no VPN service providers in this region.
 - If you know a little English, you can try the services listed below, all of which support English interfaces.
-    - [🚀 English VPN Service](https://1.x31415926.top/en.html)
+    - [🚀 English VPN Service](https://2.x31415926.top/en.html)
 
 ## Question/Feedback/Issues
 - Welcome to join [our discussion group](https://t.me/KaringApp) on Telegram, where you can ask questions and discuss tool-related issues.
