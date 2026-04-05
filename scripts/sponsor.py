@@ -86,7 +86,7 @@ def update_markdown_file(file_path, isp_data):
 def main():
     # 生成11位时间戳（秒级时间戳，去掉最后一位）
     timestamp = str(int(time.time()))[:-1]
-    json_url = f"https://1.x31415926.top/cn.json?t={timestamp}"
+    json_url = f"https://redir.x31415926.top/cn.json?t={timestamp}"
 
     # 获取当前脚本的绝对路径
     current_script_path = os.path.abspath(__file__)
