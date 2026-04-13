@@ -212,6 +212,8 @@ Set-NetIPInterface -ifAlias <your network card name> -Forwarding Disabled
 - **error:** `check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
  - Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
  - If it is a non-Windows system, you can try to restart the device, or go to Karing-Settings-Port, find the port of the error message above, change it to another port (recommended port number>4000), and try to connect again
+- **error** `CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate(../boringssl/src/sslhandshake.cc:297)`
+  - Update System Root Certificates
 
 ### The node works normally under mobile network, but the delay test fails under WiFi (the same is true when reconnecting)
 

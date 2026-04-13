@@ -238,6 +238,8 @@ com.android.providers.downloads
 - **错误信息：** `check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
   - Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接
   - 如果是非Windows系统,可以尝试重启设备,或者到Karing-设置-端口,找到上面错误信息的端口,改成其他端口(建议端口号>4000),重试连接
+- **错误信息：** `CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate(../boringssl/src/sslhandshake.cc:297)`
+  - 更新系统跟证书
 
 ### 移动网络下节点正常使用,但是WiFi下延迟测试失败(重新连接也一样)
 
