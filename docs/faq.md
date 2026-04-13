@@ -260,6 +260,16 @@ com.android.providers.downloads
     - windows:使用基于进程路径/进程名称的分流
 - 设置-开发者选项-启用pprof - 返回主屏-正常使用其他app一段时间(>5分钟),  设置-开发者选项-pprof面板-profile-等待下载文件(约15s),将下载的文件telegram发送给@ovowe分析
 
+## CPU占用持续很高
+- 设置-关于-开发者选项-启用pprof
+- 返回主屏,等待cpu使用率再次持续很高时,设置-关于-开发者选项-pprof面板-profile-等待约15s后自动下载一个文件,将文件发给开发者(github或telegram)分析
+
+## 连接数超过10000
+- 设置-关于-开发者选项-启用pprof
+- 返回主屏,等待连接数再次超过10000时,移动端:设置-关于-开发者选项-pprof面板-heap-保存网页内容发送给开发者(github或telegram)分析; 对于pc端,打开控制台,输入 go tool pprof http://127.0.0.1:4578/debug/pprof/heap (端口可以通过 启用 pprof 提示查看),将生成的文件发送给开发者(github或telegram)分析
+- 
+
+
 ## Karing兼容Clash, 在Karing功能上有何异同?
 
 - karing兼容clash订阅链接, 以及大部分功能, 这里有个详细的对照列表
