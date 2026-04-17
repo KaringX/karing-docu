@@ -1,6 +1,6 @@
 ---
 authors: [elon, gooringx]
-tags: [机场,VPN provider]
+tags: [广告,机场,VPN provider]
 unlisted: true
 ---
 # ISP合作公告 | Collaboration Announcement
