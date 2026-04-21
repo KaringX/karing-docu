@@ -36,12 +36,22 @@ def fetch_isp_data(url):
         print(f"解析JSON失败: {e}")
         return None
 
-def generate_markdown_content(isp_data):
+def generate_markdown_content1(isp_data):
     """根据ISP数据生成Markdown内容"""
-    content = "<!-- ISP2 START -->\n\n"
+    content = "<!-- ISP1 START -->\n\n"
+
+# ## 狗狗加速
+# :::tip [**【狗狗加速】**](https://2r.x31415926.top/redir?i=3eb)
+
+# - 高性能海外机场，❇️❇️免费试用3天❇️❇️，解锁流媒体，全球首家支持 Hysteria 协议。集群负载均衡设计，高速专线(兼容老客户端)，极低延迟，无视晚高峰，4K 秒开。充值满100送10
+# :::
 
     for isp in isp_data:
-        name = isp.get('name', '')
+        pick = isp.get('pick', 0)
+        if pick<100:
+            continue
+
+        name = isp.get('name','')
         desp = isp.get('desp', '')
         url = isp.get('url', '')
 
@@ -49,6 +59,29 @@ def generate_markdown_content(isp_data):
 
         # 生成Markdown格式
         content += f"## {name}\n"
+        content += f":::tip [**【{name}】**]({url})\n"
+        content += f"- {desp_clear}\n:::\n\n"
+
+    content += "<!-- ISP1 END -->"
+    return content
+
+def generate_markdown_content2(isp_data):
+    """根据ISP数据生成Markdown内容"""
+    content = "<!-- ISP2 START -->\n\n"
+
+    for isp in isp_data:
+        pick = isp.get('pick', 0)
+        if pick>99:
+            continue
+
+        name = isp.get('name', '')
+        desp = isp.get('desp', '')
+        url = isp.get('url', '')
+
+        desp_clear = clean_html_text(desp)
+
+        # 生成Markdown格式
+        content += f"### {name}\n"
         content += f"- {desp_clear}\n"
         content += f"- [点击前往 **【{name}】**]({url})\n\n"
 
@@ -62,12 +95,17 @@ def update_markdown_file(file_path, isp_data):
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
 
-        # 生成新的ISP内容
-        new_isp_content = generate_markdown_content(isp_data)
+        # 生成新的ISP1内容
+        new_isp_content = generate_markdown_content1(isp_data)
+        # 使用正则表达式替换ISP1部分
+        pattern = r'<!-- ISP1 START -->.*?<!-- ISP1 END -->'
+        updated_content = re.sub(pattern, new_isp_content, content, flags=re.DOTALL)
 
+        # 生成新的ISP2内容
+        new_isp_content = generate_markdown_content2(isp_data)
         # 使用正则表达式替换ISP2部分
         pattern = r'<!-- ISP2 START -->.*?<!-- ISP2 END -->'
-        updated_content = re.sub(pattern, new_isp_content, content, flags=re.DOTALL)
+        updated_content = re.sub(pattern, new_isp_content, updated_content, flags=re.DOTALL)
 
         # 写回文件
         with open(file_path, 'w', encoding='utf-8') as file:
@@ -86,7 +124,10 @@ def update_markdown_file(file_path, isp_data):
 def main():
     # 生成11位时间戳（秒级时间戳，去掉最后一位）
     timestamp = str(int(time.time()))[:-1]
-    json_url = f"https://redir.x31415926.top/cn.json?t={timestamp}"
+    filelist = {
+        'cn': 'cn.mdx',
+        'ru': 'ru.md',
+    }
 
     # 获取当前脚本的绝对路径
     current_script_path = os.path.abspath(__file__)
@@ -94,28 +135,35 @@ def main():
     scripts_dir = os.path.dirname(current_script_path)
     # 获取root目录路径（scripts的父目录）
     root_dir = os.path.dirname(scripts_dir)
-    # 构建markdown文件路径
-    markdown_file = os.path.join(root_dir, 'blog', 'isp', 'cn.mdx')
 
 
-    # 获取数据
-    print("正在从服务器获取数据...")
-    isp_data = fetch_isp_data(json_url)
+    for area,fname in filelist.items():
+        json_url = f"https://redir.x31415926.top/{area}.json?t={timestamp}"
 
-    if isp_data is None:
-        print("获取数据失败，程序退出")
-        return
+        # 构建markdown文件路径
+        markdown_file = os.path.join(root_dir, 'blog', 'isp', fname)
 
-    print(f"成功获取 {len(isp_data)} 条ISP数据")
+        # 获取数据
+        print("正在从服务器获取数据...")
+        isp_data = fetch_isp_data(json_url)
 
-    # 更新Markdown文件
-    print("正在更新Markdown文件...")
-    success = update_markdown_file(markdown_file, isp_data)
+        if isp_data is None:
+            print("获取数据失败，程序退出")
+            return
 
-    if success:
-        print("更新完成！")
-    else:
-        print("更新失败！")
+        print(f"成功获取{area} {len(isp_data)} 条ISP数据")
+
+        # 更新Markdown文件
+        print(f"正在更新Markdown文件 {fname}...")
+        success = update_markdown_file(markdown_file, isp_data)
+
+        if success:
+            print(f"更新{fname}完成！")
+        else:
+            print(f"更新{fname}失败！")
+            break
+    #END for
+#END main
 
 if __name__ == "__main__":
     main()
