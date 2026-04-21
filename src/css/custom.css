@@ -305,3 +305,15 @@
   color: #1a1a1e;
   text-decoration: none;
 }
+
+/* 推荐ISP LIST */
+/* 默认隐藏需要随机排序的内容容器，避免闪烁 */
+.randomize-container {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+/* 脚本执行后会添加此类，让内容显现 */
+.randomize-container.ready {
+  opacity: 1;
+}

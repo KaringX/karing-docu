@@ -175,7 +175,11 @@ const config = {
             src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6660718818470329',
             async: true,
             crossorigin: 'anonymous',
-        }
+        },
+        {
+            src: '/js/shuffle-h3.js?v=20260421',
+            async: false,
+        },
     ],
 };
 
