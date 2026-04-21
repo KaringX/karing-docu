@@ -5,6 +5,7 @@
     // 需要启用随机排序的页面路径（支持部分匹配）
     const TARGET_PATHS = [
         '/blog/isp/cn',
+        '/blog/isp/cn/',
         // '/blog/isp/ru',
     ];
 

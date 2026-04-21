@@ -177,7 +177,7 @@ const config = {
             crossorigin: 'anonymous',
         },
         {
-            src: '/js/shuffle-h3.js?v=20260421',
+            src: '/js/shuffle-h3.js?v=202604212',
             async: false,
         },
     ],
