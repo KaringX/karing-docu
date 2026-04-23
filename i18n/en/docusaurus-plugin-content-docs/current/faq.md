@@ -182,6 +182,10 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 
+
+### Windows系统, karing被识别为病毒
+- If you suspect a false positive from your antivirus software, you can use https://www.virustotal.com/ to obtain a more comprehensive virus scan analysis. (Note: Individual scanning engines may occasionally flag the file as a virus; please pay particular attention to the scan results from antivirus engines with a high market share.)
+
 ### Windows System
 
 - **How to start up as an administrator**

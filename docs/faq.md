@@ -208,6 +208,10 @@ com.android.providers.downloads
 
 - 浏览器里打开 https://google.com/ncr ，也可以手动清除浏览器缓存
 
+### Windows系统, karing被识别为病毒
+- 杀毒软件误报, 你可以使用 https://www.virustotal.com/ 获得更全面的病毒扫描分析(注意:个别引擎可能误报为病毒,重点关注市占率比较高的杀毒引擎扫描结果)
+
+
 ### Windows系统
 
 - **如何以管理员身份开机启动**
