@@ -168,6 +168,11 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 - On these devices, without 'Full Disk Access', Karing's system extensions cannot access Karing's configuration files, resulting in connection failures.
 - This permission is only used to read Karing's configuration files and is not used for any other purpose.
 
+### App fails to launch after macOS version automatic update
+
+- Method 1: Re-download and install the DMG from the official website
+- Method 2: Open the download directory (/Users/xxx/Library/Group Containers/group.com.nebula.karing/cache, where xxx is your current system username), open the terminal, type `xattr -c`, drag and drop the DMG update package from the `cache` directory into the terminal, and press Enter to reinstall the DMG update package.
+
 ### iOS Connecting/Disconnecting using Shortcuts
 
 - Connect: Create a new shortcut - select Karing - turn the ON switch on (Running in older versions)

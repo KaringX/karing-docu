@@ -167,6 +167,12 @@ import DocCard from '@theme/DocCard';
  - 这些设备上,不开启 '完全磁盘访问权限',karing的系统扩展组件无法访问karing的自己的配置文件,导致无法开启连接
  - 此权限仅用于读取karing自己的配置文件,不会用于其他用途
 
+
+ ### macos 版本自动更新完后,app无法启动
+ 
+  - 方法1:官网重新下载dmg后安装
+  - 方法2:打开下载目录(/Users/xxx/Library/Group Containers/group.com.nebula.karing/cache  xxx为你当前系统用户名),打开终端, 输入 xattr -c , 将cache目录的dmg更新包拖拽到终端后回车,重新安装该dmg更新包
+
 ### Ios 如果使用快捷指令连接/断开连接
 
  - 连接: 新建快捷指令-选中Karing-打开ON开关(老版本为Running)
