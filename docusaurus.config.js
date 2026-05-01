@@ -23,6 +23,12 @@ const config = {
     organizationName: 'KaringX', // Usually your GitHub org/user name.
     projectName: 'karing-docu', // Usually your repo name.
     deploymentBranch: 'gh-pages',
+    
+    // GitHub Pages adds a trailing slash to Docusaurus URLs by default.
+    // It is recommended to set a trailingSlash config (true or false, not undefined).
+    // We set `false` here as many slugs in the repository are already slash-less.
+    // https://docusaurus.io/docs/deployment#docusaurusconfigjs-settings
+    trailingSlash: false,
 
     onBrokenLinks: 'throw', //'ignore' | 'log' | 'warn' | 'throw'
     onBrokenAnchors: 'ignore',
