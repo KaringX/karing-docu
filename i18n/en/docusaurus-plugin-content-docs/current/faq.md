@@ -132,10 +132,10 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 
 - **error:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
  - Reason: The Android system removed/streamlined the VPN module, causing the VPN to fail to connect properly
- - Solution: Change to another Android device
+ - Solution: Switch to a different Android device, or reinstall the package using `adb shell pm install-existing com.android.vpndialogs`.
 - **error:** process is bad
  - Solution: Start the connection from the control center instead
-- **閿欒淇℃伅:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
+- **error:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
  - Solution: Do not enable clones for VPN applications
 
 ### Android disconnects after connecting for a while or switching to the background

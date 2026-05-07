@@ -131,7 +131,7 @@ import DocCard from '@theme/DocCard';
 
 - **错误信息:** `android.content.ActivityNotFoundException: Unable to find explicit activity class {com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog}`
   - 原因:该Android系统移除/精简了VPN模块,导致VPN无法正常连接
-  - 解决方案:换其他Android设备
+  - 解决方案:换其他Android设备或者恢复安装 `adb shell pm install-existing com.android.vpndialogs`
 - **错误信息:** process is bad
   - 解决方案:改为从控制中心启动连接
 - **错误信息:** configure tun interface: com.bly.chaos.plugin.stub.VpnServiceStub does not require android.permission.BIND_VPN_SERVICE
