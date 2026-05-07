@@ -205,6 +205,7 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 ```
 Set-NetIPInterface -ifAlias <your network card name> -Forwarding Disabled
 ```
+- Caused by having the hotspot enabled, turn off the hotspot.
 
 ### Windows system, error when opening the connection
 

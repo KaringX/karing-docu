@@ -232,6 +232,7 @@ com.android.providers.downloads
 ```
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
+- 开启了热点导致,关闭热点
 
 ### Windows系统,开启连接报错
 
