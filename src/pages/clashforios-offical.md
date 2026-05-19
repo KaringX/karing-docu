@@ -21,11 +21,10 @@ hide_table_of_contents: true
 
 - https://github.com/KaringX/clashmi
 
-## 定制专属客户端
+## 专属客户端
 
-- 打造属于你自己的机场专属客户端，支持品牌化定制与多平台发布。
-- 可定制 Logo、名称、主题色、欢迎图、多语言、支付方式等核心能力。
-- [ 👉立即查看定制方案 ➕联系方式 ](/cooperation/custom/skiapp)
+- 打造属于你自己的机场专属客户端。
+- [ 👉立即查看方案 ➕联系方式 ](/cooperation/custom/skiapp)
 
 ## 📬 联系我们 / Contacts
 

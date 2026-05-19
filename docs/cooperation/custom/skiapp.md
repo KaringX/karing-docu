@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: 定制机场专属客户端
+title: 机场专属客户端
 ---
 
-# 定制机场专属客户端
+# 机场专属客户端
 
 - 如果您希望打造自己的机场'专版' APP，skivpn将是你的不二选择。
 
@@ -26,7 +26,7 @@ title: 定制机场专属客户端
 - Xboard
 - SSPanel-UIM
 - 正在适配：WHMCS、Remnawave、SSPanel-Metron、SSPanel-Malio、SSPanel-Cool。
-- 更多面板适配中，如果有定制需求请联系。
+- 更多面板适配中，如果有需求请联系。
 
 ## 多语言支持
 
