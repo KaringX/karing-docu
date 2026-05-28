@@ -225,6 +225,9 @@ Set-NetIPInterface -ifAlias <your network card name> -Forwarding Disabled
 - **error** `CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate(../boringssl/src/sslhandshake.cc:297)`
   - Update System Root Certificates
 
+### Windows system, Karing freezes when switching nodes, etc.
+- Settings - Turn off 'Automatically add firewall rules'
+
 ### The node works normally under mobile network, but the delay test fails under WiFi (the same is true when reconnecting)
 
 - Mobile network and WiFi are different networks. WiFi may be affected by WiFi router and operator(isp)

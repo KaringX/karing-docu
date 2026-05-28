@@ -252,6 +252,10 @@ com.android.providers.downloads
 - **错误信息：** `CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate(../boringssl/src/sslhandshake.cc:297)`
   - 更新系统跟证书
 
+### Windows系统, 切换节点等时karing卡死
+- 设置-关闭 '自动添加防火墙规则'
+
+
 ### 移动网络下节点正常使用,但是WiFi下延迟测试失败(重新连接也一样)
 
 - 移动网络和WiFi是不同的网络,WiFi下可能受WiFi路由器及运营商影响
