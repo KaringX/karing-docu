@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Текущая версия",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial": {
+    "message": "Руководства",
+    "description": "The label for category 'Tutorial' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial.link.generated-index.description": {
+    "message": "Практические руководства по основным функциям Karing.",
+    "description": "The generated-index page description for category 'Tutorial' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.AppManual": {
+    "message": "Руководство приложения",
+    "description": "The label for category 'AppManual' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Cooperation": {
+    "message": "Сотрудничество",
+    "description": "The label for category 'Cooperation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.专属 APP": {
+    "message": "Индивидуальное APP",
+    "description": "The label for category '专属 APP' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Harry Panel": {
+    "message": "Панель Harry",
+    "description": "The label for category 'Harry Panel' in sidebar 'tutorialSidebar'"
+  }
+}

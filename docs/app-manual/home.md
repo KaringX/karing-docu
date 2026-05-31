@@ -9,19 +9,19 @@ sidebar_position: 1
 
 #### 1. 工具栏,从左到右依次为:
 
-- [设置](../app-manual/settings.md)
+- [设置](/app-manual/settings)
 
-- [我的配置](../app-manual/my-profiles.md)
+- [我的配置](/app-manual/my-profiles)
 
-- [添加配置](../app-manual/add-profiles.md)
+- [添加配置](/app-manual/add-profiles)
 
-- [DNS](../app-manual/dns.md)
+- [DNS](/app-manual/dns)
 
-- [分流](../app-manual/diversion.md)
+- [分流](/app-manual/diversion)
 - 网络检测
-  - 测速-测试[当前选择](../app-manual/glossary.md)节点延迟,上传/下载速度等,具体测试信息依赖测速网址提供的能力
+  - 测速-测试[当前选择](/app-manual/glossary)节点延迟,上传/下载速度等,具体测试信息依赖测速网址提供的能力
   - 快捷链接-快速打开设置的网址链接, 比如 https://google.com
-- [Apple TV](../app-manual/appletv-home.md)(仅移动端)
+- [Apple TV](/app-manual/appletv-home)(仅移动端)
 - 主题
 
 #### 2. 开关:用于开启/断开 连接
@@ -32,11 +32,11 @@ sidebar_position: 1
 
 - 注意:规则/全局指的是流量从代理软件流出(出站)的规则
 - 规则:按照分流规则分发流量
-- 全局:所有流量均通过 [当前选择](../app-manual/glossary.md) 转发/代理
+- 全局:所有流量均通过 [当前选择](/app-manual/glossary) 转发/代理
 
-#### 5. [当前选择](../app-manual/glossary.md)中实际使用配置名称
+#### 5. [当前选择](/app-manual/glossary)中实际使用配置名称
 
-#### 6. [当前选择](../app-manual/glossary.md)中实际使用配置的流量信息(如果配置不支持,则不会显示),从左到右依次为:
+#### 6. [当前选择](/app-manual/glossary)中实际使用配置的流量信息(如果配置不支持,则不会显示),从左到右依次为:
 
 - 上传流量
 - 下载流量
@@ -48,7 +48,7 @@ sidebar_position: 1
 
 - 内存使用
 - 运行时长
-- [入站](../app-manual/glossary.md)连接数:点击可进入查看具体入站连接信息
+- [入站](/app-manual/glossary)连接数:点击可进入查看具体入站连接信息
 
 #### 8. 运行信息,从左到右依次为:
 
@@ -58,7 +58,7 @@ sidebar_position: 1
 
 #### 9. 当前选择,类型可以为:
 
-- [自动选择](../app-manual/glossary.md)
-- [直连](../app-manual/glossary.md)
-- [自定义代理组/自定义自动选择](../app-manual/glossary.md)
-- [代理节点](../app-manual/glossary.md)
+- [自动选择](/app-manual/glossary)
+- [直连](/app-manual/glossary)
+- [自定义代理组/自定义自动选择](/app-manual/glossary)
+- [代理节点](/app-manual/glossary)

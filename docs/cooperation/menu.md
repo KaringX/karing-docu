@@ -20,8 +20,8 @@ title: 集成机场菜单
 ### 一、案例 机场管理面板
 
 - 如果您的系统在以下列表中, 请直接看配置步骤
-- [案例展示 SSPanel-Uim](./sspanel.md#link)
-- [案例展示 V2Board](./v2board.md#link)
+- [案例展示 SSPanel-Uim](/cooperation/sspanel#link)
+- [案例展示 V2Board](/cooperation/v2board#link)
 
 ## 二、演示
 

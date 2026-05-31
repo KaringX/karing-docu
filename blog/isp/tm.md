@@ -1,5 +1,6 @@
 ---
 title: Быстрый и надёжный VPN для Средней Азии и Европы
+date: 2024-03-29
 authors: [btchide,netzrun,sigmagate]
 tags: [free node, clash, trojan, ]
 ---

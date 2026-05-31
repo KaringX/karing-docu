@@ -1,5 +1,6 @@
 ---
 title: 在linux上使用最新版Karing
+date: 2026-01-30
 authors: [elon]
 tags: [linux,rpm,deb,AppImage,install]
 ---
@@ -58,4 +59,3 @@ tags: [linux,rpm,deb,AppImage,install]
   ```
 
 ## Issues / 问题列表 {#issues}
-

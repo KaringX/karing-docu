@@ -13,7 +13,7 @@ sidebar_position: 8
 #### Custom diversion groups: You can add/delete/edit, etc. through the 'pen' button in the upper right corner, and support the following setting rules
 
 - None: Do not use this rule
-- Current Selected: Use the currently selected type on the [home screen](../app-manual/home.md)
+- Current Selected: Use the currently selected type on the [home screen](/app-manual/home)
 - Auto Select: Use the node list in all enabled configurations as candidates, and select the one with the lowest latency
 - Direct: Direct connection without proxy nodes
 - Block: Intercept the request and do not allow access to the network

@@ -1,5 +1,6 @@
 ---
 title: VPN для русскоязычных пользователей
+date: 2024-03-29
 authors: [netzrun,sigmagate]
 tags: [free node, clash, trojan, ]
 ---

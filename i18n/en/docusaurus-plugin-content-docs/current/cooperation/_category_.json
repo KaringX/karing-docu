@@ -1,7 +1,7 @@
 {
   "label": "Cooperation",
   "position": 4,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index"
   }

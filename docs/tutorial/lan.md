@@ -26,7 +26,7 @@ sidebar_position: 1
 - 如何查看当前网络类型:
   - `控制面板` –> `网络和 Internet` –> `查看网络状态和任务`
 
-- 参考案例: [windows防火墙设置](../../blog/case/wsl2#windows防火墙设置)
+- 参考案例: [windows防火墙设置](/blog/case/wsl2#windows-firewall)
 
 ## karing 设置
 

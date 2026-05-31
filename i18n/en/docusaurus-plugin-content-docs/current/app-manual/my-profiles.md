@@ -22,4 +22,4 @@ sidebar_position: 3
 - Profile editing
 - Profile node delay detection
 
-#### Profile traffic information area, refer to [Home screen](../app-manual/home.md) for related instructions
+#### Profile traffic information area, refer to [Home screen](/app-manual/home) for related instructions

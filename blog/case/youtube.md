@@ -1,4 +1,5 @@
 ---
+date: 2025-03-05
 authors: [elon]
 tags: [youtube,ios,AdGuard,去广告]
 ---
@@ -45,4 +46,3 @@ tags: [youtube,ios,AdGuard,去广告]
 - karing默认自带规则 "🛑广告拦截(Adblock)", 能屏蔽常见的广告, 使用规则:
   - geosite:category-ads
   - acl:BanAD
-

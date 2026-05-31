@@ -1,5 +1,6 @@
 ---
 title: پاداش‌دهندگان VPN در ایران
+date: 2024-09-12
 authors: [elon]
 tags: [free node, vless]
 ---

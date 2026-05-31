@@ -1,0 +1,10 @@
+{
+  "label": "Индивидуальное APP",
+  "key": "custom-app",
+  "position": 3,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Индивидуальное APP"
+  }
+}

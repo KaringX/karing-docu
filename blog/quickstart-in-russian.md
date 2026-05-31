@@ -1,5 +1,6 @@
 ---
 title: QuickStart in Russian
+date: 2024-06-17
 tags: [karing,russian]
 ---
 

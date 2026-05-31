@@ -1,0 +1,10 @@
+{
+  "label": "Панель Harry",
+  "key": "harry-panel",
+  "position": 4,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Панель Harry"
+  }
+}

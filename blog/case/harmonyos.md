@@ -1,5 +1,6 @@
 ---
 title: 华为鸿蒙系统安装代理软件karing
+date: 2024-06-12
 authors: [elon]
 tags: [HarmonyOS,karing,安装]
 ---
@@ -47,4 +48,3 @@ tags: [HarmonyOS,karing,安装]
   - karing内置分流规则, 先禁用机场规则即可
   - 操作: 设置 - 分流 - `禁用ISP分流规则`
   - 重连: 返回首页，点击连接按钮
-

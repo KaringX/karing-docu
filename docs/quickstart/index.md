@@ -30,7 +30,7 @@ sidebar_position: 1
 
 ![软件界面](./img/qs-1.png#center)
 
-## 一、 [下载](../download)
+## 一、 [下载](/download)
 
 ### iOS(iphone/ipad)/tvOS(appleTV)
 
@@ -43,7 +43,7 @@ sidebar_position: 1
 
 ### 其他平台
 
-- [下载](../download)
+- [下载](/download)
 
 ### 购买价格
 
@@ -96,17 +96,17 @@ sidebar_position: 1
 
 ## 三、进阶功能
 
-- 👉[内置分流规则集](../tutorial/diversion.md)
-- 👉[自定义分流规则、节点组](../tutorial/custom-diversion.md)
-- 👉[应用入站代理(Android)](../tutorial/perapp-proxy.md)
-- 👉[备份和多端同步配置](../tutorial/backup-sync.md)
+- 👉[内置分流规则集](/tutorial/diversion)
+- 👉[自定义分流规则、节点组](/tutorial/custom-diversion)
+- 👉[应用入站代理(Android)](/tutorial/perapp-proxy)
+- 👉[备份和多端同步配置](/tutorial/backup-sync)
 
 ## 最后、常见问题/FAQ
 
-- 我把karing装入U盘随身携带？ 👉[便携配置(Windows)](../tutorial/portable.md)
+- 我把karing装入U盘随身携带？ 👉[便携配置(Windows)](/tutorial/portable)
 - 我是ISP(机场主)
-  - 怎么在karing上集成我的套餐链接? 👉[ISP集成](../cooperation/menu.md)
-  - 一键导入karing配置的快速链接怎么写? 👉[scheme格式](../cooperation/scheme.md)
+  - 怎么在karing上集成我的套餐链接? 👉[ISP集成](/cooperation/menu)
+  - 一键导入karing配置的快速链接怎么写? 👉[scheme格式](/cooperation/scheme)
 
 - 其他问题请移步 [FAQ](/faq/)
 

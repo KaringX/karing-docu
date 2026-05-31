@@ -1,5 +1,6 @@
 ---
 title: 修改默认url-test延迟检测URL
+date: 2025-06-12
 authors: [elon]
 tags: [clash,url-test,karing,clashmi,连通性测试,延迟检测,ping]
 ---
@@ -40,4 +41,3 @@ tags: [clash,url-test,karing,clashmi,连通性测试,延迟检测,ping]
 | MicroSoft  | http://www.msftconnecttest.com/connecttest.txt                                                         | 200 Microsoft Connect Test |
 | Cloudflare | http://cp.cloudflare.com/generate_204                                                                  | 204                        |
 | Firefox    | [http://detectportal.firefox.com/success.txt](http://detectportal.firefox.com/success.txt)             | 200 success                |
-

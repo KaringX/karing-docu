@@ -1,5 +1,6 @@
 ---
 title: 鸿蒙系统安装可汗学院儿童版
+date: 2024-06-12
 authors: [elon]
 tags: [HarmonyOS,karing,安装]
 ---
@@ -44,4 +45,3 @@ tags: [HarmonyOS,karing,安装]
   - 推荐搭配 [karing](/) 食用最佳
 
 - 运行界面: ![khan kids界面](./img/khankids-4.jpg)
-

@@ -1,4 +1,5 @@
 ---
+date: 2026-01-30
 authors: [elon]
 tags: [macOS,dmg,update,install]
 ---

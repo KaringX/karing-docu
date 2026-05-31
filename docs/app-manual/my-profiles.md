@@ -22,4 +22,4 @@ sidebar_position: 3
 - 配置编辑
 - 配置节点延迟检测
 
-#### 配置流量信息区：参考[主屏](../app-manual/home.md)相关说明
+#### 配置流量信息区：参考[主屏](/app-manual/home)相关说明
