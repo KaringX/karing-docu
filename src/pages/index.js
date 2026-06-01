@@ -1,14 +1,15 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import clsx from 'clsx'
+import Link from '@docusaurus/Link'
+import Translate, { translate } from '@docusaurus/Translate'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import Layout from '@theme/Layout'
+import HomepageFeatures from '@site/src/components/HomepageFeatures'
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import Heading from '@theme/Heading'
+import styles from './index.module.css'
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -20,24 +21,32 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/quickstart">
-            Karing Tutorial - 5min ⏱️
+            <Translate id="homepage.hero.quickstartButton">
+              Karing Tutorial - 5min ⏱️
+            </Translate>
           </Link>
         </div>
       </div>
     </header>
-  );
+  )
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`${siteConfig.organizationName}`}
-      description={`${siteConfig.tagline}`}>
+      title={translate({
+        id: 'homepage.meta.title',
+        message: siteConfig.title,
+      })}
+      description={translate({
+        id: 'homepage.meta.description',
+        message: siteConfig.tagline,
+      })}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
     </Layout>
-  );
+  )
 }

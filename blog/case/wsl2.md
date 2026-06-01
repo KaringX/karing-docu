@@ -1,5 +1,6 @@
 ---
 title: windows下wls2使用karing代理端口
+date: 2024-04-09
 authors: [elon]
 tags: [wsl2,proxychain,windows防火墙]
 ---
@@ -43,7 +44,7 @@ Escape character is '^]'.
   - 如果出现 *Connected* 则表示连接成功，可直接使用
   - 出现 *time out* 则连接失败，大概率是win防火墙的问题
 
-## windows防火墙设置
+## windows防火墙设置 {#windows-firewall}
 
 ### 第一步 清空karing相关规则
 
@@ -88,4 +89,3 @@ IP      : 104.28.193.104
 
 URL     : http://www.cip.cc/104.28.193.104
 ```
-

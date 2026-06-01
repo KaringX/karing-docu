@@ -1,0 +1,54 @@
+{
+  "link.title.Docs": {
+    "message": "Документация",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Сообщество",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Дополнительно",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Руководство",
+    "description": "The label of footer link with label=Tutorial linking to /quickstart"
+  },
+  "link.item.label.FAQ": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=FAQ linking to /faq"
+  },
+  "link.item.label.Download": {
+    "message": "Скачать",
+    "description": "The label of footer link with label=Download linking to /download"
+  },
+  "link.item.label.Contact us": {
+    "message": "Связаться с нами",
+    "description": "The label of footer link with label=Contact us linking to /clashforios-offical"
+  },
+  "link.item.label.GitHub Issues": {
+    "message": "GitHub Issues",
+    "description": "The label of footer link with label=GitHub Issues linking to https://github.com/KaringX/karing-docu/issues"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/KaringApp"
+  },
+  "link.item.label.捐赠 | donate": {
+    "message": "Пожертвовать",
+    "description": "The label of footer link with label=捐赠 | donate linking to /donate"
+  },
+  "link.item.label.Developer Blog": {
+    "message": "Блог разработчиков",
+    "description": "The label of footer link with label=Developer Blog linking to /blog"
+  },
+  "link.item.label.Clash Mi官网": {
+    "message": "Официальный сайт Clash Mi",
+    "description": "The label of footer link with label=Clash Mi官网 linking to https://clashmi.app"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Karing App, Inc. Создано с помощью Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

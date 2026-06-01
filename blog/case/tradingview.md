@@ -1,4 +1,5 @@
 ---
+date: 2024-06-20
 authors: [elon]
 tags: [tradingview,proxy,clash,parsers,自定义分流组]
 ---
@@ -30,4 +31,3 @@ tags: [tradingview,proxy,clash,parsers,自定义分流组]
   - 设置 -> 分流 -> 最底部 `分流规则探测` -> 输入 `cn.tradingview.com` 探测
     - ![探测](./img/tradingview-2.png)
   - 浏览器打开 tradingview , 🆗
-

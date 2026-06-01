@@ -1,4 +1,5 @@
 ---
+date: 2024-06-17
 authors: [elon]
 tags: [广告屏蔽,BanAD,category-ads,geosite]
 ---
@@ -45,4 +46,3 @@ tags: [广告屏蔽,BanAD,category-ads,geosite]
 - 设置 -> 分流 -> *分流规则* -> `GeoSite:category-ads` -> 选择 **拦截**
 
 - 返回首页, 重连即生效
-

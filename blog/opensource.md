@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: 开源计划
+date: 2024-04-22
 authors: [gooringx,elon]
 tags: [fullter,sing-box,github,karing]
 ---
@@ -55,4 +56,3 @@ tags: [fullter,sing-box,github,karing]
   - 支持panel对接
   - 支持协议 tuic、hy2、anytls、vless-reality
   - https://github.com/KaringX/sing-poet
-

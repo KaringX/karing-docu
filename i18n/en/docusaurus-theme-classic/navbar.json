@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Karing - Powerful proxy utility",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Karing App",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.在线工具": {
+    "message": "Online Tools",
+    "description": "Navbar item with label 在线工具"
+  },
+  "item.label.节点分享": {
+    "message": "Node Sharing",
+    "description": "Navbar item with label 节点分享"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

@@ -69,7 +69,7 @@ import DocCard from '@theme/DocCard';
 
 ### 代理和全局的区别是什么?
 
- - 参考 - [4. 规则模式:规则/全局](./app-manual/home.md#mode)
+ - 参考 - [4. 规则模式:规则/全局](/app-manual/home#mode)
 
 ### 系统代理和TUN的区别是什么
 

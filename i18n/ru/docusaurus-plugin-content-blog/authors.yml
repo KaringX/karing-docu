@@ -1,0 +1,29 @@
+gooringx:
+  name: GooRingX
+  title: Мейнтейнер Karing
+  url: https://github.com/GooRingX
+  image_url: https://github.com/gooringx.png
+
+elon:
+  name: Elon Junior
+  title: Обладатель четырёхзвёздочного Dragon Ball
+  url: https://github.com/ElonJunior
+  image_url: https://github.com/elonjunior.png
+
+netzrun:
+  name: NETZ.RUN
+  title: VPN-провайдер
+  url: https://karing.app/ru/blog/isp/ru/#netz
+  image_url: https://storage.netz.sh/static/logos/logo.webp
+
+btchide:
+  name: BTCHide
+  title: VPN-провайдер
+  url: https://karing.app/ru/blog/isp/tm/#btchide
+  image_url: https://bibihy-shop.org/theme/assets/img/logo.png
+
+sigmagate:
+  name: SigmaGate
+  title: VPN-провайдер
+  url: https://karing.app/ru/blog/isp/ru/#sigmagate
+  image_url: https://sigmagate.link/images/windows.png

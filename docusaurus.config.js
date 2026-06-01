@@ -4,12 +4,32 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer'
+
+/** @type {Record<string, {title: string, tagline: string}>} */
+const localizedSiteConfig = {
+    en: {
+        title: 'Karing - Clash compatible & Powerful proxy utility',
+        tagline: 'A universal proxy utility compatible with Clash and V2ray; supports clash, sing-box, v2ray, ss, and other subscriptions',
+    },
+    ru: {
+        title: 'Karing - совместимый с Clash мощный прокси-инструмент',
+        tagline: 'Универсальный прокси-инструмент, совместимый с Clash и V2ray; поддерживает подписки clash, sing-box, v2ray, ss и другие',
+    },
+}
+
+const defaultSiteConfig = {
+    title: 'Karing - Clash compatible & Powerful proxy utility',
+    tagline: '兼容Clash、V2ray的通用代理工具, 支持clash/sing-box/v2ray/ss等订阅',
+}
+
+const currentLocale = process.env.DOCUSAURUS_CURRENT_LOCALE
+const siteConfig = currentLocale ? (localizedSiteConfig[currentLocale] ?? defaultSiteConfig) : defaultSiteConfig
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Karing - Clash compatible & Powerful proxy utility',
-    tagline: '兼容Clash、V2ray的通用代理工具, 支持clash/sing-box/v2ray/ss等订阅',
+    title: siteConfig.title,
+    tagline: siteConfig.tagline,
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
@@ -32,7 +52,7 @@ const config = {
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'zh-Hans',
-        locales: ['zh-Hans', 'en'],
+        locales: ['zh-Hans', 'en', 'ru'],
     },
 
     presets: [
@@ -181,6 +201,6 @@ const config = {
             async: false,
         },
     ],
-};
+}
 
-export default config;
+export default config

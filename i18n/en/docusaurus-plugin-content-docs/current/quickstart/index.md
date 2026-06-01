@@ -43,7 +43,7 @@ sidebar_position: 1
 
 ### Other platform
 
-- [Download](../download)
+- [Download](/download)
 
 ### Purchase price
 
@@ -94,15 +94,15 @@ sidebar_position: 1
 
 ## 3. Advanced functions
 
-- ->[Built-in diversion rule set](../tutorial/diversion.md)
-- ->[Custom diversion rules, node groups](../tutorial/custom-diversion.md)
-- ->[Application inbound proxy (Android)](../tutorial/perapp-proxy.md)
-- ->[Backup and multi-end synchronization configuration](../tutorial/backup-sync.md)
+- ->[Built-in diversion rule set](/tutorial/diversion)
+- ->[Custom diversion rules, node groups](/tutorial/custom-diversion)
+- ->[Application inbound proxy (Android)](/tutorial/perapp-proxy)
+- ->[Backup and multi-end synchronization configuration](/tutorial/backup-sync)
 
 ## Finally, FAQ
 
-- I put karing into a USB drive and carry it with me? ->[Portable Configuration (Windows)](../tutorial/portable.md)
+- I put karing into a USB drive and carry it with me? ->[Portable Configuration (Windows)](/tutorial/portable)
 - I am an ISP (airport owner)
-- How do I integrate my package link on karing? ->[ISP Integration](../cooperation/menu.md)
-- How do I write a quick link to import karing configuration with one click? ->[scheme format](../cooperation/scheme.md)
+- How do I integrate my package link on karing? ->[ISP Integration](/cooperation/menu)
+- How do I write a quick link to import karing configuration with one click? ->[scheme format](/cooperation/scheme)
 - For other questions, please go to [FAQ](/faq/)

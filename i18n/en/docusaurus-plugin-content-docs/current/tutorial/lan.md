@@ -26,7 +26,7 @@ sidebar_position: 1
 - How to view the current network type:
 - `Control Panel` -> `Network and Internet` -> `View network status and tasks`
 
-- Reference case: [Windows Firewall Settings](../../blog/case/wsl2#windows Firewall Settings)
+- Reference case: [Windows Firewall Settings](/blog/case/wsl2#windows-firewall)
 
 ## karing settings
 

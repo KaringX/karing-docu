@@ -1,4 +1,5 @@
 ---
+date: 2024-08-10
 authors: [elon]
 tags: [Google Play,play商店,rule-set]
 ---
@@ -62,4 +63,3 @@ doamin:xn--ngstr-lra8j.com
 - 请参考以下截图
     - ![rule](./img/gplay-rule-1.jpg)
     - ![dns](./img/gplay-dns-1.jpg)
-

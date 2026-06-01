@@ -12,7 +12,7 @@ title: FAQ
 
 - Completely free
 - Apple users: All Apple accounts outside of mainland China can download it
-- Apple users: If you are not convenient to register directly, we recommend [鑻规灉ID涓撳崠灏忓簵](https://dot.karing.app/pi.html?r_c=xda)
+- Apple users: If it is inconvenient to register directly, we recommend [Apple ID specialty shop](https://dot.karing.app/pi.html?r_c=xda)
 - For Windows version, please go to [Github](https://github.com/KaringX/karing/releases/latest) to download (you may need to open a proxy to download)
 
 ### Which platforms are supported
@@ -36,7 +36,7 @@ title: FAQ
 import DocCard from '@theme/DocCard';
 
 <DocCard
-item={{ type: 'link', label: '猬囷笍 Download Karing', href: '/download' }}
+item={{ type: 'link', label: 'Download Karing', href: '/download' }}
 />
 ```
 
@@ -69,7 +69,7 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 
 ### What is the difference between proxy and global?
 
-- Reference - [4. Rule Mode: Rule/Global](./app-manual/home.md#mode)
+- Reference - [4. Rule Mode: Rule/Global](/app-manual/home#mode)
 
 ### What is the difference between system proxy and TUN
 
@@ -188,7 +188,7 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 - Open https://google.com/ncr in the browser, or manually clear the browser cache
 
 
-### Windows系统, karing被识别为病毒
+### Windows system: Karing is detected as a virus
 - If you suspect a false positive from your antivirus software, you can use https://www.virustotal.com/ to obtain a more comprehensive virus scan analysis. (Note: Individual scanning engines may occasionally flag the file as a virus; please pay particular attention to the scan results from antivirus engines with a high market share.)
 
 ### Windows System

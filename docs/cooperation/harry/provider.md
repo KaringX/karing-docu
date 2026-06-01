@@ -30,7 +30,7 @@ title: 服务商管理
 - 点击“编辑/edit” 进入当前文件的编辑页面, 编辑器 jsoneditor
 - 比如 base.json 可修改:
   - 当前服务商 名称、首页 ...
-  - karing连接配置 connect、[咒语](./spell.md)列表 spells
+  - karing连接配置 connect、[咒语](/cooperation/harry/spell)列表 spells
   - 其他配置文件地址等
 - 点击文件"说明/illustrate"可进入文件的wiki页, 有使用说明、字段注释。
 
@@ -44,7 +44,6 @@ title: 服务商管理
 
 ## 配置文件注释 {#files}
 
-- [base.json](./base.json.md)  服务商(机场)基础信息
-- [config.json](./config.json.md)  APP配置文件
-- [notice.json](./notice.json.md)  APP通知消息
-
+- [base.json](/cooperation/harry/base.json)  服务商(机场)基础信息
+- [config.json](/cooperation/harry/config.json)  APP配置文件
+- [notice.json](/cooperation/harry/notice.json)  APP通知消息

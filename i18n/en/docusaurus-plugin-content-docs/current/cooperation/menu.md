@@ -30,8 +30,8 @@ Integrating ISP (airport) link with karing menu can solve the following problems
 ### Airport Management Panel
 
 - If your system is in the following list, please see the configuration steps directly
-- [SSPanel-Uim](./sspanel.md)
-- [V2Board](./v2board.md)
+- [SSPanel-Uim](/cooperation/sspanel)
+- [V2Board](/cooperation/v2board)
 
 ## 2. Setting logic
 

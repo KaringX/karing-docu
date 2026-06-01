@@ -1,0 +1,29 @@
+{
+  "homepage.meta.title": {
+    "message": "Karing - Clash compatible & Powerful proxy utility"
+  },
+  "homepage.meta.description": {
+    "message": "A universal proxy utility compatible with Clash and V2ray; supports clash, sing-box, v2ray, ss, and other subscriptions"
+  },
+  "homepage.hero.quickstartButton": {
+    "message": "Karing Tutorial - 5min"
+  },
+  "homepage.features.easy.title": {
+    "message": "Easy to Use"
+  },
+  "homepage.features.easy.description": {
+    "message": "Compatible with Clash, V2ray/V2fly, Sing-box, Shadowsocks, Sub, and GitHub subscriptions. Full clash config supported, partial clash.meta config supported."
+  },
+  "homepage.features.proxy.title": {
+    "message": "Focus on Proxy Utility"
+  },
+  "homepage.features.proxy.description": {
+    "message": "Karing supports applying a single set of rules across multiple subscription sources simultaneously."
+  },
+  "homepage.features.flutter.title": {
+    "message": "Powered by Flutter"
+  },
+  "homepage.features.flutter.description": {
+    "message": "Built with Flutter, delivers seamless performance across multiple platforms, ensuring consistency. Equipped with the Sing-box kernel by default, it guarantees superior performance."
+  }
+}

@@ -1,5 +1,5 @@
 ---
-
+date: 2024-06-21
 authors: [elon]
 tags: [tiktok,免拔卡,解除地区,去广告]
 ---
@@ -64,4 +64,3 @@ tags: [tiktok,免拔卡,解除地区,去广告]
 ![tiktok 提示信息](./img/tiktok-5.jpg)
 
 ![tiktok mod 设置](./img/tiktok-4.jpg)
-

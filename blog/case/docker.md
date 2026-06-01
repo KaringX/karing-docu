@@ -1,4 +1,5 @@
 ---
+date: 2024-06-15
 authors: [elon]
 tags: [docker,proxy,镜像,加速器]
 ---
@@ -101,4 +102,3 @@ $docker info
 ### 自建docker镜像源
 
 - [CRProxy (Container Registry Proxy)](https://github.com/wzshiming/crproxy/blob/master/examples/default/README.md)
-

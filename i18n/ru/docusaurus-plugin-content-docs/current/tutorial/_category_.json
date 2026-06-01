@@ -1,0 +1,11 @@
+{
+  "label": "Руководства",
+  "key": "tutorial",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Руководства",
+    "description": "Практические руководства по основным функциям Karing."
+  }
+}

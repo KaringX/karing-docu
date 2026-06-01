@@ -5,7 +5,7 @@ sidebar_position: 5
 
 ![](./img/dns.png#center)
 
-#### 启用DNS分流规则:根据[分流规则](../app-manual/diversion-rule)分流设置,相关流量使用相应的DNS服务器进行域名解析
+#### 启用DNS分流规则:根据[分流规则](/app-manual/diversion-rule)分流设置,相关流量使用相应的DNS服务器进行域名解析
 
 - [代理服务器]: 使用 代理服务器 DNS解析域名(新手模式合并到 [直连流量])
 - [直连流量]: 使用 直连流量 DNS解析域名
@@ -32,8 +32,8 @@ sidebar_position: 5
 
 #### 测试域名: DNS延迟测试用到的待解析域名
 
-#### [TTL](../app-manual/glossary.md):DNS查询结果生存时长/缓存时间
+#### [TTL](/app-manual/glossary):DNS查询结果生存时长/缓存时间
 
 - 值越大,缓存时间越长,性能越高;值越小,更新越快
 
-#### [服务器](../app-manual/dns-server.md)
+#### [服务器](/app-manual/dns-server)

@@ -5,7 +5,7 @@ sidebar_position: 5
 
 ![](./img/dns.png#center)
 
-#### Enable DNS Diversion rules: According to the diversion settings of [diversion rules](../app-manual/diversion-rule), the relevant traffic uses the corresponding DNS server for domain name resolution
+#### Enable DNS Diversion rules: According to the diversion settings of [diversion rules](/app-manual/diversion-rule), the relevant traffic uses the corresponding DNS server for domain name resolution
 
 - [Proxy Server]: Use proxy server DNS to resolve domain names (merged into [Direct traffic] in novice mode)
 - [Direct Traffic]: Use direct traffic DNS to resolve domain names
@@ -32,8 +32,8 @@ sidebar_position: 5
 
 #### Test domain name: The domain name to be resolved used in the DNS delay test
 
-#### [TTL](../app-manual/glossary.md): DNS query result survival time/cache time
+#### [TTL](/app-manual/glossary): DNS query result survival time/cache time
 
 - The larger the value, the longer the cache time and the higher the performance; the smaller the value, the faster the update
 
-#### [Server](../app-manual/dns-server.md)
+#### [Server](/app-manual/dns-server)

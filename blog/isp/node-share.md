@@ -1,5 +1,6 @@
 ---
 title: 节点分享
+date: 2024-03-30
 authors: [elon, gooringx]
 tags: [免费节点,clash]
 ---
@@ -66,4 +67,3 @@ tags: [免费节点,clash]
 - 新的通用代理平台, 所谓 “瑞士军刀”
 - 设计着眼于高性能、轻量、可用性、模块化和代码质量。
 - https://sing-box.sagernet.org/examples/
-
