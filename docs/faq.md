@@ -173,17 +173,46 @@ import DocCard from '@theme/DocCard';
   - 方法1:官网重新下载dmg后安装
   - 方法2:打开下载目录(/Users/xxx/Library/Group Containers/group.com.nebula.karing/cache  xxx为你当前系统用户名),打开终端, 输入 xattr -c , 将cache目录的dmg更新包拖拽到终端后回车,重新安装该dmg更新包
 
-### Ios 如果使用快捷指令连接/断开连接
+### IOS 如果使用快捷指令连接/断开连接
 
  - 连接: 新建快捷指令-选中Karing-打开ON开关(老版本为Running)
  - 断开连接: 新建快捷指令-选中Karing-关闭ON开关(老版本为Running)
 
-### Android/Ios/Macos 连接断开后如何自动重连
+### IOS收不到Telegram 、Instagram和X等苹果推送通知
+ - 1. 设置-TUN-打开 'includeAllNetworks', 关闭 'excludeLocalNetworks','excludeCellularServices', 'excludeAPNs'
+ - 2. 分流规则:新建 '苹果推送通知',
+'域名后缀'填入 
+```mdx-code-block
+push.apple.com
+akadns.net
+```
+'域名关键词' 填入 
+```mdx-code-block
+apple.com.edgekey.net
+```
+'IP Cidr' 填入
+```mdx-code-block
+17.249.0.0/16
+17.252.0.0/16
+17.57.144.0/22
+17.188.128.0/18
+17.188.20.0/23
+2620:149:a44::/48
+2403:300:a42::/48
+2403:300:a51::/48
+2a01:b740:a42::/48
+```
+退回到 '分流规则', 并将'苹果推送通知'分流设置为使用代理(注意顺序)
+保持后返回karing主屏
+- 3. 设备切换到飞行模式,再切换回正常模式
+
+
+### Android/IOS/Macos 连接断开后如何自动重连
 
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
 
-### Android/Ios 网易新闻里的视频无法播放
+### Android/IOS 网易新闻里的视频无法播放
 
  - 断开连接
  - 设置-TUN- 关闭  '附加HTTP代理到VPN'
