@@ -30,19 +30,23 @@ title: Clash 兼容列表
 - [x] SOCKS
 - [x] Shadowsocks
 - [x] ShadowsocksR
+- [x] Shadowtls
 - [ ] Snell
-  - 待支持
+  - 不支持
 - [x] VMess
 - [x] VLESS
 - [x] Trojan
 - [x] Hysteria
 - [x] Hysteria2
-  - 端口跳跃 已支持 >=[1.0.29.390](https://github.com/KaringX/karing/releases/tag/v1.0.29.390)
+  - 支持端口跳跃(版本 >=1.0.29.390)
 - [x] TUIC
 - [x] WireGuard
 - [x] SSH
 - [x] AnyTLS
+- [x] Tailscale
+- [x] Tor
 - [x] Mieru
+- [x] Naive
 
 ## 入站
 
@@ -70,7 +74,7 @@ title: Clash 兼容列表
 - [x] DNS类型 全部支持 🙆‍♂️
 - [x] hosts  DNS-静态IP
 - [x] 域名嗅探
-  - 设置 -> 协议探测
+
 
 ## 代理集合
 
