@@ -26,3 +26,5 @@ karing://connect Open connection
 karing://disconnect Disconnect
 karing://reconnect Reconnect
 ```
+
+## [Android Automation](./android_automation)

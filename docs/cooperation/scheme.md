@@ -26,3 +26,7 @@ karing://connect      打开连接
 karing://disconnect   断开连接
 karing://reconnect    重新连接
 ```
+
+
+## [Android 自动化](./android_automation)
+

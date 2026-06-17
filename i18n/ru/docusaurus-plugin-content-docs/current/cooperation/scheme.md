@@ -28,3 +28,5 @@ karing://connect      включить подключение
 karing://disconnect   отключить подключение
 karing://reconnect    переподключиться
 ```
+
+## [Android Automation](./android_automation)
