@@ -206,6 +206,10 @@ apple.com.edgekey.net
 保持后返回karing主屏
 - 3. 设备切换到飞行模式,再切换回正常模式
 
+### tvOS 在开启VPN(启用了TUN)连接后,投屏等功能无法使用
+ - 升级ios版本Karing (>= 1.2.20.2304)
+ - ios版本Karing-Tun-排除路由-启用 '组播'
+ - 将修改后的配置同步到tvos
 
 ### Android/IOS/Macos 连接断开后如何自动重连
 
