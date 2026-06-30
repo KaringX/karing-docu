@@ -277,7 +277,9 @@ com.android.providers.downloads
   - 卸载/删除其他有TUN的代理软件后重启电脑
 - **错误信息：** launch process karingService.exe failed: exception ProcessException: Access is denied.
   - karingService.exe 的启动被系统或其他软件限制,尝试将Karing重新安装到其他目录
-- **错误信息：** `start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
+- **错误信息：** `bind: Only one usage of each socket address (protocol/network address/port) is normally permitted`
+  - 端口被占用(具体看错误信息) 被其他应用占用, 关闭占用端口的应用
+- **错误信息：** `listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
   - 端口 3057(也可能是其他端口,具体看设置) 被其他应用占用, 到 [设置]-[端口]- 将值为3057的端口改成其他未被使用的端口后重试连接
 - **错误信息：** `check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
   - Karing用到的3067端口被占用,如果是Windows系统,请到任务管理器里检查是否有karingService.exe进程残留,如果有,强杀该进程后重试连接

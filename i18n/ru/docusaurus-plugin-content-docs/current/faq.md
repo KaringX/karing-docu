@@ -247,7 +247,9 @@ com.android.providers.downloads
   - Удалите/деинсталлируйте другое прокси-приложение с TUN и перезагрузите компьютер
 - **Сообщение об ошибке:** launch process karingService.exe failed: exception ProcessException: Access is denied.
   - Запуск karingService.exe ограничен системой или другим ПО, попробуйте переустановить Karing в другой каталог
-- **Сообщение об ошибке:** `start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
+- **Сообщение об ошибке:** `bind: Обычно разрешено только одно использование каждого адреса сокета (протокол/сетевой адрес/порт).`
+  - Порт занят (подробности см. в сообщении об ошибке). Возможно, он используется другим приложением. Закройте приложение, использующее этот порт.
+- **Сообщение об ошибке:** `listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
   - Порт 3057 (или другой порт, смотрите настройки) занят другим приложением. Откройте [Настройки]-[Порты] и измените порт со значением 3057 на другой свободный порт, затем повторите подключение
 - **Сообщение об ошибке:** `check port failed:SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
   - Порт 3067, используемый Karing, занят. Если это Windows, проверьте в диспетчере задач, не остался ли процесс karingService.exe. Если есть, принудительно завершите процесс и повторите подключение

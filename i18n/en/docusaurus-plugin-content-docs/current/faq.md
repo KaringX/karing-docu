@@ -217,7 +217,9 @@ Set-NetIPInterface -ifAlias <your network card name> -Forwarding Disabled
  - Uninstall/delete other proxy software with TUN and restart the computer
 - **error:** launch process karingService.exe failed: exception ProcessException: Access is denied.
  - The launch of karingService.exe is restricted by the system or other software, try to reinstall Karing to another directory
-- **error:** `start clash api: external controller listen error: listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
+- **error:** `bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.`
+ - The port is occupied (see error message for details). It may be being used by another application. Close the application using the port.
+- **error:** `listen tcp 127.0.0.1:3057: bind: An attempt was made to access a socket in a way forbidden by its access permissions`
  - Port 3057 (or other ports, depending on the settings) is occupied by other applications. Go to [Settings]-[Port]- Change the port value of 3057 to another unused port and try the connection again
 - **error:** `check port failed: SocketException: Failed to create server socket (OS Error: The shared flag to bind() needs to be true if binding multiple times on the same (address, port) combination.), address = 127.0.0.1, port = 3067`
  - Port 3067 used by Karing is occupied. If it is a Windows system, please check whether there is a karingService.exe process remaining in the task manager. If so, kill the process and try to connect again
