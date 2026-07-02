@@ -205,7 +205,7 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 
 - Copy the following list of package IDs into the 'Application Package ID' input box of the above rule:
 
-`` com.xiaomi.xmsf
+``` com.xiaomi.xmsf
 com.xiaomi.security.onetrack
 com.miui.analytics
 com.miui.guardprovider
