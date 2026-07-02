@@ -216,11 +216,14 @@ apple.com.edgekey.net
  - ios/macos: 系统-设置-VPN-Karing-开启'按需连接' 或者 Karing-设置-开启'始终开启连接'
  - Android: 系统-设置-VPN-Karing-始终开启VPN
 
-### Android/IOS 网易新闻里的视频无法播放
+### Android/IOS 某些应用无网络/网易新闻里的视频无法播放
 
- - 断开连接
- - 设置-TUN- 关闭  '附加HTTP代理到VPN'
- - 开启连接
+ - 检查 设置-TUN-'附加HTTP代理到VPN'
+ - 关闭 '附加HTTP代理到VPN' 后重试
+ - 提示: '附加HTTP代理到VPN'开启后,会设置系统代理(HTTP),某些App检查到系统代理后会自动连接到系统代理,但是这些App可能使用了socks代理
+   方式连接到系统代理,socks方式系统代理不支持,从而导致部分App网络功能异常;另外需要注意的是,部分App又要求'附加HTTP代理到VPN'开启才能
+   使用,具体请按照自己具体情况 开启/关闭 此功能
+
 
 ### 小米Android手机耗电快如何改进
 

@@ -178,10 +178,50 @@ item={{ type: 'link', label: 'Quickstart Quickstart', href: '/quickstart' }}
 - Connect: Create a new shortcut - select Karing - turn the ON switch on (Running in older versions)
 - Disconnect: Create a new shortcut - select Karing - turn the ON switch off (Running in older versions)
 
+### tvOS: After enabling VPN (with TUN enabled), screen mirroring and other functions are unusable.
+
+- Upgrade iOS version to Karing (>= 1.2.20.2304)
+
+- In the iOS version, enable 'multicast' in Karing-Tun-excluded routing
+
+- Synchronize the modified configuration to tvOS
+
 ### How to automatically reconnect after a disconnection on Android/iOS/macOS
 
 - iOS/macOS: System - Settings - VPN - Karing - Enable 'Connect on demand' or Karing - Settings - Enable 'Always keep connected'
 - Android: System - Settings - VPN - Karing - Always keep VPN on
+
+### Android/iOS Apps Without Network/Videos Unplayable in NetEase News
+
+- Check Settings - TUN - 'Attach HTTP Proxy to VPN'
+
+- Turn off 'Attach HTTP Proxy to VPN' and try again
+
+- Note: Enabling 'Attach HTTP Proxy to VPN' sets up a system proxy (HTTP). Some apps will automatically connect to the system proxy after detecting it. However, these apps may be using a SOCKS proxy to connect to the system proxy, which is not supported by the system proxy, causing network issues for some apps. Also, note that some apps require 'Attach HTTP Proxy to VPN' to be enabled to function. Please enable/disable this function according to your specific needs.
+
+### How to Improve Battery Drain on Xiaomi Android Phones
+
+- Create a new rule in the 'Route Splitting' section. Name it as needed and move it to the first position.
+
+- Copy the following list of package IDs into the 'Application Package ID' input box of the above rule:
+
+`` com.xiaomi.xmsf
+com.xiaomi.security.onetrack
+com.miui.analytics
+com.miui.guardprovider
+com.miui.packageinstaller
+com.miui.hybrid
+com.miui.systemAdSolution
+miui.systemui.plugin
+com.tencent.soter.soterserver
+com.sohu.inputmethod.sogou.xiaomi
+com.android.mms
+com.android.providers.downloads
+
+```
+- Set the above rule to 'Intercept' for route splitting.
+
+- Note: If you have enabled 'Application Proxy', the above rule may not work.
 
 ### Open Google.com, it will jump to Google.cn, etc.
 
