@@ -264,7 +264,11 @@ com.android.providers.downloads
 ### Windows系统,Karing开启TUN模式后, Karing内存及CPU占用超高
 
 - TUN模式冲突所致,比如clash系列等,请卸载其他vpn软件后重新启动Karing
-- 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器),请禁用此功能,命令参考 Powershell:
+- 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器), 查询命令(powshell)
+```
+  Get-NetIPInterface | Where-Object {$_.Forwarding -eq 'Enabled'}
+````
+请禁用此功能,命令参考(Powershell):
 ```
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
