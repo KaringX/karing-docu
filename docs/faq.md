@@ -274,6 +274,7 @@ com.android.providers.downloads
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
 - 开启了热点导致,关闭热点;或者 TUN-禁用'自动路由'
+- Windows系统, 如果Karing的'连接'里出现了'karingservice.exe' 进程, 基本就是产生了回环
 
 ### Windows系统,开启连接报错
 
