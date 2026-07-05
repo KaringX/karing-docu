@@ -261,10 +261,11 @@ com.android.providers.downloads
   - 以管理员身份启动Karing
   - 开启[开机启动],如果之前已经开启,则需要关闭后,重新开启
 
-### Windows系统,Karing开启TUN模式后, Karing内存及CPU占用超高
+### Windows系统,Karing开启TUN模式后, karingservice.exe内存及CPU占用超高
 
 - TUN模式冲突所致,比如clash系列等,请卸载其他vpn软件后重新启动Karing
-- 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器), 查询命令(powshell)
+- 路由回环导致,比如开启了windows数据转发(将windows变成一台路由器), 
+查询命令(powshell)
 ```
   Get-NetIPInterface | Where-Object {$_.Forwarding -eq 'Enabled'}
 ````
@@ -272,7 +273,7 @@ com.android.providers.downloads
 ```
   Set-NetIPInterface -ifAlias <你的网卡名称> -Forwarding Disabled
 ```
-- 开启了热点导致,关闭热点
+- 开启了热点导致,关闭热点;或者 TUN-禁用'自动路由'
 
 ### Windows系统,开启连接报错
 

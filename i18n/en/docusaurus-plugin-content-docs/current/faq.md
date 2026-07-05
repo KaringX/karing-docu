@@ -238,14 +238,25 @@ com.android.providers.downloads
  - Start Karing as an administrator
  - Enable [Launch At Startup], if it has been enabled before, you need to close it and then reopen it
 
-### Windows system, after Karing turns on TUN mode, Karing memory and CPU usage are very high
+### Windows system, after Karing turns on TUN mode, karingservice.exe memory and CPU usage are very high
 
-- Caused by TUN mode conflict, such as clash series, etc., please uninstall other VPN software and restart Karing
-- Caused by routing loop, such as turning on windows data forwarding (turning windows into a router), please disable this function, command reference Powershell:
+- Caused by TUN mode conflicts, such as those involving Clash series VPNs. Please uninstall other VPN software and restart Karing.
+
+- Caused by routing loopbacks, such as when Windows data forwarding is enabled (turning Windows into a router).
+
+Query command (PowerShell):
+
 ```
-Set-NetIPInterface -ifAlias <your network card name> -Forwarding Disabled
+Get-NetIPInterface | Where-Object {$_.Forwarding -eq 'Enabled'}
+
+````
+Please disable this function. Command reference (PowerShell):
+
 ```
-- Caused by having the hotspot enabled, turn off the hotspot.
+Set-NetIPInterface -ifAlias ​​<your network card name> -Forwarding Disabled
+
+```
+- Caused by hotspots being enabled. Disable hotspots; or disable 'auto route' in TUN.
 
 ### Windows system, error when opening the connection
 
