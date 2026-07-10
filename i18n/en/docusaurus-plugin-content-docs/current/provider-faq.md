@@ -23,6 +23,6 @@ title: Provider FAQ
   - `karing://install-config?url=https%3A%2F%2Fxxxxx.com%2Fclash%2Fconfig&outbound-dns=udp%3A%2F%2F8.8.8.8%2Cudp%3A%2F%2F5.5.5.5`
   - `clash://install-config?url=https%3A%2F%2Fxxxxx.com%2Fclash%2Fconfig&outbound-dns=udp%3A%2F%2F8.8.8.8%2Cudp%3A%2F%2F5.5.5.5`
 - You can also paste the full scheme link into the configuration box directly, as shown below
-  - ![install-config-outbound-dns](/docs/tutorial/img/install-config-outbound-dns.jpg)
+  - ![install-config-outbound-dns](pathname:///docs/tutorial/img/install-config-outbound-dns.jpg)
 - ⚠️ Karing version must be >= `v1.2.22.2502`
 :::
