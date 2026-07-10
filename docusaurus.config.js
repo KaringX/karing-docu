@@ -50,6 +50,27 @@ const config = {
     // https://docusaurus.io/docs/deployment#docusaurusconfigjs-settings
     trailingSlash: false,
 
+    future: {
+        v4: {
+            useCssCascadeLayers: true,
+            siteStorageNamespacing: true,
+            fasterByDefault: true,
+            mdx1CompatDisabledByDefault: false,
+            removeLegacyPostBuildHeadAttribute: true,
+        },
+        faster: {
+            swcJsLoader: true,
+            swcJsMinimizer: true,
+            swcHtmlMinimizer: true,
+            lightningCssMinimizer: true,
+            rspackBundler: true,
+            rspackPersistentCache: true,
+            ssgWorkerThreads: true,
+            mdxCrossCompilerCache: true,
+            gitEagerVcs: true,
+        },
+    },
+
     onBrokenLinks: 'throw', //'ignore' | 'log' | 'warn' | 'throw'
     onBrokenAnchors: 'ignore',
 
