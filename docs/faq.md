@@ -261,6 +261,10 @@ com.android.providers.downloads
   - 以管理员身份启动Karing
   - 开启[开机启动],如果之前已经开启,则需要关闭后,重新开启
 
+### Windows下如何共享网络
+- 1. 使用Karing自带的 '网络共享',开启 '允许其他主机接入' 后,在其他设备上手动设置对应的代理信息
+- 2. 如果你开启了Karing的TUN功能, 可以使用系统的热点实现网络共享(此种方法需要你的设备有无线网卡), 系统-Windows设置-网络和Internet-移动热点- 开启'与其他设备共享我的Internet连接',并设置好'网络名称'(比如 我的hotpot),'网络密码',网络和Internet-状态-更改适配器选项-右键点击 'Karing TUN Network Adapter'-属性-共享-勾选'允许其他网络用户通过此计算机的internet连接来连接', 找到网卡里备注为'Microsoft Wi-Fi Direct Virtual Adapter #xxx'对应的网卡并选中-点击'确定',其他移动设备等在wifi里找到上述设置好的热点(比如上面名称为'我的hotpot')连接即可.需要注意的时,如果开启热点后,出现karingservice.exe cpu占用极高的问题,请到karing-tun里关闭'自动路由'
+
 ### Windows系统,Karing开启TUN模式后, karingservice.exe内存及CPU占用超高
 
 - TUN模式冲突所致,比如clash系列等,请卸载其他vpn软件后重新启动Karing

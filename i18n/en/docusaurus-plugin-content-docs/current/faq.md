@@ -238,6 +238,12 @@ com.android.providers.downloads
  - Start Karing as an administrator
  - Enable [Launch At Startup], if it has been enabled before, you need to close it and then reopen it
 
+### How to Share a Network on Windows
+
+- 1. Use Karing's built-in 'Network Sharing'. After enabling 'Allow other hosts to access,' manually configure the corresponding proxy information on other devices.
+
+- 2. If you have enabled Karing's TUN function, you can use the system hotspot to share the network (this method requires your device to have a wireless network card). Go to System - Windows Settings - Network and Internet - Mobile Hotspot - Enable 'Share my Internet connection with other devices' and set the 'Network Name' (e.g., My Hotpot) and 'Network Password'. Then, go to Network and Internet - Status - Change adapter options - Right-click 'Karing TUN Network Adapter' - Properties - Sharing - Check 'Allow other network users to connect through this computer's Internet connection'. Locate the network adapter labeled 'Microsoft Wi-Fi Direct Virtual Adapter #xxx' and select it - Click 'OK'. Other mobile devices can then connect to the hotspot (e.g., the one named 'My Hotpot') that you've configured. Note that if karingservice.exe appears after enabling the hotspot... For the issue of extremely high CPU usage, please disable 'Automatic Routing' in karing-tun.
+
 ### Windows system, after Karing turns on TUN mode, karingservice.exe memory and CPU usage are very high
 
 - Caused by TUN mode conflicts, such as those involving Clash series VPNs. Please uninstall other VPN software and restart Karing.
