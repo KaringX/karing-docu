@@ -110,6 +110,10 @@ import DocCard from '@theme/DocCard';
 - 5. 如果第4步没有相关域名请求,基本就是DNS解析出问题,到[主屏]-[DNS]-[服务器]-任选一个服务器设置-检测服务器延迟-根据延迟设置相关DNS服务器
 - 6. 如果第4步有相关域名请求,再检查分流是否正确,如果是分流错误,修改相关分流规则
 
+### vless 节点报错 reality verification failed
+- 新版本v2raycore 限制了客户端 MinClientVer, 引起的兼容问题, 参考 https://github.com/MHSanaei/3x-ui/issues/5957, 
+- 解决方案: Inbound - Security - Min Client Ver - set to 0 or 1.0.0, 或者降级v2ray版本
+
 ### Android 小米手机无法安装,提示高风险应用
 
 - 此问题和Karing版本无关,目前所有版本的Karing在小米手机上均会出现此问题,原因是Karing被小米后台加入了黑名单
