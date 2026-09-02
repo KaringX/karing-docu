@@ -175,8 +175,7 @@ import DocCard from '@theme/DocCard';
  ### macos 版本自动更新完后,app无法启动
  
   - 方法1:官网重新下载dmg后安装
-  - 方法2:打开下载目录(/Users/xxx/Library/Group Containers/group.com.nebula.karing/cache  xxx为你当前系统用户名),打开终端, 输入 xattr -c , 将cache目录的dmg更新包拖拽到终端后回车,重新安装该dmg更新包
-  - 方法3:对于1.2.23.2709及后续版本, 拖拽安装完成后, 双击安装界面上的'Launch.command'启动应用(该脚本会自动移除被系统添加的,导致无法启动的额外属性)
+  - 方法2:打开终端, 输入并执行 xattr -cr /Applications/Karing.app
 
 ### IOS 如果使用快捷指令连接/断开连接
 
