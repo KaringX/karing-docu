@@ -58,4 +58,12 @@ tags: [linux,rpm,deb,AppImage,install]
 
   ```
 
+  > **TUN workaround:** If TUN mode fails with `exitCode: 1`, try extracting the AppImage first. AppImages normally run from a temporary `/tmp` mount, which can cause permission issues with TUN on some Linux systems.
+  >
+  > ```bash
+  > ./karing_[version]_linux_amd64.AppImage --appimage-extract
+  >
+  > ./squashfs-root/AppRun
+  > ```
+
 ## Issues / 问题列表 {#issues}
