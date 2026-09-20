@@ -13,7 +13,7 @@ jobs:
       contents: read  # 通常 checkout 代码需要 read 权限，根据你的动作需要调整
     steps:
       - name: Delete workflow runs
-        uses: GitRML/delete-workflow-runs@main
+        uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
