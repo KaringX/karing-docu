@@ -27,13 +27,13 @@ jobs:
           echo "🇨🇳 Beijing Time: $(TZ='Asia/Shanghai' date)"
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: update sponsor list
         run: python scripts/sponsor.py
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '24.x'
           cache: 'npm'
@@ -51,21 +51,14 @@ jobs:
           npm run build
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          # change projectName to your project name
-          projectName: ${{ vars.CF_PROJRCT_NAME }}
-          directory: ./
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Switch what branch you are publishing to.
-          # By default this will be the branch which triggered this workflow
-          branch:  ${{ github.ref_name }}
-          # Optional: Change the working directory
-          # All my website content is in the site folder
-          workingDirectory: ./build/
           # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
           wranglerVersion: '3'
+          # change project name to your project name, then publish the build output
+          command: pages deploy ./build/ --project-name=${{ vars.CF_PROJRCT_NAME }} --branch=${{ github.ref_name }}
 
