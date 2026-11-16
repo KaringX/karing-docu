@@ -114,6 +114,23 @@ import DocCard from '@theme/DocCard';
 - 新版本v2raycore 限制了客户端 MinClientVer, 引起的兼容问题, 参考 https://github.com/MHSanaei/3x-ui/issues/5957, 
 - 解决方案: Inbound - Security - Min Client Ver - set to 0 or 1.0.0, 或者降级v2ray版本
 
+### 如何创建前置/链式代理
+- 更新到最新版本(>=1.2.26.2332)
+- 分流-自定义自动选择-创建分组
+- 点击'前置代理'按钮, 选择已创建的分组作为前置代理
+- 注意: 分组中节点不要重复, 否则可能导致依赖循环
+- 相较于老版本的前置代理/链式代理, 新版使用分组作为前置, 有效解决单个节点失效导致链式代理失效的问题
+
+
+### 如何使用机场私有dns解析节点域名
+- 更新到最新版本(>=1.2.26.2332)
+- 有三种方式可以使用机场dns
+  1) install-config://https%3A%2F%2Fxxxxx.com%2Fclash%2Fconfig?outbound-dns=udp%3A%2F%2F8.8.8.8%2Cudp%3A%2F%2F5.5.5.5
+  2) https://xxx.com?outbound-dns=udp%3A%2F%2F8.8.8.8%2Cudp%3A%2F%2F5.5.5.5
+  3) Clash YAML: dns->proxy-server-nameserver
+- 如果该配置支持私有dns, '优先使用配置自带DNS解析节点域名' 左侧会有提示按钮, 点击可以查看机场配置的私有dns
+- 对于非clash 类型订阅, 可以修改UserAgent(关闭非clash相关的UserAgent) 来启用clash类型配置(前提是机场支持clash订阅)
+
 ### Android 小米手机无法安装,提示高风险应用
 
 - 此问题和Karing版本无关,目前所有版本的Karing在小米手机上均会出现此问题,原因是Karing被小米后台加入了黑名单
