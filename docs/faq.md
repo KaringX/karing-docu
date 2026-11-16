@@ -144,6 +144,10 @@ import DocCard from '@theme/DocCard';
 
 - 关闭 设置-无障碍
 
+
+### Windows 下显示karing获取当前位置信息
+- karing启动会初始化系统防火墙INetFwMgr, INetFwMgr调用内部get_CurrentProfile获取网络信息会触发内部获取当前位置信息.此信息对karing不可见, 后续INetFwMgr会考虑迁移到INetFwPolicy2接口
+
 ### Android 报错:panic: invalid page type
 
 - 断开连接-设置-清理缓存 后再重试连接
